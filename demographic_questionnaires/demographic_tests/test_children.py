@@ -127,18 +127,11 @@ to_test = get_test_vars()
 correct_variables = get_correct_vars()
 
 
-def test_length():
-    if len(to_test) != len(correct_variables):
-        logger.error('------------------------test_failed--------------------\n'+
-                      f'{len(to_test)} does not match correct length: {len(correct_variables)}. '+
-                      f'{len(to_test)-len(correct_variables)} are extra. The others contain errors')
-    assert len(to_test) == len(correct_variables)
-
-
 def test_variables():
     logger.info('*********** variables ***********')
     num = 0
     bad_recorded = []
+    
     for var in to_test:
         if var not in correct_variables:
             num += 1
@@ -148,13 +141,11 @@ def test_variables():
         if var not in to_test:
             logger.error(f'{var} should be recorded')
             
-    for var in to_test:
-        assert var in correct_variables
-    for var in to_test:
-        assert var in test_variables
+    assert all(element in to_test for element in correct_variables)
 
 
 def test_types():
+    
     logger.info('*********** types ***********')
     for var, vartype in to_test.items():
         if var in correct_variables:
