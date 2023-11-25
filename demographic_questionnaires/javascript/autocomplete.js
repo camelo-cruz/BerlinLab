@@ -1,4 +1,4 @@
-var text = getValue("c_first_lang_of_literacy_full_input");
+var text = getValue("input_variable");
 text = text.toLowerCase();
 var list = getValue("langlist");
 var matching_list = "";
@@ -15,7 +15,7 @@ if (text.trim() === "") {
 
 if (matching_list.trim() !== "") {
     matching_list = matching_list.slice(0, -2);
-    setValue("g1_l1_input_autocomplete", matching_list.trim());
+    setValue("output_variable", matching_list.trim());
 } else {
-    setValue("g1_l1_input_autocomplete", text);
+    setValue("output_variable", text);
 }
