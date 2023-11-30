@@ -59,7 +59,7 @@ def get_correct_vars():
      'Subject_Nr': int,
      'Task_Name': str,
      'Task_Nr': int,
-     'Trial_ID': int,
+     'Trial_Id': int,
      'Trial_Nr': int,
      'b_birth_country_state': str,
      'b_birth_month': int,
