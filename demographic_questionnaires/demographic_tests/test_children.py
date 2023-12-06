@@ -77,7 +77,7 @@ def get_correct_vars():
      'b_residence_arrival_age_years': int,
      'b_residence_country_state': str,
      'b_sex': str,
-     'b_siblings_additional': int,
+     'b_siblings_additional': str,
      'c_language_exposure_list': str,
      'date_of_consent': str,
      'parental_consent': bool,
