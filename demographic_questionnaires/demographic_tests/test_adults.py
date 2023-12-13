@@ -46,7 +46,6 @@ def get_test_vars():
 def get_correct_vars():
     single_variables = {'Block_Name': str,
      'Block_Nr': int,
-     'Completed': bool,
      'End_Time_Local': str,
      'Exp_Subject_Id': int,
      'Group_Name': str,
@@ -61,60 +60,53 @@ def get_correct_vars():
      'Task_Nr': int,
      'Trial_Id': int,
      'Trial_Nr': int,
-     'b_birth_country_state': str,
-     'b_birth_month': int,
-     'b_birth_year': int,
-     'b_language_difficulties_hearing': bool,
-     'b_language_difficulties_speaking': bool,
-     'b_language_native_speaking_start': int,
-     'b_n_family_members_living_with_child': int,
-     'b_nursery_attended': bool,
-     'b_nursery_country_state': str,
-     'b_nursery_duration_months': int,
-     'b_preschool_daycare_language': str,
-     'b_preschool_daycare_years': int,
-     'b_residence_arrival_age_month': int,
-     'b_residence_arrival_age_years': int,
-     'b_residence_country_state': str,
-     'b_sex': str,
-     'b_siblings_additional': str,
-     'c_language_exposure_list': str,
+     'a_birth_place': str,
+     'a_birth_year': int,
+     'a_language_difficulties_hearing': bool,
+     'a_language_difficulties_speaking': bool,
+     'a_language_native_speaking_start': int,
+     'a_residence_arrival_age_month': int,
+     'a_residence_arrival_age_years': int,
+     'a_residence_country_state': str,
+     'a_sex': str,
+     'b_education_currently_enrolled': bool,
+     'b_education_currently_enrolled_level': str,
+     'b_education_currently_enrolled_years': int,
+     'b_education_level': str,
+     'b_education_years': int,
+     'c_first_language_of_literacy': str,
+     'c_instructed_in_only_one_language': bool,
+     'c_languages_favourite': str,
+     'c_languages_of_counting': str,
+     'c_languages_of_thinking': str,
+     'c_languages_of_instruction': str,
      'date_of_consent': str,
-     'parental_consent': bool,
-     'participant_id': str}
+     'participant_id': str,
+     'participant_consent': bool,
+     }
     
-    placeholder_variables = {'lang{number}_speaking_and_understanding': bool,
-     'a_guardian{number1}_education_level': str, #shouldn't it be int?
-     'lang{number}_context_03_siblings': int,
-     'lang{number}_exposure_age': int,
-     'lang{number}_context_10_videogames': int,
-     'a_guardian{number1}_lang{number2}': str,
-     'lang{number}_context_02_father': int,
-     'lang{number}_context_08_stories': int,
-     'lang{number}': str,
-     'a_guardian{number1}_lang{number2}_level': int,
-     'lang{number}_understanding_only': bool,
-     'a_guardian{number1}_education_years': int,
-     'b_sibling{number}_age': int,
-     'lang{number}_context_07_other_conversations': int,
-     'lang{number}_context_01_mother': int,
-     'lang{number}_exposure_place': str,
-     'lang{number}_context_05_school': int,
-     'lang{number}_context_06_nonrelatives': int,
-     'a_guardian{number1}_birthplace': str,
-     'lang{number}_context_04_other_relatives': int,
-     'b_sibling{number}_sex': str,
-     'lang{number}_context_09_TV': int}
+    placeholder_variables = {
+        'lang{number}': str,
+        'lang{number}_ability_listening': int,
+        'lang{number}_ability_reading': int,
+        'lang{number}_ability_writing': int,
+        'lang{number}_ability_speaking': int,
+        'lang{number}_context_01_school_university': int,
+        'lang{number}_context_02_work': int,
+        'lang{number}_context_03_family': int,
+        'lang{number}_context_04_social_activities': int,
+        'lang{number}_context_05_other_activities': int,
+        'lang{number}_exposure_age': int,
+        'lang{number}_exposure_how_long_in_country_of_language': int,
+        'lang{number}_exposure_literacy_age': int,
+        'lang{number}_exposure_place': str
+    }
     
-    number_variables = {}
-    for i in range(1, 3):
-        for j in range(1, 4):
-            for k in range(1, 5):
-                for var, var_type in placeholder_variables.items():
-                    replaced_var = (var.replace("{number}", str(k)).
-                                    replace("{number1}", str(i)).
-                                    replace("{number2}", str(j)))
-                    number_variables[replaced_var] = var_type
+    number_variables = {} 
+    for i in range(1, 4):
+        for var, var_type in placeholder_variables.items():
+                replaced_var = (var.replace("{number}", str(i)))
+                number_variables[replaced_var] = var_type
     
     correct_variables = single_variables.copy()
     correct_variables.update(number_variables)
@@ -154,6 +146,3 @@ def test_types():
                               f'but it is {vartype}')
     for var, vartype in to_test.items():
         assert correct_variables[var] == vartype
-
-
-
