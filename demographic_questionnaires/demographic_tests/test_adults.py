@@ -3,7 +3,7 @@
 """
 Created on Fri Jul 14 12:31:44 2023
 
-@author: alejandracamelocruz
+@author: alejandracamelocruz, arne goelz
 """
 
 import logging
