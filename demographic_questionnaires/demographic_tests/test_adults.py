@@ -64,7 +64,6 @@ def get_correct_vars():
      'a_birth_year': int,
      'a_language_difficulties_hearing': bool,
      'a_language_difficulties_speaking': bool,
-     'a_language_native_speaking_start': int,
      'a_residence_arrival_age_month': int,
      'a_residence_arrival_age_years': int,
      'a_residence_country_state': str,
@@ -76,13 +75,14 @@ def get_correct_vars():
      'b_education_years': int,
      'c_first_language_of_literacy': str,
      'c_instructed_in_only_one_language': bool,
-     'c_languages_favourite': str,
+     'c_language_favourite': str, 
      'c_languages_of_counting': str,
      'c_languages_of_thinking': str,
      'c_languages_of_instruction': str,
      'date_of_consent': str,
      'participant_id': str,
      'participant_consent': bool,
+     'Completed': bool 
      }
     
     placeholder_variables = {
@@ -103,7 +103,7 @@ def get_correct_vars():
     }
     
     number_variables = {} 
-    for i in range(1, 4):
+    for i in range(1, 5):
         for var, var_type in placeholder_variables.items():
                 replaced_var = (var.replace("{number}", str(i)))
                 number_variables[replaced_var] = var_type
@@ -146,3 +146,4 @@ def test_types():
                               f'but it is {vartype}')
     for var, vartype in to_test.items():
         assert correct_variables[var] == vartype
+
