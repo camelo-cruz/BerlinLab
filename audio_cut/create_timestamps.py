@@ -2,7 +2,8 @@
 """
 Created on Wed Jun 21 13:23:57 2023
 
-@author: emanuele de Rossi - Universität Potsdam
+@author: Emanuele De Rossi - Universität Potsdam
+         Alejandra Camelo Cruz - Universität Potsdam
 """
 
 import argparse
@@ -17,9 +18,7 @@ def main():
         description='Train LSTM'
     )
     
-    parser.add_argument(
-        'input'
-    )
+    parser.add_argument('input')
     
     args = parser.parse_args()
     
@@ -33,7 +32,6 @@ def main():
     wordTier = textgrid.IntervalTier(name = "words: ", entries = [], minT = 0, maxT = 1000)
     
     all_words = dict()
-    #idx = 1
     for segment in speakonly["segments"]:
         for word in segment["words"]:
             print(word["word"], word["start"], word["end"])
