@@ -1,0 +1,2990 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1000 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words: " 
+        xmin = 0 
+        xmax = 1000 
+        intervals: size = 744 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.9 
+            text = "" 
+        intervals [2]:
+            xmin = 2.9 
+            xmax = 3.6 
+            text = " Okay," 
+        intervals [3]:
+            xmin = 3.6 
+            xmax = 3.76 
+            text = "" 
+        intervals [4]:
+            xmin = 3.76 
+            xmax = 4.18 
+            text = " gut." 
+        intervals [5]:
+            xmin = 4.18 
+            xmax = 30.26 
+            text = "" 
+        intervals [6]:
+            xmin = 30.26 
+            xmax = 30.92 
+            text = " Sie" 
+        intervals [7]:
+            xmin = 30.92 
+            xmax = 31.14 
+            text = " soll" 
+        intervals [8]:
+            xmin = 31.14 
+            xmax = 31.6 
+            text = " sagen," 
+        intervals [9]:
+            xmin = 31.6 
+            xmax = 31.72 
+            text = "" 
+        intervals [10]:
+            xmin = 31.72 
+            xmax = 32.24 
+            text = " was" 
+        intervals [11]:
+            xmin = 32.24 
+            xmax = 32.42 
+            text = " sie" 
+        intervals [12]:
+            xmin = 32.42 
+            xmax = 32.58 
+            text = " auf" 
+        intervals [13]:
+            xmin = 32.58 
+            xmax = 32.74 
+            text = " dem" 
+        intervals [14]:
+            xmin = 32.74 
+            xmax = 33.18 
+            text = " Bildschirm" 
+        intervals [15]:
+            xmin = 33.18 
+            xmax = 33.44 
+            text = " sieht." 
+        intervals [16]:
+            xmin = 33.44 
+            xmax = 34.25 
+            text = "" 
+        intervals [17]:
+            xmin = 34.25 
+            xmax = 34.58 
+            text = " Wenn" 
+        intervals [18]:
+            xmin = 34.58 
+            xmax = 34.76 
+            text = " sie" 
+        intervals [19]:
+            xmin = 34.76 
+            xmax = 34.92 
+            text = " etwas" 
+        intervals [20]:
+            xmin = 34.92 
+            xmax = 35.4 
+            text = " völlig" 
+        intervals [21]:
+            xmin = 35.4 
+            xmax = 35.84 
+            text = " richtig" 
+        intervals [22]:
+            xmin = 35.84 
+            xmax = 36.26 
+            text = " sagt," 
+        intervals [23]:
+            xmin = 36.26 
+            xmax = 36.6 
+            text = "" 
+        intervals [24]:
+            xmin = 36.6 
+            xmax = 37.22 
+            text = " geben" 
+        intervals [25]:
+            xmin = 37.22 
+            xmax = 37.4 
+            text = " wir" 
+        intervals [26]:
+            xmin = 37.4 
+            xmax = 37.58 
+            text = " ihr" 
+        intervals [27]:
+            xmin = 37.58 
+            xmax = 37.92 
+            text = " drei" 
+        intervals [28]:
+            xmin = 37.92 
+            xmax = 38.72 
+            text = " Erdbeeren." 
+        intervals [29]:
+            xmin = 38.72 
+            xmax = 39.38 
+            text = "" 
+        intervals [30]:
+            xmin = 39.38 
+            xmax = 40.04 
+            text = " Wenn" 
+        intervals [31]:
+            xmin = 40.04 
+            xmax = 40.22 
+            text = " sie" 
+        intervals [32]:
+            xmin = 40.22 
+            xmax = 40.36 
+            text = " etwas" 
+        intervals [33]:
+            xmin = 40.36 
+            xmax = 40.88 
+            text = " völlig" 
+        intervals [34]:
+            xmin = 40.88 
+            xmax = 41.52 
+            text = " Falsches" 
+        intervals [35]:
+            xmin = 41.52 
+            xmax = 41.84 
+            text = " sagt," 
+        intervals [36]:
+            xmin = 41.84 
+            xmax = 42.12 
+            text = "" 
+        intervals [37]:
+            xmin = 42.12 
+            xmax = 42.76 
+            text = " geben" 
+        intervals [38]:
+            xmin = 42.76 
+            xmax = 42.98 
+            text = " wir" 
+        intervals [39]:
+            xmin = 42.98 
+            xmax = 43.14 
+            text = " ihr" 
+        intervals [40]:
+            xmin = 43.14 
+            xmax = 43.28 
+            text = " nur" 
+        intervals [41]:
+            xmin = 43.28 
+            xmax = 43.58 
+            text = " eine." 
+        intervals [42]:
+            xmin = 43.58 
+            xmax = 44.22 
+            text = "" 
+        intervals [43]:
+            xmin = 44.22 
+            xmax = 44.88 
+            text = " Und" 
+        intervals [44]:
+            xmin = 44.88 
+            xmax = 45.02 
+            text = " wenn" 
+        intervals [45]:
+            xmin = 45.02 
+            xmax = 45.2 
+            text = " sie" 
+        intervals [46]:
+            xmin = 45.2 
+            xmax = 45.44 
+            text = " zwischen" 
+        intervals [47]:
+            xmin = 45.44 
+            xmax = 45.98 
+            text = " richtig" 
+        intervals [48]:
+            xmin = 45.98 
+            xmax = 46.58 
+            text = " und" 
+        intervals [49]:
+            xmin = 46.58 
+            xmax = 47.12 
+            text = " falsch" 
+        intervals [50]:
+            xmin = 47.12 
+            xmax = 47.48 
+            text = " liegt," 
+        intervals [51]:
+            xmin = 47.48 
+            xmax = 47.76 
+            text = "" 
+        intervals [52]:
+            xmin = 47.76 
+            xmax = 48.36 
+            text = " geben" 
+        intervals [53]:
+            xmin = 48.36 
+            xmax = 48.56 
+            text = " wir" 
+        intervals [54]:
+            xmin = 48.56 
+            xmax = 48.7 
+            text = " ihr" 
+        intervals [55]:
+            xmin = 48.7 
+            xmax = 48.98 
+            text = " zwei." 
+        intervals [56]:
+            xmin = 48.98 
+            xmax = 50.14 
+            text = "" 
+        intervals [57]:
+            xmin = 50.14 
+            xmax = 50.8 
+            text = " Willst" 
+        intervals [58]:
+            xmin = 50.8 
+            xmax = 50.88 
+            text = " du" 
+        intervals [59]:
+            xmin = 50.88 
+            xmax = 50.96 
+            text = " es" 
+        intervals [60]:
+            xmin = 50.96 
+            xmax = 51.32 
+            text = " versuchen?" 
+        intervals [61]:
+            xmin = 51.32 
+            xmax = 54.3 
+            text = "" 
+        intervals [62]:
+            xmin = 54.3 
+            xmax = 54.96 
+            text = " Höhlenfrau" 
+        intervals [63]:
+            xmin = 54.96 
+            xmax = 55.36 
+            text = " Wilma," 
+        intervals [64]:
+            xmin = 55.36 
+            xmax = 55.58 
+            text = "" 
+        intervals [65]:
+            xmin = 55.58 
+            xmax = 56.44 
+            text = " sieh" 
+        intervals [66]:
+            xmin = 56.44 
+            xmax = 56.56 
+            text = " dir" 
+        intervals [67]:
+            xmin = 56.56 
+            xmax = 56.78 
+            text = " diese" 
+        intervals [68]:
+            xmin = 56.78 
+            xmax = 57.36 
+            text = " Katzen" 
+        intervals [69]:
+            xmin = 57.36 
+            xmax = 57.62 
+            text = " an." 
+        intervals [70]:
+            xmin = 57.62 
+            xmax = 58.42 
+            text = "" 
+        intervals [71]:
+            xmin = 58.42 
+            xmax = 59.08 
+            text = " Erzähl" 
+        intervals [72]:
+            xmin = 59.08 
+            xmax = 59.18 
+            text = " mir" 
+        intervals [73]:
+            xmin = 59.18 
+            xmax = 59.44 
+            text = " etwas" 
+        intervals [74]:
+            xmin = 59.44 
+            xmax = 59.82 
+            text = " über" 
+        intervals [75]:
+            xmin = 59.82 
+            xmax = 59.98 
+            text = " sie." 
+        intervals [76]:
+            xmin = 59.98 
+            xmax = 62.8 
+            text = "" 
+        intervals [77]:
+            xmin = 62.8 
+            xmax = 63.32 
+            text = " Sieh" 
+        intervals [78]:
+            xmin = 63.32 
+            xmax = 63.48 
+            text = " dir" 
+        intervals [79]:
+            xmin = 63.48 
+            xmax = 63.72 
+            text = " diese" 
+        intervals [80]:
+            xmin = 63.72 
+            xmax = 64.22 
+            text = " Orangen" 
+        intervals [81]:
+            xmin = 64.22 
+            xmax = 64.58 
+            text = " an." 
+        intervals [82]:
+            xmin = 64.58 
+            xmax = 65.94 
+            text = "" 
+        intervals [83]:
+            xmin = 65.94 
+            xmax = 66.46 
+            text = " Sieh" 
+        intervals [84]:
+            xmin = 66.46 
+            xmax = 66.58 
+            text = " dir" 
+        intervals [85]:
+            xmin = 66.58 
+            xmax = 66.8 
+            text = " diese" 
+        intervals [86]:
+            xmin = 66.8 
+            xmax = 67.22 
+            text = " Hunde" 
+        intervals [87]:
+            xmin = 67.22 
+            xmax = 67.48 
+            text = " an." 
+        intervals [88]:
+            xmin = 67.48 
+            xmax = 69.38000000000001 
+            text = "" 
+        intervals [89]:
+            xmin = 69.38000000000001 
+            xmax = 69.9 
+            text = " Sieh" 
+        intervals [90]:
+            xmin = 69.9 
+            xmax = 70 
+            text = " dir" 
+        intervals [91]:
+            xmin = 70 
+            xmax = 70.24 
+            text = " diese" 
+        intervals [92]:
+            xmin = 70.24 
+            xmax = 70.76 
+            text = " Flaschen" 
+        intervals [93]:
+            xmin = 70.76 
+            xmax = 71.02 
+            text = " an." 
+        intervals [94]:
+            xmin = 71.02 
+            xmax = 72.9 
+            text = "" 
+        intervals [95]:
+            xmin = 72.9 
+            xmax = 73.42 
+            text = " Sieh" 
+        intervals [96]:
+            xmin = 73.42 
+            xmax = 73.54 
+            text = " dir" 
+        intervals [97]:
+            xmin = 73.54 
+            xmax = 73.8 
+            text = " diese" 
+        intervals [98]:
+            xmin = 73.8 
+            xmax = 74.46 
+            text = " Elefanten" 
+        intervals [99]:
+            xmin = 74.46 
+            xmax = 74.8 
+            text = " an." 
+        intervals [100]:
+            xmin = 74.8 
+            xmax = 76.54 
+            text = "" 
+        intervals [101]:
+            xmin = 76.54 
+            xmax = 77.06 
+            text = " Sieh" 
+        intervals [102]:
+            xmin = 77.06 
+            xmax = 77.2 
+            text = " dir" 
+        intervals [103]:
+            xmin = 77.2 
+            xmax = 77.44 
+            text = " diese" 
+        intervals [104]:
+            xmin = 77.44 
+            xmax = 78.16 
+            text = " Luftballons" 
+        intervals [105]:
+            xmin = 78.16 
+            xmax = 78.44 
+            text = " an." 
+        intervals [106]:
+            xmin = 78.44 
+            xmax = 80.02000000000001 
+            text = "" 
+        intervals [107]:
+            xmin = 80.02000000000001 
+            xmax = 80.54 
+            text = " Sieh" 
+        intervals [108]:
+            xmin = 80.54 
+            xmax = 80.64 
+            text = " dir" 
+        intervals [109]:
+            xmin = 80.64 
+            xmax = 80.88 
+            text = " diese" 
+        intervals [110]:
+            xmin = 80.88 
+            xmax = 81.5 
+            text = " Fenster" 
+        intervals [111]:
+            xmin = 81.5 
+            xmax = 81.76 
+            text = " an." 
+        intervals [112]:
+            xmin = 81.76 
+            xmax = 83.28 
+            text = "" 
+        intervals [113]:
+            xmin = 83.28 
+            xmax = 83.8 
+            text = " Sieh" 
+        intervals [114]:
+            xmin = 83.8 
+            xmax = 83.9 
+            text = " dir" 
+        intervals [115]:
+            xmin = 83.9 
+            xmax = 84.14 
+            text = " diese" 
+        intervals [116]:
+            xmin = 84.14 
+            xmax = 84.58 
+            text = " Socken" 
+        intervals [117]:
+            xmin = 84.58 
+            xmax = 84.9 
+            text = " an." 
+        intervals [118]:
+            xmin = 84.9 
+            xmax = 86.44 
+            text = "" 
+        intervals [119]:
+            xmin = 86.44 
+            xmax = 86.96 
+            text = " Sieh" 
+        intervals [120]:
+            xmin = 86.96 
+            xmax = 87.12 
+            text = " dir" 
+        intervals [121]:
+            xmin = 87.12 
+            xmax = 87.54 
+            text = " diese..." 
+        intervals [122]:
+            xmin = 87.54 
+            xmax = 92.18 
+            text = "" 
+        intervals [123]:
+            xmin = 92.18 
+            xmax = 92.74 
+            text = " Sieh" 
+        intervals [124]:
+            xmin = 92.74 
+            xmax = 92.9 
+            text = " dir" 
+        intervals [125]:
+            xmin = 92.9 
+            xmax = 93.18 
+            text = " diese" 
+        intervals [126]:
+            xmin = 93.18 
+            xmax = 93.9 
+            text = " Flugzeuge" 
+        intervals [127]:
+            xmin = 93.9 
+            xmax = 94.14 
+            text = " an." 
+        intervals [128]:
+            xmin = 94.14 
+            xmax = 95.48000000000002 
+            text = "" 
+        intervals [129]:
+            xmin = 95.48000000000002 
+            xmax = 96.04 
+            text = " Sieh" 
+        intervals [130]:
+            xmin = 96.04 
+            xmax = 96.2 
+            text = " dir" 
+        intervals [131]:
+            xmin = 96.2 
+            xmax = 96.46 
+            text = " diese" 
+        intervals [132]:
+            xmin = 96.46 
+            xmax = 97.12 
+            text = " Giraffen" 
+        intervals [133]:
+            xmin = 97.12 
+            xmax = 97.4 
+            text = " an." 
+        intervals [134]:
+            xmin = 97.4 
+            xmax = 98.76 
+            text = "" 
+        intervals [135]:
+            xmin = 98.76 
+            xmax = 99.32 
+            text = " Sieh" 
+        intervals [136]:
+            xmin = 99.32 
+            xmax = 99.46 
+            text = " dir" 
+        intervals [137]:
+            xmin = 99.46 
+            xmax = 99.72 
+            text = " diese" 
+        intervals [138]:
+            xmin = 99.72 
+            xmax = 100.42 
+            text = " Frösche" 
+        intervals [139]:
+            xmin = 100.42 
+            xmax = 100.66 
+            text = " an." 
+        intervals [140]:
+            xmin = 100.66 
+            xmax = 102.52000000000001 
+            text = "" 
+        intervals [141]:
+            xmin = 102.52000000000001 
+            xmax = 103.08 
+            text = " Sieh" 
+        intervals [142]:
+            xmin = 103.08 
+            xmax = 103.22 
+            text = " dir" 
+        intervals [143]:
+            xmin = 103.22 
+            xmax = 103.48 
+            text = " diese" 
+        intervals [144]:
+            xmin = 103.48 
+            xmax = 104.06 
+            text = " Kaninchen" 
+        intervals [145]:
+            xmin = 104.06 
+            xmax = 104.4 
+            text = " an." 
+        intervals [146]:
+            xmin = 104.4 
+            xmax = 106.24000000000001 
+            text = "" 
+        intervals [147]:
+            xmin = 106.24000000000001 
+            xmax = 106.8 
+            text = " Sieh" 
+        intervals [148]:
+            xmin = 106.8 
+            xmax = 106.96 
+            text = " dir" 
+        intervals [149]:
+            xmin = 106.96 
+            xmax = 107.24 
+            text = " diese" 
+        intervals [150]:
+            xmin = 107.24 
+            xmax = 107.82 
+            text = " Affen" 
+        intervals [151]:
+            xmin = 107.82 
+            xmax = 108.02 
+            text = " an." 
+        intervals [152]:
+            xmin = 108.02 
+            xmax = 109.86000000000001 
+            text = "" 
+        intervals [153]:
+            xmin = 109.86000000000001 
+            xmax = 110.42 
+            text = " Sieh" 
+        intervals [154]:
+            xmin = 110.42 
+            xmax = 110.56 
+            text = " dir" 
+        intervals [155]:
+            xmin = 110.56 
+            xmax = 110.84 
+            text = " diese" 
+        intervals [156]:
+            xmin = 110.84 
+            xmax = 111.38 
+            text = " Vögel" 
+        intervals [157]:
+            xmin = 111.38 
+            xmax = 111.62 
+            text = " an." 
+        intervals [158]:
+            xmin = 111.62 
+            xmax = 113.32 
+            text = "" 
+        intervals [159]:
+            xmin = 113.32 
+            xmax = 113.88 
+            text = " Sieh" 
+        intervals [160]:
+            xmin = 113.88 
+            xmax = 114.02 
+            text = " dir" 
+        intervals [161]:
+            xmin = 114.02 
+            xmax = 114.28 
+            text = " diese" 
+        intervals [162]:
+            xmin = 114.28 
+            xmax = 114.7 
+            text = " Jungen" 
+        intervals [163]:
+            xmin = 114.7 
+            xmax = 114.96 
+            text = " an." 
+        intervals [164]:
+            xmin = 114.96 
+            xmax = 116.6 
+            text = "" 
+        intervals [165]:
+            xmin = 116.6 
+            xmax = 117.16 
+            text = " Sieh" 
+        intervals [166]:
+            xmin = 117.16 
+            xmax = 117.28 
+            text = " dir" 
+        intervals [167]:
+            xmin = 117.28 
+            xmax = 117.56 
+            text = " diese" 
+        intervals [168]:
+            xmin = 117.56 
+            xmax = 118.26 
+            text = " Pferde..." 
+        intervals [169]:
+            xmin = 118.26 
+            xmax = 118.6 
+            text = " Oh" 
+        intervals [170]:
+            xmin = 118.6 
+            xmax = 118.94 
+            text = " Gott." 
+        intervals [171]:
+            xmin = 118.94 
+            xmax = 120.96 
+            text = "" 
+        intervals [172]:
+            xmin = 120.96 
+            xmax = 121.52 
+            text = " Sieh" 
+        intervals [173]:
+            xmin = 121.52 
+            xmax = 121.66 
+            text = " dir" 
+        intervals [174]:
+            xmin = 121.66 
+            xmax = 121.9 
+            text = " diese" 
+        intervals [175]:
+            xmin = 121.9 
+            xmax = 122.5 
+            text = " Beeren" 
+        intervals [176]:
+            xmin = 122.5 
+            xmax = 122.74 
+            text = " an." 
+        intervals [177]:
+            xmin = 122.74 
+            xmax = 128.14 
+            text = "" 
+        intervals [178]:
+            xmin = 128.14 
+            xmax = 128.7 
+            text = " Sieh" 
+        intervals [179]:
+            xmin = 128.7 
+            xmax = 128.86 
+            text = " dir" 
+        intervals [180]:
+            xmin = 128.86 
+            xmax = 129.08 
+            text = " diese" 
+        intervals [181]:
+            xmin = 129.08 
+            xmax = 129.66 
+            text = " Hühner" 
+        intervals [182]:
+            xmin = 129.66 
+            xmax = 129.94 
+            text = " an." 
+        intervals [183]:
+            xmin = 129.94 
+            xmax = 131.84 
+            text = "" 
+        intervals [184]:
+            xmin = 131.84 
+            xmax = 132.4 
+            text = " Sieh" 
+        intervals [185]:
+            xmin = 132.4 
+            xmax = 132.54 
+            text = " dir" 
+        intervals [186]:
+            xmin = 132.54 
+            xmax = 132.78 
+            text = " diese" 
+        intervals [187]:
+            xmin = 132.78 
+            xmax = 133.42 
+            text = " Mädchen" 
+        intervals [188]:
+            xmin = 133.42 
+            xmax = 133.74 
+            text = " an." 
+        intervals [189]:
+            xmin = 133.74 
+            xmax = 135.84 
+            text = "" 
+        intervals [190]:
+            xmin = 135.84 
+            xmax = 136.4 
+            text = " Sieh" 
+        intervals [191]:
+            xmin = 136.4 
+            xmax = 136.54 
+            text = " dir" 
+        intervals [192]:
+            xmin = 136.54 
+            xmax = 136.82 
+            text = " diese" 
+        intervals [193]:
+            xmin = 136.82 
+            xmax = 137.38 
+            text = " Bienen" 
+        intervals [194]:
+            xmin = 137.38 
+            xmax = 137.68 
+            text = " an." 
+        intervals [195]:
+            xmin = 137.68 
+            xmax = 139.72 
+            text = "" 
+        intervals [196]:
+            xmin = 139.72 
+            xmax = 140.28 
+            text = " Sieh" 
+        intervals [197]:
+            xmin = 140.28 
+            xmax = 140.42 
+            text = " dir" 
+        intervals [198]:
+            xmin = 140.42 
+            xmax = 140.7 
+            text = " diese" 
+        intervals [199]:
+            xmin = 140.7 
+            xmax = 140.98 
+            text = " Bienen" 
+        intervals [200]:
+            xmin = 140.98 
+            xmax = 141.32 
+            text = " an." 
+        intervals [201]:
+            xmin = 141.32 
+            xmax = 141.323 
+            text = " Sieh" 
+        intervals [202]:
+            xmin = 141.323 
+            xmax = 141.324 
+            text = "" 
+        intervals [203]:
+            xmin = 141.324 
+            xmax = 141.325 
+            text = " dir" 
+        intervals [204]:
+            xmin = 141.325 
+            xmax = 141.326 
+            text = "" 
+        intervals [205]:
+            xmin = 141.326 
+            xmax = 141.327 
+            text = " diese" 
+        intervals [206]:
+            xmin = 141.327 
+            xmax = 141.328 
+            text = "" 
+        intervals [207]:
+            xmin = 141.328 
+            xmax = 141.329 
+            text = " Männer" 
+        intervals [208]:
+            xmin = 141.329 
+            xmax = 141.33 
+            text = "" 
+        intervals [209]:
+            xmin = 141.33 
+            xmax = 141.331 
+            text = " an." 
+        intervals [210]:
+            xmin = 141.331 
+            xmax = 143.74 
+            text = "" 
+        intervals [211]:
+            xmin = 143.74 
+            xmax = 144.3 
+            text = " Sieh" 
+        intervals [212]:
+            xmin = 144.3 
+            xmax = 144.44 
+            text = " dir" 
+        intervals [213]:
+            xmin = 144.44 
+            xmax = 144.72 
+            text = " diese" 
+        intervals [214]:
+            xmin = 144.72 
+            xmax = 145.38 
+            text = " Hamburger" 
+        intervals [215]:
+            xmin = 145.38 
+            xmax = 145.68 
+            text = " an." 
+        intervals [216]:
+            xmin = 145.68 
+            xmax = 147.86 
+            text = "" 
+        intervals [217]:
+            xmin = 147.86 
+            xmax = 148.42 
+            text = " Sieh" 
+        intervals [218]:
+            xmin = 148.42 
+            xmax = 148.56 
+            text = " dir" 
+        intervals [219]:
+            xmin = 148.56 
+            xmax = 148.84 
+            text = " diese" 
+        intervals [220]:
+            xmin = 148.84 
+            xmax = 149.44 
+            text = " Schneemänner" 
+        intervals [221]:
+            xmin = 149.44 
+            xmax = 149.86 
+            text = " an." 
+        intervals [222]:
+            xmin = 149.86 
+            xmax = 149.9 
+            text = "" 
+        intervals [223]:
+            xmin = 149.9 
+            xmax = 149.98 
+            text = " Sieh" 
+        intervals [224]:
+            xmin = 149.98 
+            xmax = 149.981 
+            text = " dir" 
+        intervals [225]:
+            xmin = 149.981 
+            xmax = 149.982 
+            text = " diese" 
+        intervals [226]:
+            xmin = 149.982 
+            xmax = 149.983 
+            text = " Schneemänner" 
+        intervals [227]:
+            xmin = 149.983 
+            xmax = 149.984 
+            text = " an." 
+        intervals [228]:
+            xmin = 149.984 
+            xmax = 151.96 
+            text = "" 
+        intervals [229]:
+            xmin = 151.96 
+            xmax = 152.52 
+            text = " Sieh" 
+        intervals [230]:
+            xmin = 152.52 
+            xmax = 152.66 
+            text = " dir" 
+        intervals [231]:
+            xmin = 152.66 
+            xmax = 152.9 
+            text = " diese" 
+        intervals [232]:
+            xmin = 152.9 
+            xmax = 153.54 
+            text = " Sterne" 
+        intervals [233]:
+            xmin = 153.54 
+            xmax = 153.84 
+            text = " an." 
+        intervals [234]:
+            xmin = 153.84 
+            xmax = 155.74 
+            text = "" 
+        intervals [235]:
+            xmin = 155.74 
+            xmax = 156.3 
+            text = " Sieh" 
+        intervals [236]:
+            xmin = 156.3 
+            xmax = 156.44 
+            text = " dir" 
+        intervals [237]:
+            xmin = 156.44 
+            xmax = 156.7 
+            text = " diese" 
+        intervals [238]:
+            xmin = 156.7 
+            xmax = 157.42 
+            text = " Autos" 
+        intervals [239]:
+            xmin = 157.42 
+            xmax = 157.7 
+            text = " an." 
+        intervals [240]:
+            xmin = 157.7 
+            xmax = 159.7 
+            text = "" 
+        intervals [241]:
+            xmin = 159.7 
+            xmax = 160.26 
+            text = " Sieh" 
+        intervals [242]:
+            xmin = 160.26 
+            xmax = 160.42 
+            text = " dir" 
+        intervals [243]:
+            xmin = 160.42 
+            xmax = 160.64 
+            text = " diese" 
+        intervals [244]:
+            xmin = 160.64 
+            xmax = 161.6 
+            text = " Feuerwehrmänner" 
+        intervals [245]:
+            xmin = 161.6 
+            xmax = 161.9 
+            text = " an." 
+        intervals [246]:
+            xmin = 161.9 
+            xmax = 164.08 
+            text = "" 
+        intervals [247]:
+            xmin = 164.08 
+            xmax = 164.64 
+            text = " Sieh" 
+        intervals [248]:
+            xmin = 164.64 
+            xmax = 164.78 
+            text = " dir" 
+        intervals [249]:
+            xmin = 164.78 
+            xmax = 165.04 
+            text = " diese" 
+        intervals [250]:
+            xmin = 165.04 
+            xmax = 165.72 
+            text = " Ärzte" 
+        intervals [251]:
+            xmin = 165.72 
+            xmax = 165.98 
+            text = " an." 
+        intervals [252]:
+            xmin = 165.98 
+            xmax = 167.94 
+            text = "" 
+        intervals [253]:
+            xmin = 167.94 
+            xmax = 168.5 
+            text = " Sieh" 
+        intervals [254]:
+            xmin = 168.5 
+            xmax = 168.64 
+            text = " dir" 
+        intervals [255]:
+            xmin = 168.64 
+            xmax = 168.9 
+            text = " diese" 
+        intervals [256]:
+            xmin = 168.9 
+            xmax = 169.78 
+            text = " Polizisten" 
+        intervals [257]:
+            xmin = 169.78 
+            xmax = 170.08 
+            text = " an." 
+        intervals [258]:
+            xmin = 170.08 
+            xmax = 172 
+            text = "" 
+        intervals [259]:
+            xmin = 172 
+            xmax = 172.56 
+            text = " Sieh" 
+        intervals [260]:
+            xmin = 172.56 
+            xmax = 172.66 
+            text = " dir" 
+        intervals [261]:
+            xmin = 172.66 
+            xmax = 172.94 
+            text = " diese" 
+        intervals [262]:
+            xmin = 172.94 
+            xmax = 173.66 
+            text = " Säuglinge" 
+        intervals [263]:
+            xmin = 173.66 
+            xmax = 173.86 
+            text = " an." 
+        intervals [264]:
+            xmin = 173.86 
+            xmax = 175.74 
+            text = "" 
+        intervals [265]:
+            xmin = 175.74 
+            xmax = 176.3 
+            text = " Sieh" 
+        intervals [266]:
+            xmin = 176.3 
+            xmax = 176.42 
+            text = " dir" 
+        intervals [267]:
+            xmin = 176.42 
+            xmax = 176.76 
+            text = " diese" 
+        intervals [268]:
+            xmin = 176.76 
+            xmax = 177.12 
+            text = " Pferde" 
+        intervals [269]:
+            xmin = 177.12 
+            xmax = 177.44 
+            text = " an." 
+        intervals [270]:
+            xmin = 177.44 
+            xmax = 178.96 
+            text = "" 
+        intervals [271]:
+            xmin = 178.96 
+            xmax = 179.52 
+            text = " Sieh" 
+        intervals [272]:
+            xmin = 179.52 
+            xmax = 179.64 
+            text = " dir" 
+        intervals [273]:
+            xmin = 179.64 
+            xmax = 179.86 
+            text = " diese" 
+        intervals [274]:
+            xmin = 179.86 
+            xmax = 180.86 
+            text = " Fernsehgeräte" 
+        intervals [275]:
+            xmin = 180.86 
+            xmax = 181.18 
+            text = " an." 
+        intervals [276]:
+            xmin = 181.18 
+            xmax = 183.04 
+            text = "" 
+        intervals [277]:
+            xmin = 183.04 
+            xmax = 183.6 
+            text = " Sieh" 
+        intervals [278]:
+            xmin = 183.6 
+            xmax = 183.72 
+            text = " dir" 
+        intervals [279]:
+            xmin = 183.72 
+            xmax = 183.96 
+            text = " diese" 
+        intervals [280]:
+            xmin = 183.96 
+            xmax = 184.7 
+            text = " Spielsachen" 
+        intervals [281]:
+            xmin = 184.7 
+            xmax = 185.04 
+            text = " an." 
+        intervals [282]:
+            xmin = 185.04 
+            xmax = 187.1 
+            text = "" 
+        intervals [283]:
+            xmin = 187.1 
+            xmax = 187.66 
+            text = " Sieh" 
+        intervals [284]:
+            xmin = 187.66 
+            xmax = 187.82 
+            text = " dir" 
+        intervals [285]:
+            xmin = 187.82 
+            xmax = 188.06 
+            text = " diese" 
+        intervals [286]:
+            xmin = 188.06 
+            xmax = 188.56 
+            text = " Stühle" 
+        intervals [287]:
+            xmin = 188.56 
+            xmax = 188.84 
+            text = " an." 
+        intervals [288]:
+            xmin = 188.84 
+            xmax = 190.82 
+            text = "" 
+        intervals [289]:
+            xmin = 190.82 
+            xmax = 191.38 
+            text = " Sieh" 
+        intervals [290]:
+            xmin = 191.38 
+            xmax = 191.52 
+            text = " dir" 
+        intervals [291]:
+            xmin = 191.52 
+            xmax = 191.78 
+            text = " diese" 
+        intervals [292]:
+            xmin = 191.78 
+            xmax = 192.34 
+            text = " Schafe" 
+        intervals [293]:
+            xmin = 192.34 
+            xmax = 192.58 
+            text = " an." 
+        intervals [294]:
+            xmin = 192.58 
+            xmax = 194.58 
+            text = "" 
+        intervals [295]:
+            xmin = 194.58 
+            xmax = 195.14 
+            text = " Sieh" 
+        intervals [296]:
+            xmin = 195.14 
+            xmax = 195.26 
+            text = " dir" 
+        intervals [297]:
+            xmin = 195.26 
+            xmax = 195.5 
+            text = " diese" 
+        intervals [298]:
+            xmin = 195.5 
+            xmax = 196.06 
+            text = " Löwen" 
+        intervals [299]:
+            xmin = 196.06 
+            xmax = 196.34 
+            text = " an." 
+        intervals [300]:
+            xmin = 196.34 
+            xmax = 198.4 
+            text = "" 
+        intervals [301]:
+            xmin = 198.4 
+            xmax = 198.96 
+            text = " Sieh" 
+        intervals [302]:
+            xmin = 198.96 
+            xmax = 199.1 
+            text = " dir" 
+        intervals [303]:
+            xmin = 199.1 
+            xmax = 199.36 
+            text = " diese" 
+        intervals [304]:
+            xmin = 199.36 
+            xmax = 200.1 
+            text = " Pinguine" 
+        intervals [305]:
+            xmin = 200.1 
+            xmax = 200.32 
+            text = " an." 
+        intervals [306]:
+            xmin = 200.32 
+            xmax = 202.44 
+            text = "" 
+        intervals [307]:
+            xmin = 202.44 
+            xmax = 203 
+            text = " Sieh" 
+        intervals [308]:
+            xmin = 203 
+            xmax = 203.16 
+            text = " dir" 
+        intervals [309]:
+            xmin = 203.16 
+            xmax = 203.46 
+            text = " diese" 
+        intervals [310]:
+            xmin = 203.46 
+            xmax = 203.92 
+            text = " Mäuse" 
+        intervals [311]:
+            xmin = 203.92 
+            xmax = 204.16 
+            text = " an." 
+        intervals [312]:
+            xmin = 204.16 
+            xmax = 206.56 
+            text = "" 
+        intervals [313]:
+            xmin = 206.56 
+            xmax = 207.12 
+            text = " Sieh" 
+        intervals [314]:
+            xmin = 207.12 
+            xmax = 207.26 
+            text = " dir" 
+        intervals [315]:
+            xmin = 207.26 
+            xmax = 207.42 
+            text = " diese" 
+        intervals [316]:
+            xmin = 207.42 
+            xmax = 207.421 
+            text = " Pferde" 
+        intervals [317]:
+            xmin = 207.421 
+            xmax = 207.422 
+            text = " an." 
+        intervals [318]:
+            xmin = 207.422 
+            xmax = 209.48 
+            text = "" 
+        intervals [319]:
+            xmin = 209.48 
+            xmax = 210.26 
+            text = " Sieh" 
+        intervals [320]:
+            xmin = 210.26 
+            xmax = 210.36 
+            text = " dir" 
+        intervals [321]:
+            xmin = 210.36 
+            xmax = 210.6 
+            text = " diese" 
+        intervals [322]:
+            xmin = 210.6 
+            xmax = 211.4 
+            text = " Eichhörnchen" 
+        intervals [323]:
+            xmin = 211.4 
+            xmax = 211.8 
+            text = " an." 
+        intervals [324]:
+            xmin = 211.8 
+            xmax = 213.48 
+            text = "" 
+        intervals [325]:
+            xmin = 213.48 
+            xmax = 214.26 
+            text = " Sieh" 
+        intervals [326]:
+            xmin = 214.26 
+            xmax = 214.4 
+            text = " dir" 
+        intervals [327]:
+            xmin = 214.4 
+            xmax = 214.66 
+            text = " diese" 
+        intervals [328]:
+            xmin = 214.66 
+            xmax = 215.3 
+            text = " Zebras" 
+        intervals [329]:
+            xmin = 215.3 
+            xmax = 215.68 
+            text = " an." 
+        intervals [330]:
+            xmin = 215.68 
+            xmax = 217.83 
+            text = "" 
+        intervals [331]:
+            xmin = 217.83 
+            xmax = 218.22 
+            text = " Sieh" 
+        intervals [332]:
+            xmin = 218.22 
+            xmax = 218.36 
+            text = " dir" 
+        intervals [333]:
+            xmin = 218.36 
+            xmax = 218.64 
+            text = " diese" 
+        intervals [334]:
+            xmin = 218.64 
+            xmax = 221.84 
+            text = " Fische" 
+        intervals [335]:
+            xmin = 221.84 
+            xmax = 222.06 
+            text = " an." 
+        intervals [336]:
+            xmin = 222.06 
+            xmax = 226.78 
+            text = "" 
+        intervals [337]:
+            xmin = 226.78 
+            xmax = 227.56 
+            text = " Also," 
+        intervals [338]:
+            xmin = 227.56 
+            xmax = 227.7 
+            text = "" 
+        intervals [339]:
+            xmin = 227.7 
+            xmax = 228.24 
+            text = " wie" 
+        intervals [340]:
+            xmin = 228.24 
+            xmax = 228.44 
+            text = " gut" 
+        intervals [341]:
+            xmin = 228.44 
+            xmax = 228.66 
+            text = " hat" 
+        intervals [342]:
+            xmin = 228.66 
+            xmax = 229.22 
+            text = " Höhlenfrau" 
+        intervals [343]:
+            xmin = 229.22 
+            xmax = 229.56 
+            text = " Wilma" 
+        intervals [344]:
+            xmin = 229.56 
+            xmax = 230.42 
+            text = " abgeschnitten?" 
+        intervals [345]:
+            xmin = 230.42 
+            xmax = 231.08 
+            text = "" 
+        intervals [346]:
+            xmin = 231.08 
+            xmax = 231.86 
+            text = " Belöhne..." 
+        intervals [347]:
+            xmin = 231.86 
+            xmax = 233.76 
+            text = "" 
+        intervals [348]:
+            xmin = 233.76 
+            xmax = 234.54 
+            text = " Also," 
+        intervals [349]:
+            xmin = 234.54 
+            xmax = 234.84 
+            text = "" 
+        intervals [350]:
+            xmin = 234.84 
+            xmax = 235.38 
+            text = " wie" 
+        intervals [351]:
+            xmin = 235.38 
+            xmax = 235.54 
+            text = " gut" 
+        intervals [352]:
+            xmin = 235.54 
+            xmax = 235.74 
+            text = " hat" 
+        intervals [353]:
+            xmin = 235.74 
+            xmax = 236.28 
+            text = " Höhlenfrau" 
+        intervals [354]:
+            xmin = 236.28 
+            xmax = 236.66 
+            text = " Wilma" 
+        intervals [355]:
+            xmin = 236.66 
+            xmax = 237.04999999999998 
+            text = " abgeschnitten?" 
+        intervals [356]:
+            xmin = 237.04999999999998 
+            xmax = 238.23999999999998 
+            text = "" 
+        intervals [357]:
+            xmin = 238.23999999999998 
+            xmax = 238.92 
+            text = " Belöhne" 
+        intervals [358]:
+            xmin = 238.92 
+            xmax = 239.06 
+            text = " sie" 
+        intervals [359]:
+            xmin = 239.06 
+            xmax = 239.28 
+            text = " mit" 
+        intervals [360]:
+            xmin = 239.28 
+            xmax = 239.84 
+            text = " 1," 
+        intervals [361]:
+            xmin = 239.84 
+            xmax = 240.18 
+            text = "" 
+        intervals [362]:
+            xmin = 240.18 
+            xmax = 240.62 
+            text = " 2" 
+        intervals [363]:
+            xmin = 240.62 
+            xmax = 241.54 
+            text = " oder" 
+        intervals [364]:
+            xmin = 241.54 
+            xmax = 241.92 
+            text = " 3" 
+        intervals [365]:
+            xmin = 241.92 
+            xmax = 242.66 
+            text = " Erdbeeren." 
+        intervals [366]:
+            xmin = 242.66 
+            xmax = 243.54 
+            text = "" 
+        intervals [367]:
+            xmin = 243.54 
+            xmax = 244.22 
+            text = " Gut" 
+        intervals [368]:
+            xmin = 244.22 
+            xmax = 244.46 
+            text = " gemacht!" 
+        intervals [369]:
+            xmin = 244.46 
+            xmax = 248.02 
+            text = "" 
+        intervals [370]:
+            xmin = 248.02 
+            xmax = 248.7 
+            text = " Hallo!" 
+        intervals [371]:
+            xmin = 248.7 
+            xmax = 249.26 
+            text = "" 
+        intervals [372]:
+            xmin = 249.26 
+            xmax = 249.94 
+            text = " Darf" 
+        intervals [373]:
+            xmin = 249.94 
+            xmax = 249.98 
+            text = " ich" 
+        intervals [374]:
+            xmin = 249.98 
+            xmax = 250.46 
+            text = " vorstellen?" 
+        intervals [375]:
+            xmin = 250.46 
+            xmax = 251.04 
+            text = "" 
+        intervals [376]:
+            xmin = 251.04 
+            xmax = 251.72 
+            text = " Höhlenfrau" 
+        intervals [377]:
+            xmin = 251.72 
+            xmax = 252.2 
+            text = " Wilma." 
+        intervals [378]:
+            xmin = 252.2 
+            xmax = 252.9 
+            text = "" 
+        intervals [379]:
+            xmin = 252.9 
+            xmax = 253.24 
+            text = " Sie" 
+        intervals [380]:
+            xmin = 253.24 
+            xmax = 253.62 
+            text = " lernt" 
+        intervals [381]:
+            xmin = 253.62 
+            xmax = 253.9 
+            text = " gerade," 
+        intervals [382]:
+            xmin = 253.9 
+            xmax = 254.1 
+            text = "" 
+        intervals [383]:
+            xmin = 254.1 
+            xmax = 254.26 
+            text = " wie" 
+        intervals [384]:
+            xmin = 254.26 
+            xmax = 254.4 
+            text = " man" 
+        intervals [385]:
+            xmin = 254.4 
+            xmax = 254.84 
+            text = " Deutsch" 
+        intervals [386]:
+            xmin = 254.84 
+            xmax = 255.18 
+            text = " spricht." 
+        intervals [387]:
+            xmin = 255.18 
+            xmax = 256.04 
+            text = "" 
+        intervals [388]:
+            xmin = 256.04 
+            xmax = 256.38 
+            text = " Sie" 
+        intervals [389]:
+            xmin = 256.38 
+            xmax = 256.68 
+            text = " lernt" 
+        intervals [390]:
+            xmin = 256.68 
+            xmax = 256.94 
+            text = " gut" 
+        intervals [391]:
+            xmin = 256.94 
+            xmax = 257.34 
+            text = " und" 
+        intervals [392]:
+            xmin = 257.34 
+            xmax = 257.7 
+            text = " weiß," 
+        intervals [393]:
+            xmin = 257.7 
+            xmax = 257.94 
+            text = "" 
+        intervals [394]:
+            xmin = 257.94 
+            xmax = 258.1 
+            text = " wie" 
+        intervals [395]:
+            xmin = 258.1 
+            xmax = 258.22 
+            text = " man" 
+        intervals [396]:
+            xmin = 258.22 
+            xmax = 258.54 
+            text = " Sätze" 
+        intervals [397]:
+            xmin = 258.54 
+            xmax = 259.06 
+            text = " bildet." 
+        intervals [398]:
+            xmin = 259.06 
+            xmax = 259.70000000000005 
+            text = "" 
+        intervals [399]:
+            xmin = 259.70000000000005 
+            xmax = 260.04 
+            text = " Aber" 
+        intervals [400]:
+            xmin = 260.04 
+            xmax = 260.46 
+            text = " manchmal" 
+        intervals [401]:
+            xmin = 260.46 
+            xmax = 261.36 
+            text = " wählt" 
+        intervals [402]:
+            xmin = 261.36 
+            xmax = 261.52 
+            text = " sie" 
+        intervals [403]:
+            xmin = 261.52 
+            xmax = 261.76 
+            text = " immer" 
+        intervals [404]:
+            xmin = 261.76 
+            xmax = 261.94 
+            text = " noch" 
+        intervals [405]:
+            xmin = 261.94 
+            xmax = 262.14 
+            text = " die" 
+        intervals [406]:
+            xmin = 262.14 
+            xmax = 262.62 
+            text = " falschen" 
+        intervals [407]:
+            xmin = 262.62 
+            xmax = 263.1 
+            text = " Wörter." 
+        intervals [408]:
+            xmin = 263.1 
+            xmax = 264.24 
+            text = "" 
+        intervals [409]:
+            xmin = 264.24 
+            xmax = 264.58 
+            text = " Lass" 
+        intervals [410]:
+            xmin = 264.58 
+            xmax = 264.72 
+            text = " uns" 
+        intervals [411]:
+            xmin = 264.72 
+            xmax = 264.88 
+            text = " ihr" 
+        intervals [412]:
+            xmin = 264.88 
+            xmax = 265.06 
+            text = " beim" 
+        intervals [413]:
+            xmin = 265.06 
+            xmax = 265.4 
+            text = " Lernen" 
+        intervals [414]:
+            xmin = 265.4 
+            xmax = 265.74 
+            text = " helfen." 
+        intervals [415]:
+            xmin = 265.74 
+            xmax = 267.46 
+            text = "" 
+        intervals [416]:
+            xmin = 267.46 
+            xmax = 268.02 
+            text = " Um" 
+        intervals [417]:
+            xmin = 268.02 
+            xmax = 268.12 
+            text = " sie" 
+        intervals [418]:
+            xmin = 268.12 
+            xmax = 268.28 
+            text = " für" 
+        intervals [419]:
+            xmin = 268.28 
+            xmax = 268.48 
+            text = " ihre" 
+        intervals [420]:
+            xmin = 268.48 
+            xmax = 269.14 
+            text = " Bemühungen" 
+        intervals [421]:
+            xmin = 269.14 
+            xmax = 269.42 
+            text = " zu" 
+        intervals [422]:
+            xmin = 269.42 
+            xmax = 270.08 
+            text = " belohnen," 
+        intervals [423]:
+            xmin = 270.08 
+            xmax = 270.14 
+            text = "" 
+        intervals [424]:
+            xmin = 270.14 
+            xmax = 270.82 
+            text = " schenken" 
+        intervals [425]:
+            xmin = 270.82 
+            xmax = 270.98 
+            text = " wir" 
+        intervals [426]:
+            xmin = 270.98 
+            xmax = 271.14 
+            text = " ihr" 
+        intervals [427]:
+            xmin = 271.14 
+            xmax = 271.88 
+            text = " Erdbeeren." 
+        intervals [428]:
+            xmin = 271.88 
+            xmax = 272.86 
+            text = "" 
+        intervals [429]:
+            xmin = 272.86 
+            xmax = 273.42 
+            text = " Sie" 
+        intervals [430]:
+            xmin = 273.42 
+            xmax = 273.68 
+            text = " soll" 
+        intervals [431]:
+            xmin = 273.68 
+            xmax = 274.16 
+            text = " sagen," 
+        intervals [432]:
+            xmin = 274.16 
+            xmax = 274.28 
+            text = "" 
+        intervals [433]:
+            xmin = 274.28 
+            xmax = 274.64 
+            text = " was" 
+        intervals [434]:
+            xmin = 274.64 
+            xmax = 274.8 
+            text = " sie" 
+        intervals [435]:
+            xmin = 274.8 
+            xmax = 274.96 
+            text = " auf" 
+        intervals [436]:
+            xmin = 274.96 
+            xmax = 275.14 
+            text = " dem" 
+        intervals [437]:
+            xmin = 275.14 
+            xmax = 275.66 
+            text = " Bildschirm" 
+        intervals [438]:
+            xmin = 275.66 
+            xmax = 275.9 
+            text = " sieht." 
+        intervals [439]:
+            xmin = 275.9 
+            xmax = 276.78 
+            text = "" 
+        intervals [440]:
+            xmin = 276.78 
+            xmax = 277.06 
+            text = " Wenn" 
+        intervals [441]:
+            xmin = 277.06 
+            xmax = 277.22 
+            text = " sie" 
+        intervals [442]:
+            xmin = 277.22 
+            xmax = 277.4 
+            text = " etwas" 
+        intervals [443]:
+            xmin = 277.4 
+            xmax = 277.96 
+            text = " völlig" 
+        intervals [444]:
+            xmin = 277.96 
+            xmax = 278.4 
+            text = " richtig" 
+        intervals [445]:
+            xmin = 278.4 
+            xmax = 278.8 
+            text = " sagt," 
+        intervals [446]:
+            xmin = 278.8 
+            xmax = 279.08 
+            text = "" 
+        intervals [447]:
+            xmin = 279.08 
+            xmax = 279.44 
+            text = " geben" 
+        intervals [448]:
+            xmin = 279.44 
+            xmax = 279.62 
+            text = " wir" 
+        intervals [449]:
+            xmin = 279.62 
+            xmax = 279.8 
+            text = " ihr" 
+        intervals [450]:
+            xmin = 279.8 
+            xmax = 280.04 
+            text = " drei" 
+        intervals [451]:
+            xmin = 280.04 
+            xmax = 280.7 
+            text = " Erdbeeren." 
+        intervals [452]:
+            xmin = 280.7 
+            xmax = 281.5 
+            text = "" 
+        intervals [453]:
+            xmin = 281.5 
+            xmax = 282.06 
+            text = " Wenn" 
+        intervals [454]:
+            xmin = 282.06 
+            xmax = 282.22 
+            text = " sie" 
+        intervals [455]:
+            xmin = 282.22 
+            xmax = 282.36 
+            text = " etwas" 
+        intervals [456]:
+            xmin = 282.36 
+            xmax = 282.88 
+            text = " völlig" 
+        intervals [457]:
+            xmin = 282.88 
+            xmax = 283.6 
+            text = " Falsches" 
+        intervals [458]:
+            xmin = 283.6 
+            xmax = 283.88 
+            text = " sagt," 
+        intervals [459]:
+            xmin = 283.88 
+            xmax = 284.22 
+            text = "" 
+        intervals [460]:
+            xmin = 284.22 
+            xmax = 284.8 
+            text = " geben" 
+        intervals [461]:
+            xmin = 284.8 
+            xmax = 285 
+            text = " wir" 
+        intervals [462]:
+            xmin = 285 
+            xmax = 285.18 
+            text = " ihr" 
+        intervals [463]:
+            xmin = 285.18 
+            xmax = 285.32 
+            text = " nur" 
+        intervals [464]:
+            xmin = 285.32 
+            xmax = 285.66 
+            text = " eine." 
+        intervals [465]:
+            xmin = 285.66 
+            xmax = 286.66 
+            text = "" 
+        intervals [466]:
+            xmin = 286.66 
+            xmax = 287.22 
+            text = " Wenn" 
+        intervals [467]:
+            xmin = 287.22 
+            xmax = 287.36 
+            text = " sie" 
+        intervals [468]:
+            xmin = 287.36 
+            xmax = 287.6 
+            text = " zwischen" 
+        intervals [469]:
+            xmin = 287.6 
+            xmax = 288.18 
+            text = " richtig" 
+        intervals [470]:
+            xmin = 288.18 
+            xmax = 288.72 
+            text = " und" 
+        intervals [471]:
+            xmin = 288.72 
+            xmax = 289.26 
+            text = " falsch" 
+        intervals [472]:
+            xmin = 289.26 
+            xmax = 289.6 
+            text = " liegt," 
+        intervals [473]:
+            xmin = 289.6 
+            xmax = 289.88 
+            text = "" 
+        intervals [474]:
+            xmin = 289.88 
+            xmax = 290.44 
+            text = " geben" 
+        intervals [475]:
+            xmin = 290.44 
+            xmax = 290.62 
+            text = " wir" 
+        intervals [476]:
+            xmin = 290.62 
+            xmax = 290.78 
+            text = " ihr" 
+        intervals [477]:
+            xmin = 290.78 
+            xmax = 291.06 
+            text = " zwei." 
+        intervals [478]:
+            xmin = 291.06 
+            xmax = 292.08 
+            text = "" 
+        intervals [479]:
+            xmin = 292.08 
+            xmax = 292.64 
+            text = " Willst" 
+        intervals [480]:
+            xmin = 292.64 
+            xmax = 292.72 
+            text = " du" 
+        intervals [481]:
+            xmin = 292.72 
+            xmax = 292.82 
+            text = " es" 
+        intervals [482]:
+            xmin = 292.82 
+            xmax = 293.18 
+            text = " versuchen?" 
+        intervals [483]:
+            xmin = 293.18 
+            xmax = 295.56 
+            text = "" 
+        intervals [484]:
+            xmin = 295.56 
+            xmax = 296.12 
+            text = " Höhlenfrau" 
+        intervals [485]:
+            xmin = 296.12 
+            xmax = 296.52 
+            text = " Wilma." 
+        intervals [486]:
+            xmin = 296.52 
+            xmax = 297.24 
+            text = " Sieh" 
+        intervals [487]:
+            xmin = 297.24 
+            xmax = 297.32 
+            text = " dir" 
+        intervals [488]:
+            xmin = 297.32 
+            xmax = 297.52 
+            text = " diese" 
+        intervals [489]:
+            xmin = 297.52 
+            xmax = 298.1 
+            text = " Katzen" 
+        intervals [490]:
+            xmin = 298.1 
+            xmax = 298.36 
+            text = " an." 
+        intervals [491]:
+            xmin = 298.36 
+            xmax = 299.08 
+            text = "" 
+        intervals [492]:
+            xmin = 299.08 
+            xmax = 299.62 
+            text = " Erzähl" 
+        intervals [493]:
+            xmin = 299.62 
+            xmax = 299.72 
+            text = " mir" 
+        intervals [494]:
+            xmin = 299.72 
+            xmax = 299.98 
+            text = " etwas" 
+        intervals [495]:
+            xmin = 299.98 
+            xmax = 300.28 
+            text = " über" 
+        intervals [496]:
+            xmin = 300.28 
+            xmax = 300.52 
+            text = " sie." 
+        intervals [497]:
+            xmin = 300.52 
+            xmax = 303.84 
+            text = "" 
+        intervals [498]:
+            xmin = 303.84 
+            xmax = 304.38 
+            text = " Sieh" 
+        intervals [499]:
+            xmin = 304.38 
+            xmax = 304.52 
+            text = " dir" 
+        intervals [500]:
+            xmin = 304.52 
+            xmax = 304.72 
+            text = " diese" 
+        intervals [501]:
+            xmin = 304.72 
+            xmax = 305.22 
+            text = " Orangen" 
+        intervals [502]:
+            xmin = 305.22 
+            xmax = 305.58 
+            text = " an." 
+        intervals [503]:
+            xmin = 305.58 
+            xmax = 306.84 
+            text = "" 
+        intervals [504]:
+            xmin = 306.84 
+            xmax = 307.38 
+            text = " Sieh" 
+        intervals [505]:
+            xmin = 307.38 
+            xmax = 307.52 
+            text = " dir" 
+        intervals [506]:
+            xmin = 307.52 
+            xmax = 307.76 
+            text = " diese" 
+        intervals [507]:
+            xmin = 307.76 
+            xmax = 308.26 
+            text = " Hunde" 
+        intervals [508]:
+            xmin = 308.26 
+            xmax = 308.5 
+            text = " an." 
+        intervals [509]:
+            xmin = 308.5 
+            xmax = 309.74 
+            text = "" 
+        intervals [510]:
+            xmin = 309.74 
+            xmax = 310.28 
+            text = " Sieh" 
+        intervals [511]:
+            xmin = 310.28 
+            xmax = 310.46 
+            text = " dir" 
+        intervals [512]:
+            xmin = 310.46 
+            xmax = 310.7 
+            text = " diese" 
+        intervals [513]:
+            xmin = 310.7 
+            xmax = 311.22 
+            text = " Flaschen" 
+        intervals [514]:
+            xmin = 311.22 
+            xmax = 311.52 
+            text = " an." 
+        intervals [515]:
+            xmin = 311.52 
+            xmax = 312.82 
+            text = "" 
+        intervals [516]:
+            xmin = 312.82 
+            xmax = 313.36 
+            text = " Sieh" 
+        intervals [517]:
+            xmin = 313.36 
+            xmax = 313.5 
+            text = " dir" 
+        intervals [518]:
+            xmin = 313.5 
+            xmax = 313.78 
+            text = " diese" 
+        intervals [519]:
+            xmin = 313.78 
+            xmax = 314.42 
+            text = " Elefanten" 
+        intervals [520]:
+            xmin = 314.42 
+            xmax = 314.78 
+            text = " an." 
+        intervals [521]:
+            xmin = 314.78 
+            xmax = 316.32 
+            text = "" 
+        intervals [522]:
+            xmin = 316.32 
+            xmax = 316.86 
+            text = " Sieh" 
+        intervals [523]:
+            xmin = 316.86 
+            xmax = 317 
+            text = " dir" 
+        intervals [524]:
+            xmin = 317 
+            xmax = 317.3 
+            text = " diese" 
+        intervals [525]:
+            xmin = 317.3 
+            xmax = 318.08 
+            text = " Luftballons" 
+        intervals [526]:
+            xmin = 318.08 
+            xmax = 318.4 
+            text = " an." 
+        intervals [527]:
+            xmin = 318.4 
+            xmax = 319.88 
+            text = "" 
+        intervals [528]:
+            xmin = 319.88 
+            xmax = 320.42 
+            text = " Sieh" 
+        intervals [529]:
+            xmin = 320.42 
+            xmax = 320.56 
+            text = " dir" 
+        intervals [530]:
+            xmin = 320.56 
+            xmax = 320.82 
+            text = " diese" 
+        intervals [531]:
+            xmin = 320.82 
+            xmax = 321.44 
+            text = " Fenster" 
+        intervals [532]:
+            xmin = 321.44 
+            xmax = 321.7 
+            text = " an." 
+        intervals [533]:
+            xmin = 321.7 
+            xmax = 323.34 
+            text = "" 
+        intervals [534]:
+            xmin = 323.34 
+            xmax = 323.88 
+            text = " Sieh" 
+        intervals [535]:
+            xmin = 323.88 
+            xmax = 324 
+            text = " dir" 
+        intervals [536]:
+            xmin = 324 
+            xmax = 324.24 
+            text = " diese" 
+        intervals [537]:
+            xmin = 324.24 
+            xmax = 324.68 
+            text = " Socken" 
+        intervals [538]:
+            xmin = 324.68 
+            xmax = 325 
+            text = " an." 
+        intervals [539]:
+            xmin = 325 
+            xmax = 326.7 
+            text = "" 
+        intervals [540]:
+            xmin = 326.7 
+            xmax = 327.26 
+            text = " Sieh" 
+        intervals [541]:
+            xmin = 327.26 
+            xmax = 327.4 
+            text = " dir" 
+        intervals [542]:
+            xmin = 327.4 
+            xmax = 327.62 
+            text = " diese" 
+        intervals [543]:
+            xmin = 327.62 
+            xmax = 328.48 
+            text = " Flugzeuge" 
+        intervals [544]:
+            xmin = 328.48 
+            xmax = 328.76 
+            text = " an." 
+        intervals [545]:
+            xmin = 328.76 
+            xmax = 330.3 
+            text = "" 
+        intervals [546]:
+            xmin = 330.3 
+            xmax = 330.86 
+            text = " Sieh" 
+        intervals [547]:
+            xmin = 330.86 
+            xmax = 331.02 
+            text = " dir" 
+        intervals [548]:
+            xmin = 331.02 
+            xmax = 331.28 
+            text = " diese" 
+        intervals [549]:
+            xmin = 331.28 
+            xmax = 331.88 
+            text = " Geraffen" 
+        intervals [550]:
+            xmin = 331.88 
+            xmax = 332.26 
+            text = " an." 
+        intervals [551]:
+            xmin = 332.26 
+            xmax = 333.96 
+            text = "" 
+        intervals [552]:
+            xmin = 333.96 
+            xmax = 334.52 
+            text = " Sieh" 
+        intervals [553]:
+            xmin = 334.52 
+            xmax = 334.66 
+            text = " dir" 
+        intervals [554]:
+            xmin = 334.66 
+            xmax = 334.94 
+            text = " diese" 
+        intervals [555]:
+            xmin = 334.94 
+            xmax = 335.1 
+            text = " Giraffen" 
+        intervals [556]:
+            xmin = 335.1 
+            xmax = 335.11 
+            text = "" 
+        intervals [557]:
+            xmin = 335.11 
+            xmax = 335.12 
+            text = " an." 
+        intervals [558]:
+            xmin = 335.12 
+            xmax = 335.13 
+            text = " Sieh" 
+        intervals [559]:
+            xmin = 335.13 
+            xmax = 335.14 
+            text = " dir" 
+        intervals [560]:
+            xmin = 335.14 
+            xmax = 335.15 
+            text = " diese" 
+        intervals [561]:
+            xmin = 335.15 
+            xmax = 335.46 
+            text = " Frösche" 
+        intervals [562]:
+            xmin = 335.46 
+            xmax = 335.74 
+            text = " an." 
+        intervals [563]:
+            xmin = 335.74 
+            xmax = 337.76 
+            text = "" 
+        intervals [564]:
+            xmin = 337.76 
+            xmax = 338.32 
+            text = " Sieh" 
+        intervals [565]:
+            xmin = 338.32 
+            xmax = 338.46 
+            text = " dir" 
+        intervals [566]:
+            xmin = 338.46 
+            xmax = 338.74 
+            text = " diese" 
+        intervals [567]:
+            xmin = 338.74 
+            xmax = 339.34 
+            text = " Kaninchen" 
+        intervals [568]:
+            xmin = 339.34 
+            xmax = 339.7 
+            text = " an." 
+        intervals [569]:
+            xmin = 339.7 
+            xmax = 341.68 
+            text = "" 
+        intervals [570]:
+            xmin = 341.68 
+            xmax = 342.24 
+            text = " Sieh" 
+        intervals [571]:
+            xmin = 342.24 
+            xmax = 342.4 
+            text = " dir" 
+        intervals [572]:
+            xmin = 342.4 
+            xmax = 342.66 
+            text = " diese" 
+        intervals [573]:
+            xmin = 342.66 
+            xmax = 343.16 
+            text = " Affen" 
+        intervals [574]:
+            xmin = 343.16 
+            xmax = 343.42 
+            text = " an." 
+        intervals [575]:
+            xmin = 343.42 
+            xmax = 345.32 
+            text = "" 
+        intervals [576]:
+            xmin = 345.32 
+            xmax = 345.88 
+            text = " Sieh" 
+        intervals [577]:
+            xmin = 345.88 
+            xmax = 346 
+            text = " dir" 
+        intervals [578]:
+            xmin = 346 
+            xmax = 346.26 
+            text = " diese" 
+        intervals [579]:
+            xmin = 346.26 
+            xmax = 346.82 
+            text = " Vögel" 
+        intervals [580]:
+            xmin = 346.82 
+            xmax = 347.06 
+            text = " an." 
+        intervals [581]:
+            xmin = 347.06 
+            xmax = 349.1 
+            text = "" 
+        intervals [582]:
+            xmin = 349.1 
+            xmax = 349.66 
+            text = " Sieh" 
+        intervals [583]:
+            xmin = 349.66 
+            xmax = 349.82 
+            text = " dir" 
+        intervals [584]:
+            xmin = 349.82 
+            xmax = 350.08 
+            text = " diese" 
+        intervals [585]:
+            xmin = 350.08 
+            xmax = 350.46 
+            text = " Jungen" 
+        intervals [586]:
+            xmin = 350.46 
+            xmax = 350.76 
+            text = " an." 
+        intervals [587]:
+            xmin = 350.76 
+            xmax = 352.68 
+            text = "" 
+        intervals [588]:
+            xmin = 352.68 
+            xmax = 353.24 
+            text = " Sieh" 
+        intervals [589]:
+            xmin = 353.24 
+            xmax = 353.4 
+            text = " dir" 
+        intervals [590]:
+            xmin = 353.4 
+            xmax = 353.72 
+            text = " diese" 
+        intervals [591]:
+            xmin = 353.72 
+            xmax = 354.24 
+            text = " Pferde" 
+        intervals [592]:
+            xmin = 354.24 
+            xmax = 354.48 
+            text = " an." 
+        intervals [593]:
+            xmin = 354.48 
+            xmax = 355.94 
+            text = "" 
+        intervals [594]:
+            xmin = 355.94 
+            xmax = 356.5 
+            text = " Sieh" 
+        intervals [595]:
+            xmin = 356.5 
+            xmax = 356.51 
+            text = " dir" 
+        intervals [596]:
+            xmin = 356.51 
+            xmax = 356.52 
+            text = " diese" 
+        intervals [597]:
+            xmin = 356.52 
+            xmax = 356.53 
+            text = " Tiere" 
+        intervals [598]:
+            xmin = 356.53 
+            xmax = 356.54 
+            text = " an." 
+        intervals [599]:
+            xmin = 356.54 
+            xmax = 356.9 
+            text = " Sieh" 
+        intervals [600]:
+            xmin = 356.9 
+            xmax = 357.04 
+            text = " dir" 
+        intervals [601]:
+            xmin = 357.04 
+            xmax = 357.26 
+            text = " diese" 
+        intervals [602]:
+            xmin = 357.26 
+            xmax = 357.8 
+            text = " Bären" 
+        intervals [603]:
+            xmin = 357.8 
+            xmax = 358.12 
+            text = " an." 
+        intervals [604]:
+            xmin = 358.12 
+            xmax = 359.99 
+            text = "" 
+        intervals [605]:
+            xmin = 359.99 
+            xmax = 360.3 
+            text = " Sieh" 
+        intervals [606]:
+            xmin = 360.3 
+            xmax = 360.44 
+            text = " dir" 
+        intervals [607]:
+            xmin = 360.44 
+            xmax = 360.66 
+            text = " diese" 
+        intervals [608]:
+            xmin = 360.66 
+            xmax = 361.12 
+            text = " Hühner" 
+        intervals [609]:
+            xmin = 361.12 
+            xmax = 361.4 
+            text = " an." 
+        intervals [610]:
+            xmin = 361.4 
+            xmax = 363.25 
+            text = "" 
+        intervals [611]:
+            xmin = 363.25 
+            xmax = 363.56 
+            text = " Sieh" 
+        intervals [612]:
+            xmin = 363.56 
+            xmax = 363.66 
+            text = " dir" 
+        intervals [613]:
+            xmin = 363.66 
+            xmax = 363.92 
+            text = " diese" 
+        intervals [614]:
+            xmin = 363.92 
+            xmax = 364.52 
+            text = " Mädchen" 
+        intervals [615]:
+            xmin = 364.52 
+            xmax = 364.82 
+            text = " an." 
+        intervals [616]:
+            xmin = 364.82 
+            xmax = 367.05 
+            text = "" 
+        intervals [617]:
+            xmin = 367.05 
+            xmax = 367.36 
+            text = " Sieh" 
+        intervals [618]:
+            xmin = 367.36 
+            xmax = 367.5 
+            text = " dir" 
+        intervals [619]:
+            xmin = 367.5 
+            xmax = 367.72 
+            text = " diese" 
+        intervals [620]:
+            xmin = 367.72 
+            xmax = 368.32 
+            text = " Hamburger" 
+        intervals [621]:
+            xmin = 368.32 
+            xmax = 368.64 
+            text = " an." 
+        intervals [622]:
+            xmin = 368.64 
+            xmax = 370.99 
+            text = "" 
+        intervals [623]:
+            xmin = 370.99 
+            xmax = 371.3 
+            text = " Sieh" 
+        intervals [624]:
+            xmin = 371.3 
+            xmax = 371.44 
+            text = " dir" 
+        intervals [625]:
+            xmin = 371.44 
+            xmax = 371.7 
+            text = " diese" 
+        intervals [626]:
+            xmin = 371.7 
+            xmax = 372.28 
+            text = " Schneemänner" 
+        intervals [627]:
+            xmin = 372.28 
+            xmax = 372.58 
+            text = " an." 
+        intervals [628]:
+            xmin = 372.58 
+            xmax = 375.21 
+            text = "" 
+        intervals [629]:
+            xmin = 375.21 
+            xmax = 375.52 
+            text = " Sieh" 
+        intervals [630]:
+            xmin = 375.52 
+            xmax = 375.62 
+            text = " dir" 
+        intervals [631]:
+            xmin = 375.62 
+            xmax = 375.88 
+            text = " diese" 
+        intervals [632]:
+            xmin = 375.88 
+            xmax = 376.48 
+            text = " Sterne" 
+        intervals [633]:
+            xmin = 376.48 
+            xmax = 376.74 
+            text = " an." 
+        intervals [634]:
+            xmin = 376.74 
+            xmax = 378.93 
+            text = "" 
+        intervals [635]:
+            xmin = 378.93 
+            xmax = 379.24 
+            text = " Sieh" 
+        intervals [636]:
+            xmin = 379.24 
+            xmax = 379.38 
+            text = " dir" 
+        intervals [637]:
+            xmin = 379.38 
+            xmax = 379.64 
+            text = " diese" 
+        intervals [638]:
+            xmin = 379.64 
+            xmax = 380.3 
+            text = " Autos" 
+        intervals [639]:
+            xmin = 380.3 
+            xmax = 380.52 
+            text = " an." 
+        intervals [640]:
+            xmin = 380.52 
+            xmax = 382.69 
+            text = "" 
+        intervals [641]:
+            xmin = 382.69 
+            xmax = 383 
+            text = " Sieh" 
+        intervals [642]:
+            xmin = 383 
+            xmax = 383.14 
+            text = " dir" 
+        intervals [643]:
+            xmin = 383.14 
+            xmax = 383.44 
+            text = " diese" 
+        intervals [644]:
+            xmin = 383.44 
+            xmax = 384.28 
+            text = " Feuerwehrmänner" 
+        intervals [645]:
+            xmin = 384.28 
+            xmax = 384.62 
+            text = " an." 
+        intervals [646]:
+            xmin = 384.62 
+            xmax = 386.56 
+            text = "" 
+        intervals [647]:
+            xmin = 386.56 
+            xmax = 387.12 
+            text = " Sieh" 
+        intervals [648]:
+            xmin = 387.12 
+            xmax = 387.24 
+            text = " dir" 
+        intervals [649]:
+            xmin = 387.24 
+            xmax = 387.48 
+            text = " diese" 
+        intervals [650]:
+            xmin = 387.48 
+            xmax = 388.14 
+            text = " Ärzte" 
+        intervals [651]:
+            xmin = 388.14 
+            xmax = 388.44 
+            text = " an." 
+        intervals [652]:
+            xmin = 388.44 
+            xmax = 390.32 
+            text = "" 
+        intervals [653]:
+            xmin = 390.32 
+            xmax = 390.88 
+            text = " Sieh" 
+        intervals [654]:
+            xmin = 390.88 
+            xmax = 391.02 
+            text = " dir" 
+        intervals [655]:
+            xmin = 391.02 
+            xmax = 391.28 
+            text = " diese" 
+        intervals [656]:
+            xmin = 391.28 
+            xmax = 392.16 
+            text = " Polizisten" 
+        intervals [657]:
+            xmin = 392.16 
+            xmax = 392.56 
+            text = " an." 
+        intervals [658]:
+            xmin = 392.56 
+            xmax = 394.32 
+            text = "" 
+        intervals [659]:
+            xmin = 394.32 
+            xmax = 394.88 
+            text = " Sieh" 
+        intervals [660]:
+            xmin = 394.88 
+            xmax = 394.98 
+            text = " dir" 
+        intervals [661]:
+            xmin = 394.98 
+            xmax = 395.26 
+            text = " diese" 
+        intervals [662]:
+            xmin = 395.26 
+            xmax = 395.98 
+            text = " Säuglinge" 
+        intervals [663]:
+            xmin = 395.98 
+            xmax = 396.18 
+            text = " an." 
+        intervals [664]:
+            xmin = 396.18 
+            xmax = 398.22 
+            text = "" 
+        intervals [665]:
+            xmin = 398.22 
+            xmax = 398.78 
+            text = " Sieh" 
+        intervals [666]:
+            xmin = 398.78 
+            xmax = 398.92 
+            text = " dir" 
+        intervals [667]:
+            xmin = 398.92 
+            xmax = 399.18 
+            text = " diese" 
+        intervals [668]:
+            xmin = 399.18 
+            xmax = 400.12 
+            text = " Fernsehgeräte" 
+        intervals [669]:
+            xmin = 400.12 
+            xmax = 400.42 
+            text = " an." 
+        intervals [670]:
+            xmin = 400.42 
+            xmax = 402.58 
+            text = "" 
+        intervals [671]:
+            xmin = 402.58 
+            xmax = 403.14 
+            text = " Sieh" 
+        intervals [672]:
+            xmin = 403.14 
+            xmax = 403.28 
+            text = " dir" 
+        intervals [673]:
+            xmin = 403.28 
+            xmax = 403.54 
+            text = " diese" 
+        intervals [674]:
+            xmin = 403.54 
+            xmax = 404.26 
+            text = " Spielsachen" 
+        intervals [675]:
+            xmin = 404.26 
+            xmax = 404.56 
+            text = " an." 
+        intervals [676]:
+            xmin = 404.56 
+            xmax = 406.82 
+            text = "" 
+        intervals [677]:
+            xmin = 406.82 
+            xmax = 407.38 
+            text = " Sieh" 
+        intervals [678]:
+            xmin = 407.38 
+            xmax = 407.52 
+            text = " dir" 
+        intervals [679]:
+            xmin = 407.52 
+            xmax = 407.74 
+            text = " diese" 
+        intervals [680]:
+            xmin = 407.74 
+            xmax = 408.22 
+            text = " Stühle" 
+        intervals [681]:
+            xmin = 408.22 
+            xmax = 408.5 
+            text = " an." 
+        intervals [682]:
+            xmin = 408.5 
+            xmax = 410.78 
+            text = "" 
+        intervals [683]:
+            xmin = 410.78 
+            xmax = 411.34 
+            text = " Sieh" 
+        intervals [684]:
+            xmin = 411.34 
+            xmax = 411.48 
+            text = " dir" 
+        intervals [685]:
+            xmin = 411.48 
+            xmax = 411.74 
+            text = " diese" 
+        intervals [686]:
+            xmin = 411.74 
+            xmax = 412.26 
+            text = " Schafe" 
+        intervals [687]:
+            xmin = 412.26 
+            xmax = 412.48 
+            text = " an." 
+        intervals [688]:
+            xmin = 412.48 
+            xmax = 414.76 
+            text = "" 
+        intervals [689]:
+            xmin = 414.76 
+            xmax = 415.32 
+            text = " Sieh" 
+        intervals [690]:
+            xmin = 415.32 
+            xmax = 415.46 
+            text = " dir" 
+        intervals [691]:
+            xmin = 415.46 
+            xmax = 415.7 
+            text = " diese" 
+        intervals [692]:
+            xmin = 415.7 
+            xmax = 416.24 
+            text = " Löwen" 
+        intervals [693]:
+            xmin = 416.24 
+            xmax = 416.5 
+            text = " an." 
+        intervals [694]:
+            xmin = 416.5 
+            xmax = 418.52 
+            text = "" 
+        intervals [695]:
+            xmin = 418.52 
+            xmax = 419.08 
+            text = " Sieh" 
+        intervals [696]:
+            xmin = 419.08 
+            xmax = 419.2 
+            text = " dir" 
+        intervals [697]:
+            xmin = 419.2 
+            xmax = 419.42 
+            text = " diese" 
+        intervals [698]:
+            xmin = 419.42 
+            xmax = 420.16 
+            text = " Pinguine" 
+        intervals [699]:
+            xmin = 420.16 
+            xmax = 420.44 
+            text = " an." 
+        intervals [700]:
+            xmin = 420.44 
+            xmax = 422.5 
+            text = "" 
+        intervals [701]:
+            xmin = 422.5 
+            xmax = 423.06 
+            text = " Sieh" 
+        intervals [702]:
+            xmin = 423.06 
+            xmax = 423.2 
+            text = " dir" 
+        intervals [703]:
+            xmin = 423.2 
+            xmax = 423.44 
+            text = " diese" 
+        intervals [704]:
+            xmin = 423.44 
+            xmax = 423.92 
+            text = " Mäuse" 
+        intervals [705]:
+            xmin = 423.92 
+            xmax = 424.2 
+            text = " an." 
+        intervals [706]:
+            xmin = 424.2 
+            xmax = 426.32 
+            text = "" 
+        intervals [707]:
+            xmin = 426.32 
+            xmax = 426.88 
+            text = " Sieh" 
+        intervals [708]:
+            xmin = 426.88 
+            xmax = 427.02 
+            text = " dir" 
+        intervals [709]:
+            xmin = 427.02 
+            xmax = 427.26 
+            text = " diese" 
+        intervals [710]:
+            xmin = 427.26 
+            xmax = 428 
+            text = " Eichhörnchen" 
+        intervals [711]:
+            xmin = 428 
+            xmax = 428.28 
+            text = " an." 
+        intervals [712]:
+            xmin = 428.28 
+            xmax = 430.28 
+            text = "" 
+        intervals [713]:
+            xmin = 430.28 
+            xmax = 430.84 
+            text = " Sieh" 
+        intervals [714]:
+            xmin = 430.84 
+            xmax = 430.98 
+            text = " dir" 
+        intervals [715]:
+            xmin = 430.98 
+            xmax = 431.26 
+            text = " diese" 
+        intervals [716]:
+            xmin = 431.26 
+            xmax = 431.82 
+            text = " Zebras" 
+        intervals [717]:
+            xmin = 431.82 
+            xmax = 432.18 
+            text = " an." 
+        intervals [718]:
+            xmin = 432.18 
+            xmax = 434.12 
+            text = "" 
+        intervals [719]:
+            xmin = 434.12 
+            xmax = 434.68 
+            text = " Sieh" 
+        intervals [720]:
+            xmin = 434.68 
+            xmax = 434.8 
+            text = " dir" 
+        intervals [721]:
+            xmin = 434.8 
+            xmax = 435.02 
+            text = " diese" 
+        intervals [722]:
+            xmin = 435.02 
+            xmax = 435.44 
+            text = " Fische" 
+        intervals [723]:
+            xmin = 435.44 
+            xmax = 435.6 
+            text = " an." 
+        intervals [724]:
+            xmin = 435.6 
+            xmax = 439.74 
+            text = "" 
+        intervals [725]:
+            xmin = 439.74 
+            xmax = 440.3 
+            text = " Also," 
+        intervals [726]:
+            xmin = 440.3 
+            xmax = 440.86 
+            text = " wie" 
+        intervals [727]:
+            xmin = 440.86 
+            xmax = 441.06 
+            text = " gut" 
+        intervals [728]:
+            xmin = 441.06 
+            xmax = 441.26 
+            text = " hat" 
+        intervals [729]:
+            xmin = 441.26 
+            xmax = 441.78 
+            text = " Höhlenfrau" 
+        intervals [730]:
+            xmin = 441.78 
+            xmax = 442.18 
+            text = " Wilma" 
+        intervals [731]:
+            xmin = 442.18 
+            xmax = 443 
+            text = " abgeschnitten?" 
+        intervals [732]:
+            xmin = 443 
+            xmax = 444.42 
+            text = " Belohne" 
+        intervals [733]:
+            xmin = 444.42 
+            xmax = 444.56 
+            text = " sie" 
+        intervals [734]:
+            xmin = 444.56 
+            xmax = 444.76 
+            text = " mit" 
+        intervals [735]:
+            xmin = 444.76 
+            xmax = 445.3 
+            text = " 1," 
+        intervals [736]:
+            xmin = 445.3 
+            xmax = 445.68 
+            text = "" 
+        intervals [737]:
+            xmin = 445.68 
+            xmax = 446.16 
+            text = " 2" 
+        intervals [738]:
+            xmin = 446.16 
+            xmax = 447.14 
+            text = " oder" 
+        intervals [739]:
+            xmin = 447.14 
+            xmax = 447.54 
+            text = " 3" 
+        intervals [740]:
+            xmin = 447.54 
+            xmax = 448.32 
+            text = " Erdbeeren." 
+        intervals [741]:
+            xmin = 448.32 
+            xmax = 449.15999999999997 
+            text = "" 
+        intervals [742]:
+            xmin = 449.15999999999997 
+            xmax = 449.64 
+            text = " Gut" 
+        intervals [743]:
+            xmin = 449.64 
+            xmax = 449.98 
+            text = " gemacht!" 
+        intervals [744]:
+            xmin = 449.98 
+            xmax = 1000 
+            text = "" 
