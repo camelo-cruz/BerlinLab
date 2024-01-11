@@ -11,912 +11,1040 @@ item []:
         name = "words: " 
         xmin = 0 
         xmax = 1000 
-        intervals: size = 227 
+        intervals: size = 259 
         intervals [1]:
             xmin = 0 
-            xmax = 4.559999999999999 
+            xmax = 5.10097755003204 
             text = "" 
         intervals [2]:
-            xmin = 4.559999999999999 
-            xmax = 5.52 
+            xmin = 5.10097755003204 
+            xmax = 5.770708917056484 
             text = " ein" 
         intervals [3]:
-            xmin = 5.52 
-            xmax = 5.82 
+            xmin = 5.770708917056484 
+            xmax = 6.113464993201783 
             text = " paar" 
         intervals [4]:
-            xmin = 5.82 
-            xmax = 6.14 
+            xmin = 6.113464993201783 
+            xmax = 6.320922618237095 
             text = " der" 
         intervals [5]:
-            xmin = 6.14 
-            xmax = 6.82 
+            xmin = 6.320922618237095 
+            xmax = 7.074083996082685 
             text = " katzen" 
         intervals [6]:
-            xmin = 6.82 
-            xmax = 7.26 
+            xmin = 7.074083996082685 
+            xmax = 7.528386666458217 
             text = " tragen" 
         intervals [7]:
-            xmin = 7.26 
-            xmax = 7.72 
+            xmin = 7.528386666458217 
+            xmax = 7.854305064150271 
             text = " einen" 
         intervals [8]:
-            xmin = 7.72 
-            xmax = 8.04 
-            text = " hut" 
+            xmin = 7.854305064150271 
+            xmax = 8.637833965560104 
+            text = " hut." 
         intervals [9]:
-            xmin = 8.04 
-            xmax = 9.42 
-            text = " ein" 
+            xmin = 8.637833965560104 
+            xmax = 9.341853849095118 
+            text = "" 
         intervals [10]:
-            xmin = 9.42 
-            xmax = 10.14 
-            text = " paar" 
+            xmin = 9.341853849095118 
+            xmax = 10.013836156274715 
+            text = " ein" 
         intervals [11]:
-            xmin = 10.14 
-            xmax = 11.14 
-            text = " katzen" 
+            xmin = 10.013836156274715 
+            xmax = 10.627189134639986 
+            text = " paar" 
         intervals [12]:
-            xmin = 11.14 
-            xmax = 11.58 
-            text = " tragen" 
+            xmin = 10.627189134639986 
+            xmax = 11.411920151077906 
+            text = " katzen" 
         intervals [13]:
-            xmin = 11.58 
-            xmax = 12.06 
-            text = " einen" 
+            xmin = 11.411920151077906 
+            xmax = 11.853895091370527 
+            text = " tragen" 
         intervals [14]:
-            xmin = 12.06 
-            xmax = 12.36 
-            text = " hut" 
+            xmin = 11.853895091370527 
+            xmax = 12.196651167515826 
+            text = " einen" 
         intervals [15]:
-            xmin = 12.36 
-            xmax = 14.48 
-            text = " manche" 
+            xmin = 12.196651167515826 
+            xmax = 12.7694146105481 
+            text = " hut." 
         intervals [16]:
-            xmin = 14.48 
-            xmax = 14.68 
-            text = " der" 
+            xmin = 12.7694146105481 
+            xmax = 13.773947118224289 
+            text = "" 
         intervals [17]:
-            xmin = 14.68 
-            xmax = 15.28 
-            text = " katzen" 
-        intervals [18]:
-            xmin = 15.28 
-            xmax = 15.76 
-            text = " tragen" 
-        intervals [19]:
-            xmin = 15.76 
-            xmax = 16.26 
-            text = " einen" 
-        intervals [20]:
-            xmin = 16.26 
-            xmax = 16.56 
-            text = " hut" 
-        intervals [21]:
-            xmin = 16.56 
-            xmax = 19.04 
+            xmin = 13.773947118224289 
+            xmax = 14.603777618365537 
             text = " manche" 
-        intervals [22]:
-            xmin = 19.04 
-            xmax = 19.88 
-            text = " katzen" 
-        intervals [23]:
-            xmin = 19.88 
-            xmax = 20.38 
-            text = " tragen" 
-        intervals [24]:
-            xmin = 20.38 
-            xmax = 20.84 
-            text = " einen" 
-        intervals [25]:
-            xmin = 20.84 
-            xmax = 21.16 
-            text = " hut" 
-        intervals [26]:
-            xmin = 21.16 
-            xmax = 23.68 
-            text = " keine" 
-        intervals [27]:
-            xmin = 23.68 
-            xmax = 24.04 
+        intervals [18]:
+            xmin = 14.603777618365537 
+            xmax = 14.847314830363512 
             text = " der" 
+        intervals [19]:
+            xmin = 14.847314830363512 
+            xmax = 15.595215946453717 
+            text = " katzen" 
+        intervals [20]:
+            xmin = 15.595215946453717 
+            xmax = 16.059740628598004 
+            text = " tragen" 
+        intervals [21]:
+            xmin = 16.059740628598004 
+            xmax = 16.4024967047433 
+            text = " einen" 
+        intervals [22]:
+            xmin = 16.4024967047433 
+            xmax = 17.12635552027177 
+            text = " hut" 
+        intervals [23]:
+            xmin = 17.12635552027177 
+            xmax = 18.38749521535389 
+            text = "" 
+        intervals [24]:
+            xmin = 18.38749521535389 
+            xmax = 19.366154011716123 
+            text = " manche" 
+        intervals [25]:
+            xmin = 19.366154011716123 
+            xmax = 20.191474563487038 
+            text = " katzen" 
+        intervals [26]:
+            xmin = 20.191474563487038 
+            xmax = 20.66050919400166 
+            text = " tragen" 
+        intervals [27]:
+            xmin = 20.66050919400166 
+            xmax = 20.976205579924958 
+            text = " einen" 
         intervals [28]:
-            xmin = 24.04 
-            xmax = 24.6 
-            text = " katzen" 
+            xmin = 20.976205579924958 
+            xmax = 21.729366957770548 
+            text = " hut." 
         intervals [29]:
-            xmin = 24.6 
-            xmax = 25.18 
-            text = " tragen" 
+            xmin = 21.729366957770548 
+            xmax = 23.02884524803051 
+            text = "" 
         intervals [30]:
-            xmin = 25.18 
-            xmax = 25.62 
-            text = " einen" 
-        intervals [31]:
-            xmin = 25.62 
-            xmax = 25.94 
-            text = " hut" 
-        intervals [32]:
-            xmin = 25.94 
-            xmax = 27.96 
+            xmin = 23.02884524803051 
+            xmax = 23.95173881533765 
             text = " keine" 
-        intervals [33]:
-            xmin = 27.96 
-            xmax = 28.96 
+        intervals [31]:
+            xmin = 23.95173881533765 
+            xmax = 24.18625613059496 
+            text = " der" 
+        intervals [32]:
+            xmin = 24.18625613059496 
+            xmax = 24.943927456810883 
             text = " katzen" 
-        intervals [34]:
-            xmin = 28.96 
-            xmax = 29.44 
+        intervals [33]:
+            xmin = 24.943927456810883 
+            xmax = 25.45806157102883 
             text = " tragen" 
-        intervals [35]:
-            xmin = 29.44 
-            xmax = 29.88 
+        intervals [34]:
+            xmin = 25.45806157102883 
+            xmax = 25.782777853692796 
             text = " einen" 
+        intervals [35]:
+            xmin = 25.782777853692796 
+            xmax = 26.58750916008521 
+            text = " hut." 
         intervals [36]:
-            xmin = 29.88 
-            xmax = 30.2 
-            text = " hut" 
+            xmin = 26.58750916008521 
+            xmax = 27.606757491780442 
+            text = "" 
         intervals [37]:
-            xmin = 30.2 
-            xmax = 32.56 
-            text = " die" 
+            xmin = 27.606757491780442 
+            xmax = 28.447874964937593 
+            text = " keine" 
         intervals [38]:
-            xmin = 32.56 
-            xmax = 33.24 
+            xmin = 28.447874964937593 
+            xmax = 29.24162587811618 
             text = " katzen" 
         intervals [39]:
-            xmin = 33.24 
-            xmax = 33.66 
+            xmin = 29.24162587811618 
+            xmax = 29.706150560260465 
             text = " tragen" 
         intervals [40]:
-            xmin = 33.66 
-            xmax = 34.2 
+            xmin = 29.706150560260465 
+            xmax = 30.04439668803543 
             text = " einen" 
         intervals [41]:
-            xmin = 34.2 
-            xmax = 34.54 
-            text = " hut" 
+            xmin = 30.04439668803543 
+            xmax = 30.8604068993837 
+            text = " hut." 
         intervals [42]:
-            xmin = 34.54 
-            xmax = 36.7 
-            text = " alle" 
+            xmin = 30.8604068993837 
+            xmax = 32.17807020496599 
+            text = "" 
         intervals [43]:
-            xmin = 36.7 
-            xmax = 37.02 
-            text = " der" 
+            xmin = 32.17807020496599 
+            xmax = 32.76436349310926 
+            text = " die" 
         intervals [44]:
-            xmin = 37.02 
-            xmax = 37.64 
+            xmin = 32.76436349310926 
+            xmax = 33.50850497421418 
             text = " katzen" 
         intervals [45]:
-            xmin = 37.64 
-            xmax = 38.26 
+            xmin = 33.50850497421418 
+            xmax = 34.01361919169147 
             text = " tragen" 
         intervals [46]:
-            xmin = 38.26 
-            xmax = 38.82 
+            xmin = 34.01361919169147 
+            xmax = 34.36539516457743 
             text = " einen" 
         intervals [47]:
-            xmin = 38.82 
-            xmax = 39.14 
-            text = " hut" 
+            xmin = 34.36539516457743 
+            xmax = 35.16380931602737 
+            text = " hut." 
         intervals [48]:
-            xmin = 39.14 
-            xmax = 41.62 
-            text = " alle" 
-        intervals [49]:
-            xmin = 41.62 
-            xmax = 42.5 
-            text = " katzen" 
-        intervals [50]:
-            xmin = 42.5 
-            xmax = 43.16 
-            text = " tragen" 
-        intervals [51]:
-            xmin = 43.16 
-            xmax = 43.6 
-            text = " einen" 
-        intervals [52]:
-            xmin = 43.6 
-            xmax = 43.92 
-            text = " hut" 
-        intervals [53]:
-            xmin = 43.92 
-            xmax = 45.36 
+            xmin = 35.16380931602737 
+            xmax = 36.115408422167604 
             text = "" 
-        intervals [54]:
-            xmin = 45.36 
-            xmax = 46.38 
-            text = " die" 
-        intervals [55]:
-            xmin = 46.38 
-            xmax = 46.84 
-            text = " meisten" 
-        intervals [56]:
-            xmin = 46.84 
-            xmax = 47.22 
+        intervals [49]:
+            xmin = 36.115408422167604 
+            xmax = 36.91699325317883 
+            text = " alle" 
+        intervals [50]:
+            xmin = 36.91699325317883 
+            xmax = 37.16955036191747 
             text = " der" 
+        intervals [51]:
+            xmin = 37.16955036191747 
+            xmax = 38.003890810429056 
+            text = " katzen" 
+        intervals [52]:
+            xmin = 38.003890810429056 
+            xmax = 38.635283582275655 
+            text = " tragen" 
+        intervals [53]:
+            xmin = 38.635283582275655 
+            xmax = 38.98254960679129 
+            text = " einen" 
+        intervals [54]:
+            xmin = 38.98254960679129 
+            xmax = 39.79810801649652 
+            text = " hut." 
+        intervals [55]:
+            xmin = 39.79810801649652 
+            xmax = 41.12118487373521 
+            text = "" 
+        intervals [56]:
+            xmin = 41.12118487373521 
+            xmax = 42.027684496172114 
+            text = " alle" 
         intervals [57]:
-            xmin = 47.22 
-            xmax = 47.76 
+            xmin = 42.027684496172114 
+            xmax = 42.911634376757355 
             text = " katzen" 
         intervals [58]:
-            xmin = 47.76 
-            xmax = 48.34 
+            xmin = 42.911634376757355 
+            xmax = 43.43478838771597 
             text = " tragen" 
         intervals [59]:
-            xmin = 48.34 
-            xmax = 48.76 
+            xmin = 43.43478838771597 
+            xmax = 43.77754446386127 
             text = " einen" 
         intervals [60]:
-            xmin = 48.76 
-            xmax = 49.06 
-            text = " hut" 
+            xmin = 43.77754446386127 
+            xmax = 44.412696870693146 
+            text = " hut." 
         intervals [61]:
-            xmin = 49.06 
-            xmax = 51.36 
-            text = " die" 
+            xmin = 44.412696870693146 
+            xmax = 45.90129448076509 
+            text = "" 
         intervals [62]:
-            xmin = 51.36 
-            xmax = 51.8 
-            text = " meisten" 
+            xmin = 45.90129448076509 
+            xmax = 46.519012185659705 
+            text = " die" 
         intervals [63]:
-            xmin = 51.8 
-            xmax = 52.72 
-            text = " katzen" 
+            xmin = 46.519012185659705 
+            xmax = 47.15627031080574 
+            text = " meisten" 
         intervals [64]:
-            xmin = 52.72 
-            xmax = 53.2 
-            text = " tragen" 
+            xmin = 47.15627031080574 
+            xmax = 47.341178193989386 
+            text = " der" 
         intervals [65]:
-            xmin = 53.2 
-            xmax = 53.58 
-            text = " einen" 
+            xmin = 47.341178193989386 
+            xmax = 48.089829623464645 
+            text = " katzen" 
         intervals [66]:
-            xmin = 53.58 
-            xmax = 53.92 
-            text = " hut" 
+            xmin = 48.089829623464645 
+            xmax = 48.60396373768259 
+            text = " tragen" 
         intervals [67]:
-            xmin = 53.92 
-            xmax = 55.68 
-            text = "" 
+            xmin = 48.60396373768259 
+            xmax = 48.91515017523556 
+            text = " einen" 
         intervals [68]:
-            xmin = 55.68 
-            xmax = 56.68 
-            text = " Viele" 
+            xmin = 48.91515017523556 
+            xmax = 49.69959074799151 
+            text = " hut." 
         intervals [69]:
-            xmin = 56.68 
-            xmax = 57.06 
-            text = " der" 
+            xmin = 49.69959074799151 
+            xmax = 50.90374696287038 
+            text = "" 
         intervals [70]:
-            xmin = 57.06 
-            xmax = 57.74 
-            text = " Katzen" 
+            xmin = 50.90374696287038 
+            xmax = 51.50974202922613 
+            text = " die" 
         intervals [71]:
-            xmin = 57.74 
-            xmax = 58.22 
-            text = " tragen" 
+            xmin = 51.50974202922613 
+            xmax = 52.21780392336839 
+            text = " meisten" 
         intervals [72]:
-            xmin = 58.22 
-            xmax = 58.72 
-            text = " einen" 
+            xmin = 52.21780392336839 
+            xmax = 52.97547524958431 
+            text = " katzen" 
         intervals [73]:
-            xmin = 58.72 
-            xmax = 59.08 
-            text = " Hut." 
+            xmin = 52.97547524958431 
+            xmax = 53.435489983358266 
+            text = " tragen" 
         intervals [74]:
-            xmin = 59.08 
-            xmax = 64.58 
-            text = "" 
+            xmin = 53.435489983358266 
+            xmax = 53.7692261627629 
+            text = " einen" 
         intervals [75]:
-            xmin = 64.58 
-            xmax = 65.58 
-            text = " Nicht" 
+            xmin = 53.7692261627629 
+            xmax = 54.54223454066197 
+            text = " hut." 
         intervals [76]:
-            xmin = 65.58 
-            xmax = 66.58 
-            text = " alle" 
-        intervals [77]:
-            xmin = 66.58 
-            xmax = 66.86 
-            text = " der" 
-        intervals [78]:
-            xmin = 66.86 
-            xmax = 67.54 
-            text = " Katzen" 
-        intervals [79]:
-            xmin = 67.54 
-            xmax = 67.96 
-            text = " tragen" 
-        intervals [80]:
-            xmin = 67.96 
-            xmax = 68.48 
-            text = " einen" 
-        intervals [81]:
-            xmin = 68.48 
-            xmax = 68.8 
-            text = " Hut." 
-        intervals [82]:
-            xmin = 68.8 
-            xmax = 70.24000000000001 
+            xmin = 54.54223454066197 
+            xmax = 56.268512077492446 
             text = "" 
-        intervals [83]:
-            xmin = 70.24000000000001 
-            xmax = 71.2 
-            text = " Nicht" 
-        intervals [84]:
-            xmin = 71.2 
-            xmax = 71.68 
-            text = " alle" 
-        intervals [85]:
-            xmin = 71.68 
-            xmax = 72.68 
+        intervals [77]:
+            xmin = 56.268512077492446 
+            xmax = 56.985593868375375 
+            text = " Viele" 
+        intervals [78]:
+            xmin = 56.985593868375375 
+            xmax = 57.20658133852169 
+            text = " der" 
+        intervals [79]:
+            xmin = 57.20658133852169 
+            xmax = 58.067981477255266 
             text = " Katzen" 
-        intervals [86]:
-            xmin = 72.68 
-            xmax = 73.1 
+        intervals [80]:
+            xmin = 58.067981477255266 
+            xmax = 58.555055901251215 
             text = " tragen" 
-        intervals [87]:
-            xmin = 73.1 
-            xmax = 73.54 
+        intervals [81]:
+            xmin = 58.555055901251215 
+            xmax = 58.88428213228551 
             text = " einen" 
-        intervals [88]:
-            xmin = 73.54 
-            xmax = 73.9 
+        intervals [82]:
+            xmin = 58.88428213228551 
+            xmax = 59.736662374278424 
             text = " Hut." 
+        intervals [83]:
+            xmin = 59.736662374278424 
+            xmax = 61.257136202744725 
+            text = "" 
+        intervals [84]:
+            xmin = 61.257136202744725 
+            xmax = 62.072985056131934 
+            text = "Viele" 
+        intervals [85]:
+            xmin = 62.072985056131934 
+            xmax = 62.95287678998988 
+            text = "Katzen" 
+        intervals [86]:
+            xmin = 62.95287678998988 
+            xmax = 63.42642136887483 
+            text = "tragen" 
+        intervals [87]:
+            xmin = 63.42642136887483 
+            xmax = 63.7511376515388 
+            text = "einen" 
+        intervals [88]:
+            xmin = 63.7511376515388 
+            xmax = 64.49076918427339 
+            text = "Hut." 
         intervals [89]:
-            xmin = 73.9 
-            xmax = 75.62 
+            xmin = 64.49076918427339 
+            xmax = 65.70622044022814 
             text = "" 
         intervals [90]:
-            xmin = 75.62 
-            xmax = 76.58 
-            text = " Beide" 
-        intervals [91]:
-            xmin = 76.58 
-            xmax = 76.72 
-            text = " der" 
-        intervals [92]:
-            xmin = 76.72 
-            xmax = 77.4 
-            text = " Katzen" 
-        intervals [93]:
-            xmin = 77.4 
-            xmax = 77.82 
-            text = " tragen" 
-        intervals [94]:
-            xmin = 77.82 
-            xmax = 78.3 
-            text = " einen" 
-        intervals [95]:
-            xmin = 78.3 
-            xmax = 78.66 
-            text = " Hut." 
-        intervals [96]:
-            xmin = 78.66 
-            xmax = 84.76000000000002 
-            text = "" 
-        intervals [97]:
-            xmin = 84.76000000000002 
-            xmax = 85.72000000000001 
-            text = " Die" 
-        intervals [98]:
-            xmin = 85.72000000000001 
-            xmax = 86.68 
-            text = " zwei" 
-        intervals [99]:
-            xmin = 86.68 
-            xmax = 87.48 
-            text = " Katzen" 
-        intervals [100]:
-            xmin = 87.48 
-            xmax = 87.86 
-            text = " tragen" 
-        intervals [101]:
-            xmin = 87.86 
-            xmax = 88.4 
-            text = " einen" 
-        intervals [102]:
-            xmin = 88.4 
-            xmax = 88.74 
-            text = " Hut." 
-        intervals [103]:
-            xmin = 88.74 
-            xmax = 90.12 
-            text = "" 
-        intervals [104]:
-            xmin = 90.12 
-            xmax = 91.08 
-            text = " Zwei" 
-        intervals [105]:
-            xmin = 91.08 
-            xmax = 91.82 
-            text = " Katzen" 
-        intervals [106]:
-            xmin = 91.82 
-            xmax = 92.18 
-            text = " tragen" 
-        intervals [107]:
-            xmin = 92.18 
-            xmax = 92.68 
-            text = " einen" 
-        intervals [108]:
-            xmin = 92.68 
-            xmax = 93 
-            text = " Hut." 
-        intervals [109]:
-            xmin = 93 
-            xmax = 99.62 
-            text = "" 
-        intervals [110]:
-            xmin = 99.62 
-            xmax = 100.54 
-            text = " Die" 
-        intervals [111]:
-            xmin = 100.54 
-            xmax = 100.84 
-            text = " zwei" 
-        intervals [112]:
-            xmin = 100.84 
-            xmax = 101.6 
-            text = " Katzen" 
-        intervals [113]:
-            xmin = 101.6 
-            xmax = 102.04 
-            text = " tragen" 
-        intervals [114]:
-            xmin = 102.04 
-            xmax = 102.54 
-            text = " einen" 
-        intervals [115]:
-            xmin = 102.54 
-            xmax = 102.88 
-            text = " Hut." 
-        intervals [116]:
-            xmin = 102.88 
-            xmax = 104.68 
-            text = "" 
-        intervals [117]:
-            xmin = 104.68 
-            xmax = 105.6 
-            text = " Beide" 
-        intervals [118]:
-            xmin = 105.6 
-            xmax = 106.38 
-            text = " Katzen" 
-        intervals [119]:
-            xmin = 106.38 
-            xmax = 106.9 
-            text = " tragen" 
-        intervals [120]:
-            xmin = 106.9 
-            xmax = 107.36 
-            text = " einen" 
-        intervals [121]:
-            xmin = 107.36 
-            xmax = 107.76 
-            text = " Hut." 
-        intervals [122]:
-            xmin = 107.76 
-            xmax = 109.4 
-            text = "" 
-        intervals [123]:
-            xmin = 109.4 
-            xmax = 110.32 
-            text = " Beide" 
-        intervals [124]:
-            xmin = 110.32 
-            xmax = 110.5 
-            text = " der" 
-        intervals [125]:
-            xmin = 110.5 
-            xmax = 111.18 
-            text = " Katzen" 
-        intervals [126]:
-            xmin = 111.18 
-            xmax = 111.64 
-            text = " tragen" 
-        intervals [127]:
-            xmin = 111.64 
-            xmax = 112.12 
-            text = " einen" 
-        intervals [128]:
-            xmin = 112.12 
-            xmax = 112.46 
-            text = " Hut." 
-        intervals [129]:
-            xmin = 112.46 
-            xmax = 114.14 
-            text = "" 
-        intervals [130]:
-            xmin = 114.14 
-            xmax = 115.06 
+            xmin = 65.70622044022814 
+            xmax = 66.46899873829841 
             text = " Nicht" 
-        intervals [131]:
-            xmin = 115.06 
-            xmax = 115.5 
+        intervals [91]:
+            xmin = 66.46899873829841 
+            xmax = 66.81235990598776 
             text = " alle" 
-        intervals [132]:
-            xmin = 115.5 
-            xmax = 116.44 
+        intervals [92]:
+            xmin = 66.81235990598776 
+            xmax = 67.0243274793934 
+            text = " der" 
+        intervals [93]:
+            xmin = 67.0243274793934 
+            xmax = 67.79928828570561 
             text = " Katzen" 
-        intervals [133]:
-            xmin = 116.44 
-            xmax = 117.02 
+        intervals [94]:
+            xmin = 67.79928828570561 
+            xmax = 68.33597214177523 
             text = " tragen" 
-        intervals [134]:
-            xmin = 117.02 
-            xmax = 117.5 
+        intervals [95]:
+            xmin = 68.33597214177523 
+            xmax = 68.66970832117985 
             text = " einen" 
-        intervals [135]:
-            xmin = 117.5 
-            xmax = 117.88 
+        intervals [96]:
+            xmin = 68.66970832117985 
+            xmax = 69.36875031858145 
             text = " Hut." 
+        intervals [97]:
+            xmin = 69.36875031858145 
+            xmax = 70.79361162798459 
+            text = "" 
+        intervals [98]:
+            xmin = 70.79361162798459 
+            xmax = 71.51701057380998 
+            text = " Nicht" 
+        intervals [99]:
+            xmin = 71.51701057380998 
+            xmax = 72.08526406847191 
+            text = " alle" 
+        intervals [100]:
+            xmin = 72.08526406847191 
+            xmax = 72.93313436209449 
+            text = " Katzen" 
+        intervals [101]:
+            xmin = 72.93313436209449 
+            xmax = 73.37059935401679 
+            text = " tragen" 
+        intervals [102]:
+            xmin = 73.37059935401679 
+            xmax = 73.70433553342141 
+            text = " einen" 
+        intervals [103]:
+            xmin = 73.70433553342141 
+            xmax = 74.43945711778566 
+            text = " Hut." 
+        intervals [104]:
+            xmin = 74.43945711778566 
+            xmax = 75.85244249874893 
+            text = "" 
+        intervals [105]:
+            xmin = 75.85244249874893 
+            xmax = 76.65972325703851 
+            text = " Beide" 
+        intervals [106]:
+            xmin = 76.65972325703851 
+            xmax = 76.86718088207382 
+            text = " der" 
+        intervals [107]:
+            xmin = 76.86718088207382 
+            xmax = 77.66093179525241 
+            text = " Katzen" 
+        intervals [108]:
+            xmin = 77.66093179525241 
+            xmax = 78.15251616761869 
+            text = " tragen" 
+        intervals [109]:
+            xmin = 78.15251616761869 
+            xmax = 78.50429214050465 
+            text = " einen" 
+        intervals [110]:
+            xmin = 78.50429214050465 
+            xmax = 79.23039382812824 
+            text = " Hut." 
+        intervals [111]:
+            xmin = 79.23039382812824 
+            xmax = 80.67991059769723 
+            text = "" 
+        intervals [112]:
+            xmin = 80.67991059769723 
+            xmax = 81.44209187228348 
+            text = "Beide" 
+        intervals [113]:
+            xmin = 81.44209187228348 
+            xmax = 82.33957159797973 
+            text = "Katzen" 
+        intervals [114]:
+            xmin = 82.33957159797973 
+            xmax = 82.86152349391024 
+            text = "tragen" 
+        intervals [115]:
+            xmin = 82.86152349391024 
+            xmax = 83.20427957005555 
+            text = "einen" 
+        intervals [116]:
+            xmin = 83.20427957005555 
+            xmax = 83.94391110279012 
+            text = "Hut." 
+        intervals [117]:
+            xmin = 83.94391110279012 
+            xmax = 85.95341178366544 
+            text = "" 
+        intervals [118]:
+            xmin = 85.95341178366544 
+            xmax = 86.53294418328323 
+            text = " Die" 
+        intervals [119]:
+            xmin = 86.53294418328323 
+            xmax = 86.97491912357586 
+            text = " zwei" 
+        intervals [120]:
+            xmin = 86.97491912357586 
+            xmax = 87.74612029490278 
+            text = " Katzen" 
+        intervals [121]:
+            xmin = 87.74612029490278 
+            xmax = 88.23319471889873 
+            text = " tragen" 
+        intervals [122]:
+            xmin = 88.23319471889873 
+            xmax = 88.56693089830335 
+            text = " einen" 
+        intervals [123]:
+            xmin = 88.56693089830335 
+            xmax = 89.27499279244562 
+            text = " Hut." 
+        intervals [124]:
+            xmin = 89.27499279244562 
+            xmax = 90.63476239625099 
+            text = "" 
+        intervals [125]:
+            xmin = 90.63476239625099 
+            xmax = 91.339516457051 
+            text = " Zwei" 
+        intervals [126]:
+            xmin = 91.339516457051 
+            xmax = 92.06441602964651 
+            text = " Katzen" 
+        intervals [127]:
+            xmin = 92.06441602964651 
+            xmax = 92.51541086667979 
+            text = " tragen" 
+        intervals [128]:
+            xmin = 92.51541086667979 
+            xmax = 92.8581669428251 
+            text = " einen" 
+        intervals [129]:
+            xmin = 92.8581669428251 
+            xmax = 93.65311997103176 
+            text = " Hut." 
+        intervals [130]:
+            xmin = 93.65311997103176 
+            xmax = 96.00387610128219 
+            text = "" 
+        intervals [131]:
+            xmin = 96.00387610128219 
+            xmax = 96.78409716934978 
+            text = "Zwei" 
+        intervals [132]:
+            xmin = 96.78409716934978 
+            xmax = 97.54176849556569 
+            text = "Katzen" 
+        intervals [133]:
+            xmin = 97.54176849556569 
+            xmax = 97.97923348748799 
+            text = "tragen" 
+        intervals [134]:
+            xmin = 97.97923348748799 
+            xmax = 98.30845971852229 
+            text = "einen" 
+        intervals [135]:
+            xmin = 98.30845971852229 
+            xmax = 99.1473101154042 
+            text = "Hut." 
         intervals [136]:
-            xmin = 117.88 
-            xmax = 119.42 
+            xmin = 99.1473101154042 
+            xmax = 100.15440014303748 
             text = "" 
         intervals [137]:
-            xmin = 119.42 
-            xmax = 120.34 
-            text = " Nicht" 
-        intervals [138]:
-            xmin = 120.34 
-            xmax = 120.78 
-            text = " alle" 
-        intervals [139]:
-            xmin = 120.78 
-            xmax = 121.06 
-            text = " der" 
-        intervals [140]:
-            xmin = 121.06 
-            xmax = 121.7 
-            text = " Katzen" 
-        intervals [141]:
-            xmin = 121.7 
-            xmax = 122.22 
-            text = " tragen" 
-        intervals [142]:
-            xmin = 122.22 
-            xmax = 122.66 
-            text = " einen" 
-        intervals [143]:
-            xmin = 122.66 
-            xmax = 123 
-            text = " Hut." 
-        intervals [144]:
-            xmin = 123 
-            xmax = 125 
-            text = "" 
-        intervals [145]:
-            xmin = 125 
-            xmax = 125.92 
-            text = " Viele" 
-        intervals [146]:
-            xmin = 125.92 
-            xmax = 126.84 
-            text = " Katzen" 
-        intervals [147]:
-            xmin = 126.84 
-            xmax = 127.32 
-            text = " tragen" 
-        intervals [148]:
-            xmin = 127.32 
-            xmax = 127.76 
-            text = " einen" 
-        intervals [149]:
-            xmin = 127.76 
-            xmax = 128.12 
-            text = " Hut." 
-        intervals [150]:
-            xmin = 128.12 
-            xmax = 130.01999999999998 
-            text = "" 
-        intervals [151]:
-            xmin = 130.01999999999998 
-            xmax = 130.98 
-            text = " Viele" 
-        intervals [152]:
-            xmin = 130.98 
-            xmax = 131.24 
-            text = " der" 
-        intervals [153]:
-            xmin = 131.24 
-            xmax = 131.9 
-            text = " Katzen" 
-        intervals [154]:
-            xmin = 131.9 
-            xmax = 132.38 
-            text = " tragen" 
-        intervals [155]:
-            xmin = 132.38 
-            xmax = 132.88 
-            text = " einen" 
-        intervals [156]:
-            xmin = 132.88 
-            xmax = 133.22 
-            text = " Hut." 
-        intervals [157]:
-            xmin = 133.22 
-            xmax = 134.95999999999998 
-            text = "" 
-        intervals [158]:
-            xmin = 134.95999999999998 
-            xmax = 136.04 
+            xmin = 100.15440014303748 
+            xmax = 100.74069343118074 
             text = " Die" 
-        intervals [159]:
-            xmin = 136.04 
-            xmax = 136.56 
-            text = " meisten" 
-        intervals [160]:
-            xmin = 136.56 
-            xmax = 137.64 
+        intervals [138]:
+            xmin = 100.74069343118074 
+            xmax = 101.07442961058538 
+            text = " zwei" 
+        intervals [139]:
+            xmin = 101.07442961058538 
+            xmax = 101.83661088517164 
             text = " Katzen" 
-        intervals [161]:
-            xmin = 137.64 
-            xmax = 138.18 
+        intervals [140]:
+            xmin = 101.83661088517164 
+            xmax = 102.34172510264891 
             text = " tragen" 
-        intervals [162]:
-            xmin = 138.18 
-            xmax = 138.66 
+        intervals [141]:
+            xmin = 102.34172510264891 
+            xmax = 102.7115408690162 
             text = " einen" 
-        intervals [163]:
-            xmin = 138.66 
-            xmax = 139.02 
+        intervals [142]:
+            xmin = 102.7115408690162 
+            xmax = 103.4782320919728 
             text = " Hut." 
-        intervals [164]:
-            xmin = 139.02 
-            xmax = 145.92 
+        intervals [143]:
+            xmin = 103.4782320919728 
+            xmax = 104.86220535430091 
             text = "" 
-        intervals [165]:
-            xmin = 145.92 
-            xmax = 147 
-            text = " Alle" 
-        intervals [166]:
-            xmin = 147 
-            xmax = 148.08 
+        intervals [144]:
+            xmin = 104.86220535430091 
+            xmax = 105.81831440881147 
+            text = " Beide" 
+        intervals [145]:
+            xmin = 105.81831440881147 
+            xmax = 106.67069465080439 
             text = " Katzen" 
-        intervals [167]:
-            xmin = 148.08 
-            xmax = 148.64 
+        intervals [146]:
+            xmin = 106.67069465080439 
+            xmax = 107.180318816652 
             text = " tragen" 
-        intervals [168]:
-            xmin = 148.64 
-            xmax = 149.16 
+        intervals [147]:
+            xmin = 107.180318816652 
+            xmax = 107.5230748927973 
             text = " einen" 
-        intervals [169]:
-            xmin = 149.16 
-            xmax = 149.5 
+        intervals [148]:
+            xmin = 107.5230748927973 
+            xmax = 108.25368652879122 
             text = " Hut." 
-        intervals [170]:
-            xmin = 149.5 
-            xmax = 151.23999999999998 
+        intervals [149]:
+            xmin = 108.25368652879122 
+            xmax = 109.5645970139079 
             text = "" 
-        intervals [171]:
-            xmin = 151.23999999999998 
-            xmax = 152.2 
-            text = " Alle" 
-        intervals [172]:
-            xmin = 152.2 
-            xmax = 152.5 
+        intervals [150]:
+            xmin = 109.5645970139079 
+            xmax = 110.43050710101181 
+            text = " Beide" 
+        intervals [151]:
+            xmin = 110.43050710101181 
+            xmax = 110.63796472604713 
             text = " der" 
+        intervals [152]:
+            xmin = 110.63796472604713 
+            xmax = 111.47681512292904 
+            text = " Katzen" 
+        intervals [153]:
+            xmin = 111.47681512292904 
+            xmax = 111.95486965018432 
+            text = " tragen" 
+        intervals [154]:
+            xmin = 111.95486965018432 
+            xmax = 112.28860582958895 
+            text = " einen" 
+        intervals [155]:
+            xmin = 112.28860582958895 
+            xmax = 112.99215777536088 
+            text = " Hut." 
+        intervals [156]:
+            xmin = 112.99215777536088 
+            xmax = 114.59140644443691 
+            text = "" 
+        intervals [157]:
+            xmin = 114.59140644443691 
+            xmax = 115.34050967555518 
+            text = " Nicht" 
+        intervals [158]:
+            xmin = 115.34050967555518 
+            xmax = 115.88621342836545 
+            text = " alle" 
+        intervals [159]:
+            xmin = 115.88621342836545 
+            xmax = 116.79271305080236 
+            text = " Katzen" 
+        intervals [160]:
+            xmin = 116.79271305080236 
+            xmax = 117.3134628317048 
+            text = " tragen" 
+        intervals [161]:
+            xmin = 117.3134628317048 
+            xmax = 117.6766629313876 
+            text = " einen" 
+        intervals [162]:
+            xmin = 117.6766629313876 
+            xmax = 118.38923477390018 
+            text = " Hut." 
+        intervals [163]:
+            xmin = 118.38923477390018 
+            xmax = 119.92414205076346 
+            text = "" 
+        intervals [164]:
+            xmin = 119.92414205076346 
+            xmax = 120.64573379001672 
+            text = " Nicht" 
+        intervals [165]:
+            xmin = 120.64573379001672 
+            xmax = 120.98848986616201 
+            text = " alle" 
+        intervals [166]:
+            xmin = 120.98848986616201 
+            xmax = 121.191437542827 
+            text = " der" 
+        intervals [167]:
+            xmin = 121.191437542827 
+            xmax = 122.03479788807924 
+            text = " Katzen" 
+        intervals [168]:
+            xmin = 122.03479788807924 
+            xmax = 122.4677529316312 
+            text = " tragen" 
+        intervals [169]:
+            xmin = 122.4677529316312 
+            xmax = 122.81501895614683 
+            text = " einen" 
+        intervals [170]:
+            xmin = 122.81501895614683 
+            xmax = 123.54112064377041 
+            text = " Hut." 
+        intervals [171]:
+            xmin = 123.54112064377041 
+            xmax = 125.33850852939905 
+            text = "" 
+        intervals [172]:
+            xmin = 125.33850852939905 
+            xmax = 126.30814742902061 
+            text = " Viele" 
         intervals [173]:
-            xmin = 152.5 
-            xmax = 153.18 
+            xmin = 126.30814742902061 
+            xmax = 127.13346798079152 
             text = " Katzen" 
         intervals [174]:
-            xmin = 153.18 
-            xmax = 153.58 
+            xmin = 127.13346798079152 
+            xmax = 127.58897276619514 
             text = " tragen" 
         intervals [175]:
-            xmin = 153.58 
-            xmax = 154.02 
+            xmin = 127.58897276619514 
+            xmax = 127.9542785841921 
             text = " einen" 
         intervals [176]:
-            xmin = 154.02 
-            xmax = 154.34 
+            xmin = 127.9542785841921 
+            xmax = 128.74351954900035 
             text = " Hut." 
         intervals [177]:
-            xmin = 154.34 
-            xmax = 160.06 
+            xmin = 128.74351954900035 
+            xmax = 130.46859497080266 
             text = "" 
         intervals [178]:
-            xmin = 160.06 
-            xmax = 161.02 
-            text = " Keine" 
+            xmin = 130.46859497080266 
+            xmax = 131.18567676168558 
+            text = " Viele" 
         intervals [179]:
-            xmin = 161.02 
-            xmax = 161.7 
-            text = " Katzen" 
+            xmin = 131.18567676168558 
+            xmax = 131.38411448998022 
+            text = " der" 
         intervals [180]:
-            xmin = 161.7 
-            xmax = 162.22 
-            text = " tragen" 
-        intervals [181]:
-            xmin = 162.22 
-            xmax = 162.7 
-            text = " einen" 
-        intervals [182]:
-            xmin = 162.7 
-            xmax = 163.02 
-            text = " Hut." 
-        intervals [183]:
-            xmin = 163.02 
-            xmax = 169.5 
-            text = "" 
-        intervals [184]:
-            xmin = 169.5 
-            xmax = 170.46 
-            text = " Manche" 
-        intervals [185]:
-            xmin = 170.46 
-            xmax = 171.32 
+            xmin = 131.38411448998022 
+            xmax = 132.22296488686214 
             text = " Katzen" 
-        intervals [186]:
-            xmin = 171.32 
-            xmax = 171.66 
+        intervals [181]:
+            xmin = 132.22296488686214 
+            xmax = 132.6604298787844 
             text = " tragen" 
-        intervals [187]:
-            xmin = 171.66 
-            xmax = 172.16 
+        intervals [182]:
+            xmin = 132.6604298787844 
+            xmax = 133.11593466418805 
             text = " einen" 
-        intervals [188]:
-            xmin = 172.16 
-            xmax = 172.48 
+        intervals [183]:
+            xmin = 133.11593466418805 
+            xmax = 133.86097974857904 
             text = " Hut." 
+        intervals [184]:
+            xmin = 133.86097974857904 
+            xmax = 135.64754053089493 
+            text = "" 
+        intervals [185]:
+            xmin = 135.64754053089493 
+            xmax = 136.21579402555687 
+            text = " Die" 
+        intervals [186]:
+            xmin = 136.21579402555687 
+            xmax = 137.05915437080913 
+            text = " meisten" 
+        intervals [187]:
+            xmin = 137.05915437080913 
+            xmax = 137.965653993246 
+            text = " Katzen" 
+        intervals [188]:
+            xmin = 137.965653993246 
+            xmax = 138.506702575845 
+            text = " tragen" 
         intervals [189]:
-            xmin = 172.48 
+            xmin = 138.506702575845 
+            xmax = 138.8223989617683 
+            text = " einen" 
+        intervals [190]:
+            xmin = 138.8223989617683 
+            xmax = 139.65944215207804 
+            text = " Hut." 
+        intervals [191]:
+            xmin = 139.65944215207804 
+            xmax = 141.41007663733248 
+            text = "" 
+        intervals [192]:
+            xmin = 141.41007663733248 
+            xmax = 141.80695209392178 
+            text = "Die" 
+        intervals [193]:
+            xmin = 141.80695209392178 
+            xmax = 142.46540455599038 
+            text = "meisten" 
+        intervals [194]:
+            xmin = 142.46540455599038 
+            xmax = 142.65933233591468 
+            text = "der" 
+        intervals [195]:
+            xmin = 142.65933233591468 
+            xmax = 143.50720262953726 
+            text = "Katzen" 
+        intervals [196]:
+            xmin = 143.50720262953726 
+            xmax = 144.25134411064218 
+            text = "tragen" 
+        intervals [197]:
+            xmin = 144.25134411064218 
+            xmax = 144.57606039330614 
+            text = "einen" 
+        intervals [198]:
+            xmin = 144.57606039330614 
+            xmax = 145.19889313811515 
+            text = "Hut." 
+        intervals [199]:
+            xmin = 145.19889313811515 
+            xmax = 146.76491018386787 
+            text = "" 
+        intervals [200]:
+            xmin = 146.76491018386787 
+            xmax = 147.49552181986178 
+            text = " Alle" 
+        intervals [201]:
+            xmin = 147.49552181986178 
+            xmax = 148.42006123578 
+            text = " Katzen" 
+        intervals [202]:
+            xmin = 148.42006123578 
+            xmax = 148.97478488533093 
+            text = " tragen" 
+        intervals [203]:
+            xmin = 148.97478488533093 
+            xmax = 149.33107080658723 
+            text = " einen" 
+        intervals [204]:
+            xmin = 149.33107080658723 
+            xmax = 150.0256028556185 
+            text = " Hut." 
+        intervals [205]:
+            xmin = 150.0256028556185 
+            xmax = 151.75278399573503 
+            text = "" 
+        intervals [206]:
+            xmin = 151.75278399573503 
+            xmax = 152.45633594150698 
+            text = " Alle" 
+        intervals [207]:
+            xmin = 152.45633594150698 
+            xmax = 152.6412438246906 
+            text = " der" 
+        intervals [208]:
+            xmin = 152.6412438246906 
+            xmax = 153.4214648927582 
+            text = " Katzen" 
+        intervals [209]:
+            xmin = 153.4214648927582 
+            xmax = 153.86794978142115 
+            text = " tragen" 
+        intervals [210]:
+            xmin = 153.86794978142115 
+            xmax = 154.17913621897412 
+            text = " einen" 
+        intervals [211]:
+            xmin = 154.17913621897412 
+            xmax = 154.94131749356038 
+            text = " Hut." 
+        intervals [212]:
+            xmin = 154.94131749356038 
+            xmax = 156.38662282650114 
+            text = "" 
+        intervals [213]:
+            xmin = 156.38662282650114 
+            xmax = 156.8331077151641 
+            text = "Die" 
+        intervals [214]:
+            xmin = 156.8331077151641 
+            xmax = 157.52312981582503 
+            text = "Katzen" 
+        intervals [215]:
+            xmin = 157.52312981582503 
+            xmax = 157.91098537567365 
+            text = "tragen" 
+        intervals [216]:
+            xmin = 157.91098537567365 
+            xmax = 158.2357016583376 
+            text = "einen" 
+        intervals [217]:
+            xmin = 158.2357016583376 
+            xmax = 158.97082324270187 
+            text = "Hut." 
+        intervals [218]:
+            xmin = 158.97082324270187 
+            xmax = 160.35133538178684 
+            text = "" 
+        intervals [219]:
+            xmin = 160.35133538178684 
+            xmax = 161.19018577866873 
+            text = " Keine" 
+        intervals [220]:
+            xmin = 161.19018577866873 
+            xmax = 162.08315555599464 
+            text = " Katzen" 
+        intervals [221]:
+            xmin = 162.08315555599464 
+            xmax = 162.50709070280593 
+            text = " tragen" 
+        intervals [222]:
+            xmin = 162.50709070280593 
+            xmax = 162.8453368305809 
+            text = " einen" 
+        intervals [223]:
+            xmin = 162.8453368305809 
+            xmax = 163.62104795027815 
+            text = " Hut." 
+        intervals [224]:
+            xmin = 163.62104795027815 
+            xmax = 165.04801497799562 
+            text = "" 
+        intervals [225]:
+            xmin = 165.04801497799562 
+            xmax = 165.67038785310157 
+            text = "Keine" 
+        intervals [226]:
+            xmin = 165.67038785310157 
+            xmax = 165.84627583954455 
+            text = "der" 
+        intervals [227]:
+            xmin = 165.84627583954455 
+            xmax = 166.77081525546276 
+            text = "Katzen" 
+        intervals [228]:
+            xmin = 166.77081525546276 
+            xmax = 167.2578896794587 
+            text = "tragen" 
+        intervals [229]:
+            xmin = 167.2578896794587 
+            xmax = 167.58711591049303 
+            text = "einen" 
+        intervals [230]:
+            xmin = 167.58711591049303 
+            xmax = 168.33576733996827 
+            text = "Hut." 
+        intervals [231]:
+            xmin = 168.33576733996827 
+            xmax = 169.7480024075466 
+            text = "" 
+        intervals [232]:
+            xmin = 169.7480024075466 
+            xmax = 170.7627407908715 
+            text = " Manche" 
+        intervals [233]:
+            xmin = 170.7627407908715 
+            xmax = 171.55198175567975 
+            text = " Katzen" 
+        intervals [234]:
+            xmin = 171.55198175567975 
+            xmax = 172.03454623130537 
+            text = " tragen" 
+        intervals [235]:
+            xmin = 172.03454623130537 
+            xmax = 172.34122272048802 
+            text = " einen" 
+        intervals [236]:
+            xmin = 172.34122272048802 
+            xmax = 173.0267348727786 
+            text = " Hut." 
+        intervals [237]:
+            xmin = 173.0267348727786 
             xmax = 174.64 
             text = "" 
-        intervals [190]:
+        intervals [238]:
             xmin = 174.64 
-            xmax = 175.28 
+            xmax = 175.41191667332077 
             text = " Manche" 
-        intervals [191]:
-            xmin = 175.28 
-            xmax = 175.46 
+        intervals [239]:
+            xmin = 175.41191667332077 
+            xmax = 175.60584445324508 
             text = " der" 
-        intervals [192]:
-            xmin = 175.46 
-            xmax = 176.12 
+        intervals [240]:
+            xmin = 175.60584445324508 
+            xmax = 176.38606552131267 
             text = " Katzen" 
-        intervals [193]:
-            xmin = 176.12 
-            xmax = 176.48 
+        intervals [241]:
+            xmin = 176.38606552131267 
+            xmax = 176.8054907197536 
             text = " tragen" 
-        intervals [194]:
-            xmin = 176.48 
-            xmax = 176.98 
+        intervals [242]:
+            xmin = 176.8054907197536 
+            xmax = 177.15726669263958 
             text = " einen" 
-        intervals [195]:
-            xmin = 176.98 
-            xmax = 177.36 
+        intervals [243]:
+            xmin = 177.15726669263958 
+            xmax = 177.90591812211483 
             text = " Hut." 
-        intervals [196]:
-            xmin = 177.36 
-            xmax = 179.22000000000003 
+        intervals [244]:
+            xmin = 177.90591812211483 
+            xmax = 179.51659091798786 
             text = "" 
-        intervals [197]:
-            xmin = 179.22000000000003 
-            xmax = 179.86 
+        intervals [245]:
+            xmin = 179.51659091798786 
+            xmax = 180.08033446427947 
             text = " Ein" 
-        intervals [198]:
-            xmin = 179.86 
-            xmax = 180.14 
+        intervals [246]:
+            xmin = 180.08033446427947 
+            xmax = 180.59897852686774 
             text = " paar" 
-        intervals [199]:
-            xmin = 180.14 
-            xmax = 181.2 
+        intervals [247]:
+            xmin = 180.59897852686774 
+            xmax = 181.45586871723097 
             text = " Katzen" 
-        intervals [200]:
-            xmin = 181.2 
-            xmax = 181.56 
+        intervals [248]:
+            xmin = 181.45586871723097 
+            xmax = 181.8707839673016 
             text = " tragen" 
-        intervals [201]:
-            xmin = 181.56 
-            xmax = 182.04 
+        intervals [249]:
+            xmin = 181.8707839673016 
+            xmax = 182.23157983692823 
             text = " einen" 
-        intervals [202]:
-            xmin = 182.04 
-            xmax = 182.36 
+        intervals [250]:
+            xmin = 182.23157983692823 
+            xmax = 182.86748255714517 
             text = " Hut." 
-        intervals [203]:
-            xmin = 182.36 
-            xmax = 184.36 
+        intervals [251]:
+            xmin = 182.86748255714517 
+            xmax = 184.70906632319125 
             text = "" 
-        intervals [204]:
-            xmin = 184.36 
-            xmax = 185 
+        intervals [252]:
+            xmin = 184.70906632319125 
+            xmax = 185.2637899727422 
             text = " Ein" 
-        intervals [205]:
-            xmin = 185 
-            xmax = 185.32 
+        intervals [253]:
+            xmin = 185.2637899727422 
+            xmax = 185.57497641029514 
             text = " paar" 
-        intervals [206]:
-            xmin = 185.32 
-            xmax = 185.62 
+        intervals [254]:
+            xmin = 185.57497641029514 
+            xmax = 185.7734141385898 
             text = " der" 
-        intervals [207]:
-            xmin = 185.62 
-            xmax = 186.26 
+        intervals [255]:
+            xmin = 185.7734141385898 
+            xmax = 186.58971479362003 
             text = " Katzen" 
-        intervals [208]:
-            xmin = 186.26 
-            xmax = 186.78 
+        intervals [256]:
+            xmin = 186.58971479362003 
+            xmax = 187.022669837172 
             text = " tragen" 
-        intervals [209]:
-            xmin = 186.78 
-            xmax = 187.18 
+        intervals [257]:
+            xmin = 187.022669837172 
+            xmax = 187.34738611983596 
             text = " einen" 
-        intervals [210]:
-            xmin = 187.18 
-            xmax = 187.48 
+        intervals [258]:
+            xmin = 187.34738611983596 
+            xmax = 188.0554480139782 
             text = " Hut." 
-        intervals [211]:
-            xmin = 187.48 
-            xmax = 189.60000000000002 
-            text = "" 
-        intervals [212]:
-            xmin = 189.60000000000002 
-            xmax = 190.24 
-            text = " Okay." 
-        intervals [213]:
-            xmin = 190.24 
-            xmax = 195.26 
-            text = "" 
-        intervals [214]:
-            xmin = 195.26 
-            xmax = 195.9 
-            text = " Was?" 
-        intervals [215]:
-            xmin = 195.9 
-            xmax = 196.04 
-            text = "" 
-        intervals [216]:
-            xmin = 196.04 
-            xmax = 196.24 
-            text = " Ist" 
-        intervals [217]:
-            xmin = 196.24 
-            xmax = 196.48 
-            text = " das" 
-        intervals [218]:
-            xmin = 196.48 
-            xmax = 196.74 
-            text = " okay?" 
-        intervals [219]:
-            xmin = 196.74 
-            xmax = 196.9 
-            text = "" 
-        intervals [220]:
-            xmin = 196.9 
-            xmax = 197.46 
-            text = " Ja," 
-        intervals [221]:
-            xmin = 197.46 
-            xmax = 197.54 
-            text = "" 
-        intervals [222]:
-            xmin = 197.54 
-            xmax = 197.76 
-            text = " ich" 
-        intervals [223]:
-            xmin = 197.76 
-            xmax = 197.98 
-            text = " habe" 
-        intervals [224]:
-            xmin = 197.98 
-            xmax = 198.14 
-            text = " nur" 
-        intervals [225]:
-            xmin = 198.14 
-            xmax = 198.74 
-            text = " darüber" 
-        intervals [226]:
-            xmin = 198.74 
-            xmax = 199.04 
-            text = " nachgedacht," 
-        intervals [227]:
-            xmin = 199.04 
+        intervals [259]:
+            xmin = 188.0554480139782 
             xmax = 1000 
             text = "" 
