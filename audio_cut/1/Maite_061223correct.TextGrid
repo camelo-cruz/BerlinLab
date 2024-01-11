@@ -2,11 +2,213 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 1000 
+xmax = 42.203270833333335 
 tiers? <exists> 
-size = 1 
+size = 2 
 item []: 
     item [1]:
+        class = "IntervalTier" 
+        name = "sentences" 
+        xmin = 0 
+        xmax = 1000 
+        intervals: size = 49 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.6466458762864467 
+            text = "" 
+        intervals [2]:
+            xmin = 1.6466458762864467 
+            xmax = 2.529764676648124 
+            text = " Ein paar der" 
+        intervals [3]:
+            xmin = 2.529764676648124 
+            xmax = 3.3952326911331787 
+            text = " Katzen" 
+        intervals [4]:
+            xmin = 3.3952326911331787 
+            xmax = 3.9930992791345843 
+            text = " tragen" 
+        intervals [5]:
+            xmin = 3.9930992791345843 
+            xmax = 4.339706013291289 
+            text = " einen" 
+        intervals [6]:
+            xmin = 4.339706013291289 
+            xmax = 4.92761810073476 
+            text = " Hut." 
+        intervals [7]:
+            xmin = 4.92761810073476 
+            xmax = 6.24083179218296 
+            text = "" 
+        intervals [8]:
+            xmin = 6.24083179218296 
+            xmax = 7.2144593535483805 
+            text = " Manche der" 
+        intervals [9]:
+            xmin = 7.2144593535483805 
+            xmax = 8.021783383421727 
+            text = " Katzen" 
+        intervals [10]:
+            xmin = 8.021783383421727 
+            xmax = 8.641142658248226 
+            text = " tragen" 
+        intervals [11]:
+            xmin = 8.641142658248226 
+            xmax = 8.992322688779476 
+            text = " einen" 
+        intervals [12]:
+            xmin = 8.992322688779476 
+            xmax = 9.5834790547673 
+            text = " Hut." 
+        intervals [13]:
+            xmin = 9.5834790547673 
+            xmax = 11.151460268105422 
+            text = "" 
+        intervals [14]:
+            xmin = 11.151460268105422 
+            xmax = 12.127239540873234 
+            text = " Keine der" 
+        intervals [15]:
+            xmin = 12.127239540873234 
+            xmax = 13.008937839903117 
+            text = " Katzen" 
+        intervals [16]:
+            xmin = 13.008937839903117 
+            xmax = 13.582076273324654 
+            text = " tragen" 
+        intervals [17]:
+            xmin = 13.582076273324654 
+            xmax = 13.914866331440384 
+            text = " einen" 
+        intervals [18]:
+            xmin = 13.914866331440384 
+            xmax = 14.481750488442136 
+            text = " Hut." 
+        intervals [19]:
+            xmin = 14.481750488442136 
+            xmax = 16.361817773727797 
+            text = "" 
+        intervals [20]:
+            xmin = 16.361817773727797 
+            xmax = 17.225015191125756 
+            text = " Alle der" 
+        intervals [21]:
+            xmin = 17.225015191125756 
+            xmax = 18.124071755041705 
+            text = " Katzen" 
+        intervals [22]:
+            xmin = 18.124071755041705 
+            xmax = 18.703372967317236 
+            text = " tragen" 
+        intervals [23]:
+            xmin = 18.703372967317236 
+            xmax = 19.008430520589993 
+            text = " einen" 
+        intervals [24]:
+            xmin = 19.008430520589993 
+            xmax = 19.548403418823924 
+            text = " Hut." 
+        intervals [25]:
+            xmin = 19.548403418823924 
+            xmax = 20.83026142045489 
+            text = "" 
+        intervals [26]:
+            xmin = 20.83026142045489 
+            xmax = 22.194909746867552 
+            text = " Die meisten der" 
+        intervals [27]:
+            xmin = 22.194909746867552 
+            xmax = 23.11912984667386 
+            text = " Katzen" 
+        intervals [28]:
+            xmin = 23.11912984667386 
+            xmax = 23.60290798671247 
+            text = " tragen" 
+        intervals [29]:
+            xmin = 23.60290798671247 
+            xmax = 23.932616655401205 
+            text = " einen" 
+        intervals [30]:
+            xmin = 23.932616655401205 
+            xmax = 24.5990248842885 
+            text = " Hut." 
+        intervals [31]:
+            xmin = 24.5990248842885 
+            xmax = 26.15443337025395 
+            text = "" 
+        intervals [32]:
+            xmin = 26.15443337025395 
+            xmax = 27.047613140236958 
+            text = " Viele der" 
+        intervals [33]:
+            xmin = 27.047613140236958 
+            xmax = 27.946873299026528 
+            text = " Katzen" 
+        intervals [34]:
+            xmin = 27.946873299026528 
+            xmax = 28.4799536698971 
+            text = " tragen" 
+        intervals [35]:
+            xmin = 28.4799536698971 
+            xmax = 28.791174002023848 
+            text = " einen" 
+        intervals [36]:
+            xmin = 28.791174002023848 
+            xmax = 29.407451887423353 
+            text = " Hut." 
+        intervals [37]:
+            xmin = 29.407451887423353 
+            xmax = 30.591588052189397 
+            text = "" 
+        intervals [38]:
+            xmin = 30.591588052189397 
+            xmax = 31.794622816286164 
+            text = " Nicht alle der" 
+        intervals [39]:
+            xmin = 31.794622816286164 
+            xmax = 32.74677214922839 
+            text = " Katzen" 
+        intervals [40]:
+            xmin = 32.74677214922839 
+            xmax = 33.25828279410998 
+            text = " tragen" 
+        intervals [41]:
+            xmin = 33.25828279410998 
+            xmax = 33.591072852225714 
+            text = " einen" 
+        intervals [42]:
+            xmin = 33.591072852225714 
+            xmax = 34.199243507600826 
+            text = " Hut." 
+        intervals [43]:
+            xmin = 34.199243507600826 
+            xmax = 35.56217018760639 
+            text = "" 
+        intervals [44]:
+            xmin = 35.56217018760639 
+            xmax = 36.54953612748616 
+            text = " Beide der" 
+        intervals [45]:
+            xmin = 36.54953612748616 
+            xmax = 37.421569335326446 
+            text = " Katzen" 
+        intervals [46]:
+            xmin = 37.421569335326446 
+            xmax = 37.90484192147135 
+            text = " tragen" 
+        intervals [47]:
+            xmin = 37.90484192147135 
+            xmax = 38.22530642187909 
+            text = " einen" 
+        intervals [48]:
+            xmin = 38.22530642187909 
+            xmax = 38.83557480830153 
+            text = " Hut." 
+        intervals [49]:
+            xmin = 38.83557480830153 
+            xmax = 42.203270833333335 
+            text = "" 
+    item [2]:
         class = "IntervalTier" 
         name = "words: " 
         xmin = 0 
@@ -15,7 +217,7 @@ item []:
         intervals [1]:
             xmin = 0 
             xmax = 1.6466458762864467 
-            text = "      " 
+            text = "" 
         intervals [2]:
             xmin = 1.6466458762864467 
             xmax = 1.921168954726768 
@@ -250,5 +452,5 @@ item []:
             text = " Hut." 
         intervals [60]:
             xmin = 38.83557480830153 
-            xmax = 1000 
+            xmax = 42.203270833333335 
             text = "" 
