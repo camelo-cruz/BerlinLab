@@ -15,7 +15,7 @@ import json
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Train LSTM'
+        description='generate timestamps'
     )
     
     parser.add_argument('input')

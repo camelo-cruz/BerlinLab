@@ -14,38 +14,38 @@ item []:
         intervals: size = 60 
         intervals [1]:
             xmin = 0 
-            xmax = 0.98 
+            xmax = 1.6466458762864467 
             text = "" 
         intervals [2]:
-            xmin = 0.98 
-            xmax = 1.72 
+            xmin = 1.6466458762864467 
+            xmax = 1.921168954726768 
             text = " Ein" 
         intervals [3]:
-            xmin = 1.72 
-            xmax = 2 
+            xmin = 1.921168954726768 
+            xmax = 2.2592776891275212 
             text = " paar" 
         intervals [4]:
-            xmin = 2 
-            xmax = 2.36 
+            xmin = 2.2592776891275212 
+            xmax = 2.529764676648124 
             text = " der" 
         intervals [5]:
-            xmin = 2.36 
-            xmax = 3.28 
+            xmin = 2.529764676648124 
+            xmax = 3.3952326911331787 
             text = " Katzen" 
         intervals [6]:
-            xmin = 3.28 
-            xmax = 3.7 
+            xmin = 3.3952326911331787 
+            xmax = 3.9930992791345843 
             text = " tragen" 
         intervals [7]:
-            xmin = 3.7 
-            xmax = 4.2 
+            xmin = 3.9930992791345843 
+            xmax = 4.336401465613134 
             text = " einen" 
         intervals [8]:
-            xmin = 4.2 
-            xmax = 4.52 
+            xmin = 4.336401465613134 
+            xmax = 4.92761810073476 
             text = " Hut." 
         intervals [9]:
-            xmin = 4.52 
+            xmin = 4.92761810073476 
             xmax = 6.2600000000000025 
             text = "" 
         intervals [10]:
