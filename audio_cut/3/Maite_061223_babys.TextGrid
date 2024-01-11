@@ -14,66 +14,66 @@ item []:
         intervals: size = 19 
         intervals [1]:
             xmin = 0 
-            xmax = 1.520000000000001 
+            xmax = 2.1402401548721346 
             text = "" 
         intervals [2]:
-            xmin = 1.520000000000001 
-            xmax = 2.56 
+            xmin = 2.1402401548721346 
+            xmax = 2.611343499792748 
             text = " Sieh" 
         intervals [3]:
-            xmin = 2.56 
-            xmax = 2.6 
+            xmin = 2.611343499792748 
+            xmax = 2.75452196736666 
             text = " dir" 
         intervals [4]:
-            xmin = 2.6 
-            xmax = 2.88 
+            xmin = 2.75452196736666 
+            xmax = 3.040878902514484 
             text = " diese" 
         intervals [5]:
-            xmin = 2.88 
-            xmax = 3.38 
+            xmin = 3.040878902514484 
+            xmax = 3.5304568884123757 
             text = " Babys" 
         intervals [6]:
-            xmin = 3.38 
-            xmax = 3.6 
+            xmin = 3.5304568884123757 
+            xmax = 4.107789418952343 
             text = " an." 
         intervals [7]:
-            xmin = 3.6 
+            xmin = 4.107789418952343 
             xmax = 5.960000000000001 
             text = "" 
         intervals [8]:
             xmin = 5.960000000000001 
-            xmax = 6.48 
+            xmax = 6.609888491590665 
             text = " Babys" 
         intervals [9]:
-            xmin = 6.48 
-            xmax = 7.06 
+            xmin = 6.609888491590665 
+            xmax = 7.436628675323898 
             text = " schlafen." 
         intervals [10]:
-            xmin = 7.06 
-            xmax = 15.760000000000002 
+            xmin = 7.436628675323898 
+            xmax = 16.178562216512297 
             text = "" 
         intervals [11]:
-            xmin = 15.760000000000002 
-            xmax = 16.8 
+            xmin = 16.178562216512297 
+            xmax = 16.931403836336415 
             text = " Babys" 
         intervals [12]:
-            xmin = 16.8 
-            xmax = 17.32 
+            xmin = 16.931403836336415 
+            xmax = 17.790474641779884 
             text = " schlafen." 
         intervals [13]:
-            xmin = 17.32 
-            xmax = 20.220000000000002 
+            xmin = 17.790474641779884 
+            xmax = 20.62434883521708 
             text = "" 
         intervals [14]:
-            xmin = 20.220000000000002 
-            xmax = 21.26 
+            xmin = 20.62434883521708 
+            xmax = 21.46956365992759 
             text = " Babys" 
         intervals [15]:
-            xmin = 21.26 
-            xmax = 21.86 
+            xmin = 21.46956365992759 
+            xmax = 22.36558374732562 
             text = " schlafen." 
         intervals [16]:
-            xmin = 21.86 
+            xmin = 22.36558374732562 
             xmax = 30.7 
             text = "" 
         intervals [17]:
