@@ -19,6 +19,7 @@ def main():
     
     parser.add_argument('first_input', type=str)
     parser.add_argument('second_input', type=str)
+    parser.add_argument('-o', '--output', default="../output")
     parser.add_argument('-s', '--silent', default=1, type=int)
     parser.add_argument('-f', '--fade', default=1, type=int)
     
@@ -34,7 +35,7 @@ def main():
     files_2 = os.listdir(second_directory)
     files_2 = [fname for fname in files_2 if fname.endswith('.wav')]
     
-    output_directory = "../combined"
+    output_directory = args.output
     os.makedirs(output_directory, exist_ok=True)
     
     for file1 in files_1:
@@ -47,7 +48,7 @@ def main():
             
             combined_audio = (audio1 + AudioSegment.silent(args.silent) + audio2.fade_in(args.fade))
             
-            output_file_name = f"{os.path.splitext(file1)[0]}_{os.path.splitext(file2)[0]}_combined.wav"
+            output_file_name = f"{os.path.splitext(file1)[0]}_{os.path.splitext(file2)[0]}.wav"
             output_path = os.path.join(output_directory, output_file_name)
             
             combined_audio.export(output_path, format="wav")

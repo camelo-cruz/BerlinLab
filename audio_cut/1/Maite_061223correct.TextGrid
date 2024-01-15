@@ -11,201 +11,73 @@ item []:
         name = "sentences" 
         xmin = 0 
         xmax = 1000 
-        intervals: size = 49 
+        intervals: size = 17 
         intervals [1]:
             xmin = 0 
             xmax = 1.7048016975451612 
             text = "" 
         intervals [2]:
             xmin = 1.7048016975451612 
-            xmax = 2.7845845138769625 
-            text = " Ein paar der" 
+            xmax = 2.6747840016063433 
+            text = " Ein_paar_der" 
         intervals [3]:
-            xmin = 2.7845845138769625 
-            xmax = 3.3952326911331787 
-            text = "" 
-        intervals [4]:
-            xmin = 3.3952326911331787 
-            xmax = 3.9930992791345843 
-            text = "" 
-        intervals [5]:
-            xmin = 3.9930992791345843 
-            xmax = 4.339706013291289 
-            text = "" 
-        intervals [6]:
-            xmin = 4.339706013291289 
-            xmax = 4.92761810073476 
-            text = " " 
-        intervals [7]:
-            xmin = 4.92761810073476 
+            xmin = 2.6747840016063433 
             xmax = 6.24083179218296 
             text = "" 
-        intervals [8]:
+        intervals [4]:
             xmin = 6.24083179218296 
-            xmax = 7.307293806858849 
-            text = " Manche der" 
-        intervals [9]:
-            xmin = 7.307293806858849 
-            xmax = 8.021783383421727 
-            text = "" 
-        intervals [10]:
-            xmin = 8.021783383421727 
-            xmax = 8.641142658248226 
-            text = "" 
-        intervals [11]:
-            xmin = 8.641142658248226 
-            xmax = 8.992322688779476 
-            text = "" 
-        intervals [12]:
-            xmin = 8.992322688779476 
-            xmax = 9.5834790547673 
-            text = "" 
-        intervals [13]:
-            xmin = 9.5834790547673 
+            xmax = 7.29812650544091 
+            text = " Manche_der" 
+        intervals [5]:
+            xmin = 7.29812650544091 
             xmax = 11.151460268105422 
             text = "" 
-        intervals [14]:
+        intervals [6]:
             xmin = 11.151460268105422 
             xmax = 12.208055304437803 
-            text = " Keine der" 
-        intervals [15]:
+            text = "Keine_der" 
+        intervals [7]:
             xmin = 12.208055304437803 
-            xmax = 13.008937839903117 
-            text = "" 
-        intervals [16]:
-            xmin = 13.008937839903117 
-            xmax = 13.582076273324654 
-            text = "" 
-        intervals [17]:
-            xmin = 13.582076273324654 
-            xmax = 13.914866331440384 
-            text = "" 
-        intervals [18]:
-            xmin = 13.914866331440384 
-            xmax = 14.481750488442136 
-            text = "" 
-        intervals [19]:
-            xmin = 14.481750488442136 
             xmax = 16.361817773727797 
             text = "" 
-        intervals [20]:
+        intervals [8]:
             xmin = 16.361817773727797 
             xmax = 17.24310668346632 
-            text = " Alle der" 
-        intervals [21]:
+            text = "Alle_der" 
+        intervals [9]:
             xmin = 17.24310668346632 
-            xmax = 18.124071755041705 
-            text = "" 
-        intervals [22]:
-            xmin = 18.124071755041705 
-            xmax = 18.703372967317236 
-            text = "" 
-        intervals [23]:
-            xmin = 18.703372967317236 
-            xmax = 19.008430520589993 
-            text = "" 
-        intervals [24]:
-            xmin = 19.008430520589993 
-            xmax = 19.548403418823924 
-            text = "" 
-        intervals [25]:
-            xmin = 19.548403418823924 
             xmax = 20.83026142045489 
             text = "" 
-        intervals [26]:
+        intervals [10]:
             xmin = 20.83026142045489 
-            xmax = 22.260799281433783 
-            text = " Die meisten der" 
-        intervals [27]:
-            xmin = 22.260799281433783 
-            xmax = 23.11912984667386 
-            text = "" 
-        intervals [28]:
-            xmin = 23.11912984667386 
-            xmax = 23.60290798671247 
-            text = "" 
-        intervals [29]:
-            xmin = 23.60290798671247 
-            xmax = 23.932616655401205 
-            text = "" 
-        intervals [30]:
-            xmin = 23.932616655401205 
-            xmax = 24.5990248842885 
-            text = "" 
-        intervals [31]:
-            xmin = 24.5990248842885 
+            xmax = 22.329373087607493 
+            text = " Die_meisten_der" 
+        intervals [11]:
+            xmin = 22.329373087607493 
             xmax = 26.15443337025395 
             text = "" 
-        intervals [32]:
+        intervals [12]:
             xmin = 26.15443337025395 
-            xmax = 27.12919572371921 
-            text = " Viele der" 
-        intervals [33]:
-            xmin = 27.12919572371921 
-            xmax = 27.946873299026528 
-            text = "" 
-        intervals [34]:
-            xmin = 27.946873299026528 
-            xmax = 28.4799536698971 
-            text = "" 
-        intervals [35]:
-            xmin = 28.4799536698971 
-            xmax = 28.791174002023848 
-            text = "" 
-        intervals [36]:
-            xmin = 28.791174002023848 
-            xmax = 29.407451887423353 
-            text = "" 
-        intervals [37]:
-            xmin = 29.407451887423353 
+            xmax = 27.14006987460505 
+            text = " Viele_der" 
+        intervals [13]:
+            xmin = 27.14006987460505 
             xmax = 30.591588052189397 
             text = "" 
-        intervals [38]:
+        intervals [14]:
             xmin = 30.591588052189397 
             xmax = 31.810014601732437 
-            text = " Nicht alle der" 
-        intervals [39]:
+            text = " Nicht_alle_der" 
+        intervals [15]:
             xmin = 31.810014601732437 
-            xmax = 32.74677214922839 
-            text = "" 
-        intervals [40]:
-            xmin = 32.74677214922839 
-            xmax = 33.25828279410998 
-            text = "" 
-        intervals [41]:
-            xmin = 33.25828279410998 
-            xmax = 33.591072852225714 
-            text = "" 
-        intervals [42]:
-            xmin = 33.591072852225714 
-            xmax = 34.199243507600826 
-            text = "" 
-        intervals [43]:
-            xmin = 34.199243507600826 
             xmax = 35.56217018760639 
             text = "" 
-        intervals [44]:
+        intervals [16]:
             xmin = 35.56217018760639 
-            xmax = 36.513115214969375 
-            text = " Beide der" 
-        intervals [45]:
-            xmin = 36.513115214969375 
-            xmax = 37.421569335326446 
-            text = "" 
-        intervals [46]:
-            xmin = 37.421569335326446 
-            xmax = 37.90484192147135 
-            text = "" 
-        intervals [47]:
-            xmin = 37.90484192147135 
-            xmax = 38.22530642187909 
-            text = "" 
-        intervals [48]:
-            xmin = 38.22530642187909 
-            xmax = 38.83557480830153 
-            text = "" 
-        intervals [49]:
-            xmin = 38.83557480830153 
+            xmax = 36.54312155098387 
+            text = " Beide_der" 
+        intervals [17]:
+            xmin = 36.54312155098387 
             xmax = 42.203270833333335 
             text = "" 
     item [2]:
