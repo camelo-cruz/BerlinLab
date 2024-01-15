@@ -2,16 +2,58 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 1000 
+xmax = 34.23954166666667 
 tiers? <exists> 
-size = 1 
+size = 2 
 item []: 
     item [1]:
         class = "IntervalTier" 
+        name = "sentence" 
+        xmin = 0 
+        xmax = 34.23954166666667  
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.1402401548721346 
+            text = "" 
+        intervals [2]:
+            xmin = 2.1402401548721346 
+            xmax = 4.107789418952343 
+            text = " Sieh dir diese Babys an." 
+        intervals [3]:
+            xmin = 4.107789418952343 
+            xmax = 5.960000000000001 
+            text = "" 
+        intervals [4]:
+            xmin = 5.960000000000001 
+            xmax = 7.436628675323898 
+            text = " Babys schlafen 1" 
+        intervals [5]:
+            xmin = 7.436628675323898 
+            xmax = 16.178562216512297 
+            text = "" 
+        intervals [6]:
+            xmin = 16.178562216512297 
+            xmax = 17.790474641779884 
+            text = " Babys schlafen 2" 
+        intervals [7]:
+            xmin = 17.790474641779884 
+            xmax = 20.62434883521708 
+            text = "" 
+        intervals [8]:
+            xmin = 20.62434883521708 
+            xmax = 22.36558374732562 
+            text = " Babys schlafen 3" 
+        intervals [9]:
+            xmin = 22.36558374732562 
+            xmax = 34.23954166666667  
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
         name = "words: " 
         xmin = 0 
-        xmax = 1000 
-        intervals: size = 19 
+        xmax = 34.23954166666667  
+        intervals: size = 16 
         intervals [1]:
             xmin = 0 
             xmax = 2.1402401548721346 
@@ -74,17 +116,5 @@ item []:
             text = " schlafen." 
         intervals [16]:
             xmin = 22.36558374732562 
-            xmax = 30.7 
-            text = "" 
-        intervals [17]:
-            xmin = 30.7 
-            xmax = 30.71 
-            text = " Okay," 
-        intervals [18]:
-            xmin = 30.71 
-            xmax = 30.72 
-            text = " let's..." 
-        intervals [19]:
-            xmin = 30.72 
-            xmax = 1000 
+            xmax = 34.23954166666667  
             text = "" 
