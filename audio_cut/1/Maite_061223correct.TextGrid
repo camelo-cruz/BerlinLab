@@ -11,7 +11,7 @@ item []:
         name = "sentences" 
         xmin = 0 
         xmax = 1000 
-        intervals: size = 17 
+        intervals: size = 18 
         intervals [1]:
             xmin = 0 
             xmax = 1.7048016975451612 
@@ -22,61 +22,65 @@ item []:
             text = " Ein_paar_der" 
         intervals [3]:
             xmin = 2.6747840016063433 
+            xmax = 4.874852735030842 
+            text = "katzen" 
+        intervals [4]:
+            xmin = 4.874852735030842 
             xmax = 6.24083179218296 
             text = "" 
-        intervals [4]:
+        intervals [5]:
             xmin = 6.24083179218296 
             xmax = 7.29812650544091 
             text = " Manche_der" 
-        intervals [5]:
+        intervals [6]:
             xmin = 7.29812650544091 
             xmax = 11.151460268105422 
             text = "" 
-        intervals [6]:
+        intervals [7]:
             xmin = 11.151460268105422 
             xmax = 12.208055304437803 
             text = "Keine_der" 
-        intervals [7]:
+        intervals [8]:
             xmin = 12.208055304437803 
             xmax = 16.361817773727797 
             text = "" 
-        intervals [8]:
+        intervals [9]:
             xmin = 16.361817773727797 
             xmax = 17.24310668346632 
             text = "Alle_der" 
-        intervals [9]:
+        intervals [10]:
             xmin = 17.24310668346632 
             xmax = 20.83026142045489 
             text = "" 
-        intervals [10]:
+        intervals [11]:
             xmin = 20.83026142045489 
             xmax = 22.329373087607493 
             text = " Die_meisten_der" 
-        intervals [11]:
+        intervals [12]:
             xmin = 22.329373087607493 
             xmax = 26.15443337025395 
             text = "" 
-        intervals [12]:
+        intervals [13]:
             xmin = 26.15443337025395 
             xmax = 27.14006987460505 
             text = " Viele_der" 
-        intervals [13]:
+        intervals [14]:
             xmin = 27.14006987460505 
             xmax = 30.591588052189397 
             text = "" 
-        intervals [14]:
+        intervals [15]:
             xmin = 30.591588052189397 
             xmax = 31.810014601732437 
             text = " Nicht_alle_der" 
-        intervals [15]:
+        intervals [16]:
             xmin = 31.810014601732437 
             xmax = 35.56217018760639 
             text = "" 
-        intervals [16]:
+        intervals [17]:
             xmin = 35.56217018760639 
             xmax = 36.54312155098387 
             text = " Beide_der" 
-        intervals [17]:
+        intervals [18]:
             xmin = 36.54312155098387 
             xmax = 42.203270833333335 
             text = "" 
@@ -116,10 +120,10 @@ item []:
             text = " einen" 
         intervals [8]:
             xmin = 4.339706013291289 
-            xmax = 4.92761810073476 
+            xmax = 4.874852735030842 
             text = " Hut." 
         intervals [9]:
-            xmin = 4.92761810073476 
+            xmin = 4.874852735030842 
             xmax = 6.24083179218296 
             text = "" 
         intervals [10]:
