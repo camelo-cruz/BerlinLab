@@ -87,7 +87,7 @@ def transcribe_with_diarization(audiofile):
     # for each segment in diarization: get the whisper transcription
     for turn, _, speaker in diarization.itertracks(yield_label=True):
         audio_cut = cut_audio(audiofile, turn.start, turn.end)
-        wh_trans = model.transcribe(audio_cut, language="de")
+        wh_trans = model.transcribe(audio_cut)
         os.remove(audio_cut)
 
         # add the whisper transcription to dict:transcription with the proper SpeakerID and timestamps
