@@ -12,8 +12,7 @@ import argparse
 import string
 import pandas as pd
 from tqdm import tqdm
-from pyannote.audio import Pipeline
-from pydub import AudioSegment
+
 
 warnings.filterwarnings("ignore")
 model = whisper.load_model("large-v3")
@@ -102,6 +101,7 @@ def transcribe_with_diarization(audiofile):
     return transcription
 
 
+
 def process_data(directory):
     """
     Process audio files in a directory, perform transcription, and update a CSV file.
@@ -154,6 +154,7 @@ def process_data(directory):
             print(f"\nTranscription and translation completed for {subdir}.")
 
 
+
 def main():
     """
     Main function to parse command line arguments and initiate data processing.
@@ -162,7 +163,6 @@ def main():
     parser.add_argument("input_dir")
     args = parser.parse_args()
     process_data(args.input_dir)
-
 
 if __name__ == "__main__":
     main()
