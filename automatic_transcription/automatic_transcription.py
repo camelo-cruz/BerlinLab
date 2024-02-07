@@ -135,7 +135,7 @@ def process_data(directory, diarization = False):
                     transcription = ""
                     if diarization:
                         diarized_transcription = transcribe_with_diarization(audio_file_path)
-                        add_speaker = lambda segment: f"{'CHI:' if '00' in segment['speaker'] else 'EXP:'}: {segment['text']} "
+                        add_speaker = lambda segment: f"{'CHI' if '00' in segment['speaker'] else 'EXP'}: {segment['text']} "
                         for index in range(len(diarized_transcription)):
                             segment = diarized_transcription[index]
                             if index != 0:
