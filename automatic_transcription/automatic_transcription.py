@@ -136,8 +136,8 @@ def process_data(directory):
                     for index in range(len(diarized_transcription)):
                         segment = diarized_transcription[index]
                         if index != 0:
-                            previous_speaker = diarized_transcription["speaker"][index - 1]
-                            current_speaker = diarized_transcription["speaker"][index]
+                            previous_speaker = diarized_transcription[index - 1]["speaker"]
+                            current_speaker = diarized_transcription[index]["speaker"]
                             same_speaker = previous_speaker == current_speaker
                             if same_speaker:
                                 dialogue += segment['text']
