@@ -135,7 +135,7 @@ def process_data(directory, diarization = False):
                     transcription = ""
                     if diarization:
                         diarized_transcription = transcribe_with_diarization(audio_file_path)
-                        add_speaker = lambda segment: f"{segment['speaker']}: {segment['text']} "
+                        add_speaker = lambda segment: f"{'CHI:' if '00' in segment['speaker'] else 'EXP:'}: {segment['text']} "
                         for index in range(len(diarized_transcription)):
                             segment = diarized_transcription[index]
                             if index != 0:
@@ -168,7 +168,7 @@ def main():
     """
     parser = argparse.ArgumentParser(description="automatic transcription")
     parser.add_argument("input_dir")
-    parser.add_argument("--diarization")
+    parser.add_argument("--diarization", action="store_true")
     args = parser.parse_args()
     process_data(args.input_dir, args.diarization)
 
