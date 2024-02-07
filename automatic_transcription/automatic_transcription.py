@@ -12,6 +12,7 @@ import argparse
 import string
 import pandas as pd
 from pydub import AudioSegment
+from pyannote.audio import Pipeline
 from tqdm import tqdm
 
 
