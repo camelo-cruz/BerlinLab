@@ -49,10 +49,7 @@ def cut_audio(audiofile, start, end):
     return output
     
 def transcribe_with_diarization(audiofile):
-    transcription = {
-        "text": "",
-        "segments": []
-    }
+    transcription = []
     #diarize the audiofile
     diarization = pipeline(audiofile)
     
@@ -61,7 +58,7 @@ def transcribe_with_diarization(audiofile):
         audio_cut = cut_audio(audiofile, turn.start, turn.end)
         wh_trans = model.transcribe(audio_cut, language="de")
         os.remove(audio_cut)
-        
+
         #add the whisper transcription to dict:transcription with the proper SpeakerID and timestamps
         new_dict = {
             'text': process_string(wh_trans['text']),
@@ -69,9 +66,8 @@ def transcribe_with_diarization(audiofile):
             'end': turn.end,
             'speaker': speaker
             }
-        
-        transcription['text'] = transcription['text'] + " " + wh_trans['text']
-        transcription['segments'].append(new_dict)
+
+        transcription.append(new_dict)
     
     return transcription 
 
@@ -113,10 +109,21 @@ def main():
                   if 'automatic_translation' not in df.columns:
                     df['automatic_translation'] = ""
                   series = df[df.isin([file])].stack()
-                  #transcription = ""
-                  #for segment in diarized_transcription['segments']:
-                  #    transcription += transcription + segment['speaker'] + ": " + segment['text']
-                  print(diarized_transcription)
+                  dialogue = ""
+                  add_speaker = lambda segment: f"{segment['speaker']}: {segment['text']}"
+                  for index in range(len(diarized_transcription)):
+                      if index != 0:
+                          previous_speaker = diarized_transcription["speaker"][index-1]
+                          current_speaker = diarized_transcription["speaker"][index]
+                          segment = diarized_transcription[index]
+                          same_speaker = previous_speaker == current_speaker
+                          if same_speaker:
+                              dialogue += segment['text']
+                          else:
+                              dialogue += add_speaker(segment)
+                      else:
+                          dialogue += add_speaker(segment)
+                  print(dialogue)
                   #for idx, value in series.items():
                     #print(transcription)
                     #df.at[idx[0], "automatic_transcription"] = transcription
