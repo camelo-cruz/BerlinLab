@@ -9,7 +9,7 @@ import os
 import whisper
 import shutil
 import warnings
-import argparses
+import argparse
 import string
 import pandas as pd
 from tqdm import tqdm
@@ -46,7 +46,7 @@ def transcribe_with_diarization(audiofile):
         "segments": []
     }
     #diarize the audiofile
-    diarization = pipeline(path)
+    diarization = pipeline(audiofile)
     
     #for each segment in diarization: get the whisper transcription
     for turn, _, speaker in diarization.itertracks(yield_label=True):
@@ -130,9 +130,7 @@ def main():
                     
                     
           df.to_csv(output_file)
-
-              
-    print(f"\nTranscription and translation completed for {subdir}.")
+          print(f"\nTranscription and translation completed for {subdir}.")
 
 
 if __name__ == "__main__":
