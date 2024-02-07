@@ -21,6 +21,14 @@ pipeline = Pipeline.from_pretrained(
     "pyannote/speaker-diarization-3.1",
     use_auth_token="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")
 
+def process_string(input_string):
+    lowercase_string = input_string.lower()
+
+    translator = str.maketrans("", "", string.punctuation)
+    processed_string = lowercase_string.translate(translator)
+
+    return processed_string
+
 def cut_audio(audiofile, start, end):
     from pydub import AudioSegment
     
@@ -56,7 +64,7 @@ def transcribe_with_diarization(audiofile):
         
         #add the whisper transcription to dict:transcription with the proper SpeakerID and timestamps
         new_dict = {
-            'text': wh_trans['text'],
+            'text': process_string(wh_trans['text']),
             'start': turn.start,
             'end': turn.end,
             'speaker': speaker
@@ -67,16 +75,6 @@ def transcribe_with_diarization(audiofile):
     
     return transcription 
 
-
-
-
-def process_string(input_string):
-    lowercase_string = input_string.lower()
-
-    translator = str.maketrans("", "", string.punctuation)
-    processed_string = lowercase_string.translate(translator)
-
-    return processed_string
 
 
 def main():
@@ -108,26 +106,21 @@ def main():
                   # Use subdir as the base directory
                   audio_file_path = os.path.join(subdir, file)
                   # Perform transcription and translation
-                  transcription = model.transcribe(audio_file_path)
-                  #transcription = process_string(transcription["text"])
                   diarized_transcription = transcribe_with_diarization(audio_file_path)
                   translation = model.transcribe(audio_file_path, task='translate')
                   if 'automatic_transcription' not in df.columns:
                     df['automatic_transcription'] = ""
                   if 'automatic_translation' not in df.columns:
                     df['automatic_translation'] = ""
-                  if 'diarized_transcription' not in df.columns:
-                      df['diarized_transcription'] = ""
                   series = df[df.isin([file])].stack()
-                  dia_string = ""
-                  for seg in diarized_transcription['segments']:
-                      dia_string = dia_string + seg['speaker'] + ": " + seg['text'] + '\n'
+                  #transcription = ""
+                  #for segment in diarized_transcription['segments']:
+                  #    transcription += transcription + segment['speaker'] + ": " + segment['text']
+                  print(diarized_transcription)
                   for idx, value in series.items():
-                    df.at[idx[0], "automatic_transcription"] = transcription['text']
+                    #print(transcription)
+                    #df.at[idx[0], "automatic_transcription"] = transcription
                     df.at[idx[0], "automatic_translation"] = translation['text']
-                    df.at[idx[0], "diarized_transcription"] = translation['text']
-                  
-                    
                     
           df.to_csv(output_file)
           print(f"\nTranscription and translation completed for {subdir}.")
