@@ -156,8 +156,8 @@ def process_data(directory, diarization = False):
                     translation = model.transcribe(audio_file_path, task='translate')
                     print(transcription)
                     for idx, value in series.items():
-                        df.at[idx[0], "automatic_transcription"] += f"{count:} {transcription}"
-                        df.at[idx[0], "automatic_translation"] += f"{count:} {translation['text']}"
+                        df.at[idx[0], "automatic_transcription"] += f"{count}: {transcription}"
+                        df.at[idx[0], "automatic_translation"] += f"{count}: {translation['text']}"
 
             df.to_csv(output_file)
             print(f"\nTranscription and translation completed for {subdir}.")
