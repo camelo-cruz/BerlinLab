@@ -104,7 +104,7 @@ def transcribe_with_diarization(audiofile):
 
 
 
-def process_data(directory):
+def process_data(directory, diarization = False):
     """
     Process audio files in a directory, perform transcription, and update a CSV file.
 
@@ -116,6 +116,8 @@ def process_data(directory):
             csv_file_path = os.path.join(subdir, '..', 'trials_and_sessions.csv')
             excel_file_path = os.path.join(subdir, '..', 'trials_and_sessions.xlsx')
             output_file = os.path.join(subdir, '..', 'trials_and_sessions_annotated.csv')
+            if diarization:
+                output_file = os.path.join(subdir, '..', 'trials_and_sessions_diarized.csv')
             if os.path.exists(csv_file_path):
                 df = pd.read_csv(csv_file_path)
             elif os.path.exists(excel_file_path):
@@ -125,31 +127,34 @@ def process_data(directory):
                 if file.endswith('.mp3'):
                     # Use subdir as the base directory
                     audio_file_path = os.path.join(subdir, file)
-                    # Perform transcription and translation
-                    diarized_transcription = transcribe_with_diarization(audio_file_path)
-                    translation = model.transcribe(audio_file_path, task='translate')
                     if 'automatic_transcription' not in df.columns:
                         df['automatic_transcription'] = ""
                     if 'automatic_translation' not in df.columns:
                         df['automatic_translation'] = ""
                     series = df[df.isin([file])].stack()
-                    dialogue = ""
-                    add_speaker = lambda segment: f"{segment['speaker']}: {segment['text']} "
-                    for index in range(len(diarized_transcription)):
-                        segment = diarized_transcription[index]
-                        if index != 0:
-                            previous_speaker = diarized_transcription[index - 1]["speaker"]
-                            current_speaker = diarized_transcription[index]["speaker"]
-                            same_speaker = previous_speaker == current_speaker
-                            if same_speaker:
-                                dialogue += segment['text'] + " "
+                    transcription = ""
+                    if diarization:
+                        diarized_transcription = transcribe_with_diarization(audio_file_path)
+                        add_speaker = lambda segment: f"{segment['speaker']}: {segment['text']} "
+                        for index in range(len(diarized_transcription)):
+                            segment = diarized_transcription[index]
+                            if index != 0:
+                                previous_speaker = diarized_transcription[index - 1]["speaker"]
+                                current_speaker = diarized_transcription[index]["speaker"]
+                                same_speaker = previous_speaker == current_speaker
+                                if same_speaker:
+                                    transcription += segment['text'] + " "
+                                else:
+                                    transcription += add_speaker(segment)
                             else:
-                                dialogue += add_speaker(segment)
-                        else:
-                            dialogue += add_speaker(segment)
-                    print(dialogue)
+                                transcription += add_speaker(segment)
+                        print(transcription)
+                    else:
+                        transcription = model.transcribe(audio_file_path)
+                        transcription = transcription["text"]
+                    translation = model.transcribe(audio_file_path, task='translate')
                     for idx, value in series.items():
-                        df.at[idx[0], "automatic_transcription"] = dialogue
+                        df.at[idx[0], "automatic_transcription"] = transcription
                         df.at[idx[0], "automatic_translation"] = translation['text']
 
             df.to_csv(output_file)
@@ -163,8 +168,9 @@ def main():
     """
     parser = argparse.ArgumentParser(description="automatic transcription")
     parser.add_argument("input_dir")
+    parser.add_argument("--diarization")
     args = parser.parse_args()
-    process_data(args.input_dir)
+    process_data(args.input_dir, args.diarization)
 
 if __name__ == "__main__":
     main()
