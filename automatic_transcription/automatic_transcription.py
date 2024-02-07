@@ -117,10 +117,10 @@ def main():
                   #for segment in diarized_transcription['segments']:
                   #    transcription += transcription + segment['speaker'] + ": " + segment['text']
                   print(diarized_transcription)
-                  for idx, value in series.items():
+                  #for idx, value in series.items():
                     #print(transcription)
                     #df.at[idx[0], "automatic_transcription"] = transcription
-                    df.at[idx[0], "automatic_translation"] = translation['text']
+                  #  df.at[idx[0], "automatic_translation"] = translation['text']
                     
           df.to_csv(output_file)
           print(f"\nTranscription and translation completed for {subdir}.")
