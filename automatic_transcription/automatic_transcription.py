@@ -132,7 +132,7 @@ def process_data(directory):
                         df['automatic_translation'] = ""
                     series = df[df.isin([file])].stack()
                     dialogue = ""
-                    add_speaker = lambda segment: f"{segment['speaker']}: {segment['text']}"
+                    add_speaker = lambda segment: f"{segment['speaker']}: {segment['text']} "
                     for index in range(len(diarized_transcription)):
                         segment = diarized_transcription[index]
                         if index != 0:
@@ -140,7 +140,7 @@ def process_data(directory):
                             current_speaker = diarized_transcription[index]["speaker"]
                             same_speaker = previous_speaker == current_speaker
                             if same_speaker:
-                                dialogue += segment['text']
+                                dialogue += segment['text'] + " "
                             else:
                                 dialogue += add_speaker(segment)
                         else:
