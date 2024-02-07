@@ -112,9 +112,8 @@ def process_data(directory, diarization = False):
         directory (str): Path to the input directory.
     """
     for subdir, dirs, files in os.walk(directory):
-        count = 0
         if 'binaries' in subdir:
-            count + 1
+            count = 0
             csv_file_path = os.path.join(subdir, '..', 'trials_and_sessions.csv')
             excel_file_path = os.path.join(subdir, '..', 'trials_and_sessions.xlsx')
             output_file = os.path.join(subdir, '..', 'trials_and_sessions_annotated.csv')
@@ -125,8 +124,9 @@ def process_data(directory, diarization = False):
             elif os.path.exists(excel_file_path):
                 df = pd.read_excel(excel_file_path)
 
-            for file in tqdm(files, desc=f"Processing File {file}", unit="file"):
+            for file in tqdm(files, desc=f"Processing Files in subdir {subdir}", unit="file"):
                 if file.endswith('.mp3'):
+                    count + 1
                     # Use subdir as the base directory
                     audio_file_path = os.path.join(subdir, file)
                     if 'automatic_transcription' not in df.columns:
