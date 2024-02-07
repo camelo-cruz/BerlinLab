@@ -46,7 +46,7 @@ def main():
             audio1 = AudioSegment.from_wav(f1_path)
             audio2 = AudioSegment.from_wav(f2_path)
             
-            combined_audio = (audio1 + AudioSegment.silent(args.silent) + audio2.fade_in(args.fade))
+            combined_audio = (audio1.fade_out(args.fade) + AudioSegment.silent(args.silent) + audio2)
             
             output_file_name = f"{os.path.splitext(file1)[0]}_{os.path.splitext(file2)[0]}.wav"
             output_path = os.path.join(output_directory, output_file_name)

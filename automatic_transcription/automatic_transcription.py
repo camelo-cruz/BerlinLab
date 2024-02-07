@@ -9,7 +9,8 @@ import os
 import whisper
 import shutil
 import warnings
-import argparse 
+import argparses
+import string
 import pandas as pd
 from tqdm import tqdm
 from pyannote.audio import Pipeline
@@ -68,13 +69,23 @@ def transcribe_with_diarization(audiofile):
 
 
 
+
+def process_string(input_string):
+    lowercase_string = input_string.lower()
+
+    translator = str.maketrans("", "", string.punctuation)
+    processed_string = lowercase_string.translate(translator)
+
+    return processed_string
+
+
 def main():
-    parser = argparse.ArgumentParser(description = "automatic transcription")
-    
+    parser = argparse.ArgumentParser(description="automatic transcription")
+
     parser.add_argument("input_dir")
-    
+
     args = parser.parse_args()
-    
+
     directory = args.input_dir
 
     warnings.filterwarnings("ignore")
@@ -98,6 +109,7 @@ def main():
                   audio_file_path = os.path.join(subdir, file)
                   # Perform transcription and translation
                   transcription = model.transcribe(audio_file_path)
+                  #transcription = process_string(transcription["text"])
                   diarized_transcription = transcribe_with_diarization(audio_file_path)
                   translation = model.transcribe(audio_file_path, task='translate')
                   if 'automatic_transcription' not in df.columns:

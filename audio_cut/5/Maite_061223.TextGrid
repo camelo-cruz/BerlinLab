@@ -19,7 +19,7 @@ item []:
         intervals [2]:
             xmin = 9.778981318175514 
             xmax = 10.627189134639986 
-            text = " ein_paar" 
+            text = "ein_paar" 
         intervals [3]:
             xmin = 10.627189134639986 
             xmax = 18.64747505215855 
@@ -35,23 +35,23 @@ item []:
         intervals [6]:
             xmin = 27.86051135636631 
             xmax = 28.495917027254873 
-            text = " keine" 
+            text = "keine" 
         intervals [7]:
             xmin = 28.495917027254873 
-            xmax = 32.55331299192011 
+            xmax = 32.50627852916027 
             text = "" 
         intervals [8]:
-            xmin = 32.55331299192011 
-            xmax = 32.77907153424757 
-            text = " die" 
+            xmin = 32.50627852916027 
+            xmax = 32.78246780533972 
+            text = "die" 
         intervals [9]:
-            xmin = 32.77907153424757 
+            xmin = 32.78246780533972 
             xmax = 41.48475291999206 
             text = "" 
         intervals [10]:
             xmin = 41.48475291999206 
             xmax = 41.99869912342417 
-            text = " alle" 
+            text = "alle" 
         intervals [11]:
             xmin = 41.99869912342417 
             xmax = 51.322893413532476 
@@ -75,7 +75,7 @@ item []:
         intervals [16]:
             xmin = 71.15861914234691 
             xmax = 72.07659532273227 
-            text = " Nicht_alle" 
+            text = "Nicht_alle" 
         intervals [17]:
             xmin = 72.07659532273227 
             xmax = 80.92101564721652 
@@ -91,7 +91,7 @@ item []:
         intervals [20]:
             xmin = 86.33037307121593 
             xmax = 86.98712088067255 
-            text = " Die_zwei" 
+            text = "Die_zwei" 
         intervals [21]:
             xmin = 86.98712088067255 
             xmax = 90.86432937006182 
@@ -99,7 +99,7 @@ item []:
         intervals [22]:
             xmin = 90.86432937006182 
             xmax = 91.32885830845795 
-            text = " Zwei" 
+            text = "Zwei" 
         intervals [23]:
             xmin = 91.32885830845795 
             xmax = 96.30123226406903 
@@ -115,7 +115,7 @@ item []:
         intervals [26]:
             xmin = 100.57707368310648 
             xmax = 101.07442961058538 
-            text = " Die_zwei" 
+            text = "Die_zwei" 
         intervals [27]:
             xmin = 101.07442961058538 
             xmax = 105.21822111388893 
@@ -123,7 +123,7 @@ item []:
         intervals [28]:
             xmin = 105.21822111388893 
             xmax = 105.82888589265205 
-            text = " Beide" 
+            text = "Beide" 
         intervals [29]:
             xmin = 105.82888589265205 
             xmax = 114.94474097243238 
@@ -131,7 +131,7 @@ item []:
         intervals [30]:
             xmin = 114.94474097243238 
             xmax = 115.90183076792098 
-            text = " Nicht_alle" 
+            text = "Nicht_alle" 
         intervals [31]:
             xmin = 115.90183076792098 
             xmax = 125.60854778407418 
@@ -139,7 +139,7 @@ item []:
         intervals [32]:
             xmin = 125.60854778407418 
             xmax = 126.28131383278581 
-            text = " Viele" 
+            text = "Viele" 
         intervals [33]:
             xmin = 126.28131383278581 
             xmax = 136.06406643539407 
@@ -147,7 +147,7 @@ item []:
         intervals [34]:
             xmin = 136.06406643539407 
             xmax = 137.0772200682753 
-            text = " Die_meisten" 
+            text = "Die_meisten" 
         intervals [35]:
             xmin = 137.0772200682753 
             xmax = 147.0220190295036 
@@ -155,7 +155,7 @@ item []:
         intervals [36]:
             xmin = 147.0220190295036 
             xmax = 147.50657076696854 
-            text = " Alle" 
+            text = "Alle" 
         intervals [37]:
             xmin = 147.50657076696854 
             xmax = 156.6147954548075 
@@ -171,7 +171,7 @@ item []:
         intervals [40]:
             xmin = 160.69211407821868 
             xmax = 161.19018577866873 
-            text = " Keine" 
+            text = "Keine" 
         intervals [41]:
             xmin = 161.19018577866873 
             xmax = 169.9950259085425 
@@ -179,7 +179,7 @@ item []:
         intervals [42]:
             xmin = 169.9950259085425 
             xmax = 170.78392419185317 
-            text = " Manche" 
+            text = "Manche" 
         intervals [43]:
             xmin = 170.78392419185317 
             xmax = 179.84683906102558 
@@ -187,7 +187,7 @@ item []:
         intervals [44]:
             xmin = 179.84683906102558 
             xmax = 180.56765982750235 
-            text = " Ein_paar" 
+            text = "Ein_paar" 
         intervals [45]:
             xmin = 180.56765982750235 
             xmax = 199.14929166666667 
