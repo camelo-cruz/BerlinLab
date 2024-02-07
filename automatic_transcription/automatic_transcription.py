@@ -125,7 +125,7 @@ def process_data(directory, diarization = False):
             elif os.path.exists(excel_file_path):
                 df = pd.read_excel(excel_file_path)
 
-            for file in tqdm(files, desc=f"Processing Files in {subdir}", unit="file"):
+            for file in tqdm(files, desc=f"Processing File {file}", unit="file"):
                 if file.endswith('.mp3'):
                     # Use subdir as the base directory
                     audio_file_path = os.path.join(subdir, file)
