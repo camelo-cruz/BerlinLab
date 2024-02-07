@@ -112,7 +112,9 @@ def process_data(directory, diarization = False):
         directory (str): Path to the input directory.
     """
     for subdir, dirs, files in os.walk(directory):
+        count = 0
         if 'binaries' in subdir:
+            count + 1
             csv_file_path = os.path.join(subdir, '..', 'trials_and_sessions.csv')
             excel_file_path = os.path.join(subdir, '..', 'trials_and_sessions.xlsx')
             output_file = os.path.join(subdir, '..', 'trials_and_sessions_annotated.csv')
@@ -148,14 +150,14 @@ def process_data(directory, diarization = False):
                                     transcription += add_speaker(segment)
                             else:
                                 transcription += add_speaker(segment)
-                        print(transcription)
                     else:
                         transcription = model.transcribe(audio_file_path)
                         transcription = transcription["text"]
                     translation = model.transcribe(audio_file_path, task='translate')
+                    print(transcription)
                     for idx, value in series.items():
-                        df.at[idx[0], "automatic_transcription"] += transcription
-                        df.at[idx[0], "automatic_translation"] += translation['text']
+                        df.at[idx[0], "automatic_transcription"] += f"{count:} {transcription}"
+                        df.at[idx[0], "automatic_translation"] += f"{count:} {translation['text']}"
 
             df.to_csv(output_file)
             print(f"\nTranscription and translation completed for {subdir}.")
