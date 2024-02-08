@@ -133,7 +133,6 @@ def process_data(directory, diarization = False):
                         df['automatic_transcription'] = ""
                     if 'automatic_translation' not in df.columns:
                         df['automatic_translation'] = ""
-                    series = df[df.isin([file])].stack()
                     transcription = ""
                     if diarization:
                         diarized_transcription = transcribe_with_diarization(audio_file_path)
@@ -151,10 +150,13 @@ def process_data(directory, diarization = False):
                             else:
                                 transcription += add_speaker(segment)
                     else:
+                        #if not diarization only transcribe
                         transcription = model.transcribe(audio_file_path, language="de")
                         transcription = transcription["text"]
                     translation = model.transcribe(audio_file_path, task='translate')
                     print(transcription)
+
+                    series = df[df.isin([file])].stack()
                     for idx, value in series.items():
                         df.at[idx[0], "automatic_transcription"] += f"{count}: {transcription}"
                         df.at[idx[0], "automatic_translation"] += f"{count}: {translation['text']}"
