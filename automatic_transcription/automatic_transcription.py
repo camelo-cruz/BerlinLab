@@ -10,6 +10,7 @@ import whisper
 import warnings
 import argparse
 import string
+import json
 import pandas as pd
 from pydub import AudioSegment
 from pyannote.audio import Pipeline
@@ -70,7 +71,7 @@ def cut_audio(audiofile, start, end):
     return output
 
 
-def transcribe_with_diarization(audiofile):
+def transcribe_with_diarization(audiofile, language):
     """
     Perform transcription with speaker diarization on an audio file.
 
@@ -87,7 +88,7 @@ def transcribe_with_diarization(audiofile):
     # for each segment in diarization: get the whisper transcription
     for turn, _, speaker in diarization.itertracks(yield_label=True):
         audio_cut = cut_audio(audiofile, turn.start, turn.end)
-        wh_trans = model.transcribe(audio_cut, language="de")
+        wh_trans = model.transcribe(audio_cut, language=language)
         os.remove(audio_cut)
 
         # add the whisper transcription to dict:transcription with the proper SpeakerID and timestamps
@@ -104,7 +105,7 @@ def transcribe_with_diarization(audiofile):
 
 
 
-def process_data(directory, diarization = False):
+def process_data(directory, language, diarization = False):
     """
     Process audio files in a directory, perform transcription, and update a CSV file.
 
@@ -135,7 +136,7 @@ def process_data(directory, diarization = False):
                         df['automatic_translation'] = ""
                     transcription = ""
                     if diarization:
-                        diarized_transcription = transcribe_with_diarization(audio_file_path)
+                        diarized_transcription = transcribe_with_diarization(audio_file_path, language)
                         add_speaker = lambda segment: f"{'EXP' if '00' in segment['speaker'] else 'CHI'}: {segment['text']} "
                         for index in range(len(diarized_transcription)):
                             segment = diarized_transcription[index]
@@ -151,9 +152,9 @@ def process_data(directory, diarization = False):
                                 transcription += add_speaker(segment)
                     else:
                         #if not diarization only transcribe
-                        transcription = model.transcribe(audio_file_path, language="de")
+                        transcription = model.transcribe(audio_file_path, language=language)
                         transcription = process_string(transcription["text"])
-                    translation = model.transcribe(audio_file_path, task='translate')
+                    translation = model.transcribe(audio_file_path, language = language, task='translate')
                     translation = process_string(translation['text'])
                     print(transcription)
 
@@ -172,11 +173,27 @@ def main():
     """
     Main function to parse command line arguments and initiate data processing.
     """
+    with open('LANGUAGES.txt') as f: 
+        data = f.read() 
+    LANGUAGES = json.loads(data) 
+    
     parser = argparse.ArgumentParser(description="automatic transcription")
     parser.add_argument("input_dir")
+    parser.add_argument("language")
     parser.add_argument("--diarization", action="store_true")
     args = parser.parse_args()
-    process_data(args.input_dir, args.diarization)
+    
+    language = None
+    for code, name in LANGUAGES.items():
+        if name == args.language.lower():
+            language = code
+    if language:
+        print(f"language recognized. Transcribing for {language}")
+    else:
+        print("language {language} not recognized")
+        
+    process_data(args.input_dir, language, args.diarization)
 
 if __name__ == "__main__":
     main()
+
