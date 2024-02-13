@@ -152,7 +152,7 @@ def process_data(directory, language, diarization = False):
                                 transcription += add_speaker(segment)
                     else:
                         #if not diarization only transcribe
-                        transcription = model.transcribe(audio_file_path, language=language)
+                        transcription = model.transcribe(audio_file_path, language = language)
                         transcription = process_string(transcription["text"])
                     translation = model.transcribe(audio_file_path, language = language, task='translate')
                     translation = process_string(translation['text'])
