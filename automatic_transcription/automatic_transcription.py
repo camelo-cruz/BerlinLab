@@ -173,9 +173,11 @@ def main():
     """
     Main function to parse command line arguments and initiate data processing.
     """
-    with open('LANGUAGES.txt') as f: 
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    languages_file = os.path.join(current_dir, 'LANGUAGES.txt')
+    with open(languages_file) as f: 
         data = f.read() 
-    LANGUAGES = json.loads(data) 
+    LANGUAGES = json.loads(data)
     
     parser = argparse.ArgumentParser(description="automatic transcription")
     parser.add_argument("input_dir")
