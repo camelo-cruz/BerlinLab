@@ -24,7 +24,7 @@ pipeline = Pipeline.from_pretrained(
     use_auth_token="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")
 
 
-def process_string(input_string):
+def __process_string(input_string):
     """
     Process a string by converting it to lowercase and removing punctuation.
 
@@ -42,7 +42,7 @@ def process_string(input_string):
     return processed_string
 
 
-def cut_audio(audiofile, start, end):
+def __cut_audio(audiofile, start, end):
     """
     Cut a segment from an audio file based on start and end timestamps.
 
@@ -71,7 +71,7 @@ def cut_audio(audiofile, start, end):
     return output
 
 
-def transcribe_with_diarization(audiofile, language):
+def __transcribe_with_diarization(audiofile, language):
     """
     Perform transcription with speaker diarization on an audio file.
 
@@ -87,13 +87,13 @@ def transcribe_with_diarization(audiofile, language):
 
     # for each segment in diarization: get the whisper transcription
     for turn, _, speaker in diarization.itertracks(yield_label=True):
-        audio_cut = cut_audio(audiofile, turn.start, turn.end)
+        audio_cut = __cut_audio(audiofile, turn.start, turn.end)
         wh_trans = model.transcribe(audio_cut, language=language)
         os.remove(audio_cut)
 
         # add the whisper transcription to dict:transcription with the proper SpeakerID and timestamps
         new_dict = {
-            'text': process_string(wh_trans['text']),
+            'text': __process_string(wh_trans['text']),
             'start': turn.start,
             'end': turn.end,
             'speaker': speaker
@@ -136,7 +136,7 @@ def process_data(directory, language, diarization = False):
                         df['automatic_translation'] = ""
                     transcription = ""
                     if diarization:
-                        diarized_transcription = transcribe_with_diarization(audio_file_path, language)
+                        diarized_transcription = __transcribe_with_diarization(audio_file_path, language)
                         add_speaker = lambda segment: f"{'EXP' if '00' in segment['speaker'] else 'CHI'}: {segment['text']} "
                         for index in range(len(diarized_transcription)):
                             segment = diarized_transcription[index]
@@ -153,9 +153,9 @@ def process_data(directory, language, diarization = False):
                     else:
                         #if not diarization only transcribe
                         transcription = model.transcribe(audio_file_path, language = language)
-                        transcription = process_string(transcription["text"])
+                        transcription = __process_string(transcription["text"])
                     translation = model.transcribe(audio_file_path, language = language, task='translate')
-                    translation = process_string(translation['text'])
+                    translation = __process_string(translation['text'])
                     print(transcription)
 
                     series = df[df.isin([file])].stack()
