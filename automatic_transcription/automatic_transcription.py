@@ -192,7 +192,7 @@ def main():
     if language:
         print(f"language recognized. Transcribing for {language}")
     else:
-        print("language {language} not recognized")
+        print("language {args.language} not recognized")
         
     process_data(args.input_dir, language, args.diarization)
 
