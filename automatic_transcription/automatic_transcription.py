@@ -277,18 +277,18 @@ def main():
     """
     parser = argparse.ArgumentParser(description="automatic transcription")
     parser.add_argument("input_dir")
-    parser.add_argument("language")
+    parser.add_argument("language", default=None)
     parser.add_argument("--diarization", action="store_true")
     args = parser.parse_args()
     
-    language = None
+    language = args.language
     for code, name in LANGUAGES.items():
         if name == args.language.lower():
             language = code
     if language:
         print(f"language recognized. Transcribing for {language}")
     else:
-        print("language {args.language} not recognized")
+        print("No Language given. Language will be looked for")
         
     process_data(args.input_dir, language, args.diarization)
 
