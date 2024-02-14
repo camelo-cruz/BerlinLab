@@ -214,61 +214,65 @@ def process_data(directory, language, diarization = False):
     Parameters:
         directory (str): Path to the input directory.
     """
-    for subdir, dirs, files in os.walk(directory):
-        if 'binaries' in subdir:
-            csv_file_path = os.path.join(subdir, '..', 'trials_and_sessions.csv')
-            excel_file_path = os.path.join(subdir, '..', 'trials_and_sessions.xlsx')
-            output_file = os.path.join(subdir, '..', 'trials_and_sessions_annotated.csv')
-            if diarization:
-                output_file = os.path.join(subdir, '..', 'trials_and_sessions_diarized.csv')
-            if os.path.exists(csv_file_path):
-                df = pd.read_csv(csv_file_path)
-            elif os.path.exists(excel_file_path):
-                df = pd.read_excel(excel_file_path)
+    try:
+        for subdir, dirs, files in os.walk(directory):
+            if 'binaries' in subdir:
+                csv_file_path = os.path.join(subdir, '..', 'trials_and_sessions.csv')
+                excel_file_path = os.path.join(subdir, '..', 'trials_and_sessions.xlsx')
+                csv_output_file = os.path.join(subdir, '..', 'trials_and_sessions_annotated.csv')
+                excel_output_file = os.path.join(subdir, '..', 'trials_and_sessions_annotated.xlsx')
+                if diarization:
+                    csv_output_file = os.path.join(subdir, '..', 'trials_and_sessions_diarized.csv')
+                    excel_output_file = os.path.join(subdir, '..', 'trials_and_sessions_annotated.xlsx')
+                if os.path.exists(csv_file_path):
+                    df = pd.read_csv(csv_file_path)
+                elif os.path.exists(excel_file_path):
+                    df = pd.read_excel(excel_file_path)
 
-            count = 0
-            for file in tqdm(files, desc=f"Processing Files in subdir {subdir}", unit="file"):
-                if file.endswith('.mp3'):
-                    count += 1
-                    # Use subdir as the base directory
-                    audio_file_path = os.path.join(subdir, file)
-                    if 'automatic_transcription' not in df.columns:
-                        df['automatic_transcription'] = ""
-                    if 'automatic_translation' not in df.columns:
-                        df['automatic_translation'] = ""
-                    transcription = ""
-                    if diarization:
-                        diarized_transcription = __transcribe_with_diarization(audio_file_path, language)
-                        add_speaker = lambda segment: f"{'EXP' if '00' in segment['speaker'] else 'CHI'}: {segment['text']} "
-                        for index in range(len(diarized_transcription)):
-                            segment = diarized_transcription[index]
-                            if index != 0:
-                                previous_speaker = diarized_transcription[index - 1]["speaker"]
-                                current_speaker = diarized_transcription[index]["speaker"]
-                                same_speaker = previous_speaker == current_speaker
-                                if same_speaker:
-                                    transcription += segment['text'] + " "
+                count = 0
+                for file in tqdm(files, desc=f"Processing Files in subdir {subdir}", unit="file"):
+                    if file.endswith('.mp3'):
+                        count += 1
+                        # Use subdir as the base directory
+                        audio_file_path = os.path.join(subdir, file)
+                        if 'automatic_transcription' not in df.columns:
+                            df['automatic_transcription'] = ""
+                        if 'automatic_translation' not in df.columns:
+                            df['automatic_translation'] = ""
+                        transcription = ""
+                        if diarization:
+                            diarized_transcription = __transcribe_with_diarization(audio_file_path, language)
+                            add_speaker = lambda segment: f"{'EXP' if '00' in segment['speaker'] else 'CHI'}: {segment['text']} "
+                            for index in range(len(diarized_transcription)):
+                                segment = diarized_transcription[index]
+                                if index != 0:
+                                    previous_speaker = diarized_transcription[index - 1]["speaker"]
+                                    current_speaker = diarized_transcription[index]["speaker"]
+                                    same_speaker = previous_speaker == current_speaker
+                                    if same_speaker:
+                                        transcription += segment['text'] + " "
+                                    else:
+                                        transcription += add_speaker(segment)
                                 else:
                                     transcription += add_speaker(segment)
-                            else:
-                                transcription += add_speaker(segment)
-                    else:
-                        #if not diarization only transcribe
-                        transcription = model.transcribe(audio_file_path, language = language)
-                        transcription = __process_string(transcription["text"])
-                    translation = model.transcribe(audio_file_path, language = language, task='translate')
-                    translation = __process_string(translation['text'])
-                    print(transcription)
+                        else:
+                            #if not diarization only transcribe
+                            transcription = model.transcribe(audio_file_path, language = language)
+                            transcription = __process_string(transcription["text"])
+                        translation = model.transcribe(audio_file_path, language = language, task='translate')
+                        translation = __process_string(translation['text'])
+                        print(transcription)
 
-                    series = df[df.isin([file])].stack()
-                    for idx, value in series.items():
-                        df.at[idx[0], "automatic_transcription"] += f"{count}: {transcription}"
-                        df.at[idx[0], "automatic_translation"] += f"{count}: {translation}"
+                        series = df[df.isin([file])].stack()
+                        for idx, value in series.items():
+                            df.at[idx[0], "automatic_transcription"] += f"{count}: {transcription}"
+                            df.at[idx[0], "automatic_translation"] += f"{count}: {translation}"
 
-            df.to_csv(output_file)
-            df.to_excel(output_file)
-            print(f"\nTranscription and translation completed for {subdir}.")
-
+                df.to_csv(csv_output_file)
+                df.to_excel(excel_output_file)
+                print(f"\nTranscription and translation completed for {subdir}.")
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
 
 
 def main():
@@ -277,18 +281,18 @@ def main():
     """
     parser = argparse.ArgumentParser(description="automatic transcription")
     parser.add_argument("input_dir")
-    parser.add_argument("--language", default=None, help="Language of the audio content")
+    parser.add_argument("language", default=None, help="Language of the audio content")
     parser.add_argument("--diarization", action="store_true", help="Perform speaker diarization during transcription")
     args = parser.parse_args()
     
     language = args.language
-    for code, name in LANGUAGES.items():
-        if name == args.language.lower():
-            language = code
     if language:
+        for code, name in LANGUAGES.items():
+            if name == args.language.lower():
+                language = code
         print(f"language recognized. Transcribing for {language}")
     else:
-        print("No Language given. Language will be looked for")
+        print("No Language given. Language will automatically recognized")
         
     process_data(args.input_dir, language, args.diarization)
 
