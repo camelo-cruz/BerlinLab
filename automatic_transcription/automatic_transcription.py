@@ -277,8 +277,8 @@ def main():
     """
     parser = argparse.ArgumentParser(description="automatic transcription")
     parser.add_argument("input_dir")
-    parser.add_argument("language", default=None)
-    parser.add_argument("--diarization", action="store_true")
+    parser.add_argument("--language", default=None, help="Language of the audio content")
+    parser.add_argument("--diarization", action="store_true", help="Perform speaker diarization during transcription")
     args = parser.parse_args()
     
     language = args.language
