@@ -255,14 +255,11 @@ def process_data(directory, language, diarization = False):
                             #if not diarization only transcribe
                             transcription = model.transcribe(audio_file_path, language = language)
                             transcription = __process_string(transcription["text"])
-                        translation = model.transcribe(audio_file_path, language = language, task='translate')
-                        translation = __process_string(translation['text'])
                         print(transcription)
 
                         series = df[df.isin([file])].stack()
                         for idx, value in series.items():
                             df.at[idx[0], "automatic_transcription"] += f"{count}: {transcription}"
-                            df.at[idx[0], "automatic_translation"] += f"{count}: {translation}"
 
                 df.to_excel(excel_output_file)
                 print(f"\nTranscription and translation completed for {subdir}.")
