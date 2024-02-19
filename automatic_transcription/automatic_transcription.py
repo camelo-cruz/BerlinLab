@@ -219,11 +219,7 @@ def process_data(directory, language, diarization = False):
             if 'binaries' in subdir:
                 csv_file_path = os.path.join(subdir, '..', 'trials_and_sessions.csv')
                 excel_file_path = os.path.join(subdir, '..', 'trials_and_sessions.xlsx')
-                csv_output_file = os.path.join(subdir, '..', 'trials_and_sessions_annotated.csv')
                 excel_output_file = os.path.join(subdir, '..', 'trials_and_sessions_annotated.xlsx')
-                if diarization:
-                    csv_output_file = os.path.join(subdir, '..', 'trials_and_sessions_diarized.csv')
-                    excel_output_file = os.path.join(subdir, '..', 'trials_and_sessions_annotated.xlsx')
                 if os.path.exists(csv_file_path):
                     df = pd.read_csv(csv_file_path)
                 elif os.path.exists(excel_file_path):
@@ -268,7 +264,6 @@ def process_data(directory, language, diarization = False):
                             df.at[idx[0], "automatic_transcription"] += f"{count}: {transcription}"
                             df.at[idx[0], "automatic_translation"] += f"{count}: {translation}"
 
-                df.to_csv(csv_output_file)
                 df.to_excel(excel_output_file)
                 print(f"\nTranscription and translation completed for {subdir}.")
     except Exception as e:
