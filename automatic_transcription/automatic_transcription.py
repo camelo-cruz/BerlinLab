@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
-This is a temporary script file.
+Author: Alejandra Camelo Cruz
+        Arne Goelz
+        
+Leibniz Institute General Linguistics (ZAS)
 """
 
 import os
@@ -10,7 +11,6 @@ import whisper
 import warnings
 import argparse
 import string
-import json
 import pandas as pd
 from pydub import AudioSegment
 from pyannote.audio import Pipeline
@@ -224,13 +224,29 @@ def process_data(directory, language, diarization = False):
                     df = pd.read_csv(csv_file_path)
                 elif os.path.exists(excel_file_path):
                     df = pd.read_excel(excel_file_path)
-
+                
+                #add columns for workflow
+                new_columns = ["latin_transcription_everything",
+                               "translation_everything",
+                               "personal_data_free_check",
+                               "latin_transcription_utterance_used"
+                               "translation_utterance_used"
+                               "transcription_check"
+                               "transcription_comment"
+                               "glossing_utterance_used"
+                               "glossing_comment"
+                    ]
+                for column in new_columns:
+                    df[column] = ""
+                    
+                #continue with the files
                 count = 0
                 for file in tqdm(files, desc=f"Processing Files in subdir {subdir}", unit="file"):
                     if file.endswith('.mp3'):
                         count += 1
                         # Use subdir as the base directory
                         audio_file_path = os.path.join(subdir, file)
+                        
                         if 'automatic_transcription' not in df.columns:
                             df['automatic_transcription'] = ""
                         if 'automatic_translation' not in df.columns:
@@ -238,7 +254,7 @@ def process_data(directory, language, diarization = False):
                         transcription = ""
                         if diarization:
                             diarized_transcription = __transcribe_with_diarization(audio_file_path, language)
-                            add_speaker = lambda segment: f"{'EXP' if '00' in segment['speaker'] else 'CHI'}: {segment['text']} "
+                            add_speaker = lambda segment: f"{segment['speaker']}: {segment['text']} "
                             for index in range(len(diarized_transcription)):
                                 segment = diarized_transcription[index]
                                 if index != 0:
