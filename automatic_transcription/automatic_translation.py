@@ -9,12 +9,16 @@ def translate(file, target_lang):
     #read the excel sheet and either add a new column 'automatic_translation'
     #or transform add to the existing column the translations
     for i in range(len(df)):
-        if 'automatic_translation' in df.columns:
-            df['automatic_translation'][i] = GoogleTranslator(source='auto', target='en').translate(df['transcription'][i]) 
-        else:
-            df.insert(df.columns.get_loc('transcription_comments'), 'automatic_translation', 'n')
-            df['automatic_translation'][i] = GoogleTranslator(source='auto', target='en').translate(df['transcription'][i]) 
-    
+        try:
+            if 'automatic_translation' in df.columns:
+                df.loc[i,'automatic_translation'] = GoogleTranslator(source='auto', target='en').translate(df['transcription'][i]) 
+            else:
+                df.insert(df.columns.get_loc('transcription_comments'), 'automatic_translation', 'n')
+                df.loc[i,'automatic_translation'] = GoogleTranslator(source='auto', target='en').translate(df['transcription'][i]) 
+        except Exception as e:
+            print(f"An error occurred: {str(e)}")
+            
+        
     return df
 
 
