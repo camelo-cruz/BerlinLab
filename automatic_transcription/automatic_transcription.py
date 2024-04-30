@@ -229,11 +229,11 @@ def process_data(directory, language, diarization = False):
                 new_columns = ["latin_transcription_everything",
                                "translation_everything",
                                "personal_data_free_check",
-                               "latin_transcription_utterance_used"
-                               "translation_utterance_used"
-                               "transcription_check"
-                               "transcription_comment"
-                               "glossing_utterance_used"
+                               "latin_transcription_utterance_used",
+                               "translation_utterance_used",
+                               "transcription_check",
+                               "transcription_comment",
+                               "glossing_utterance_used",
                                "glossing_comment"
                     ]
                 for column in new_columns:
