@@ -15,6 +15,9 @@ import pandas as pd
 from pydub import AudioSegment
 from pyannote.audio import Pipeline
 from tqdm import tqdm
+from transliterate import translit
+import cutlet
+
 
 LANGUAGES = {
     "en": "english",
@@ -119,6 +122,7 @@ LANGUAGES = {
     "yue": "cantonese"
 }
 
+#katsu = cutlet.Cutlet()
 warnings.filterwarnings("ignore")
 model = whisper.load_model("large-v3")
 pipeline = Pipeline.from_pretrained(
@@ -207,7 +211,7 @@ def __transcribe_with_diarization(audiofile, language):
 
 
 
-def process_data(directory, language, diarization = False):
+def process_data(directory, language, diarization = False, latin_transliteration = False):
     """
     Process audio files in a directory, perform transcription, and update a CSV file.
 
@@ -226,13 +230,13 @@ def process_data(directory, language, diarization = False):
                     df = pd.read_excel(excel_file_path)
                 
                 #add columns for workflow
-                new_columns = ["latin_transcription_everything",
-                               "translation_everything",
-                               "personal_data_free_check",
+                new_columns = ["personal_data_free_check",
                                "latin_transcription_utterance_used",
-                               "translation_utterance_used",
-                               "transcription_check",
+                               "latin_transcription_everything",
                                "transcription_comment",
+                               "transcription_check",
+                               "translation_utterance_used",
+                               "translation_everything",                               
                                "glossing_utterance_used",
                                "glossing_comment"
                     ]
@@ -276,6 +280,17 @@ def process_data(directory, language, diarization = False):
                         series = df[df.isin([file])].stack()
                         for idx, value in series.items():
                             df.at[idx[0], "automatic_transcription"] += f"{count}: {transcription}"
+                        
+                        if latin_transliteration:
+                            if language == "ru":
+                                for idx, value in series.items():
+                                    df.at[idx[0], "latin_transcription_everything"] += f"{count}: {translit(transcription, 'ru',reversed=True)}"
+                            elif language == "uk":
+                                for idx, value in series.items():
+                                    df.at[idx[0], "latin_transcription_everything"] += f"{count}: {translit(transcription, 'uk',reversed=True)}"
+                            elif language == "ja":
+                                for idx, value in series.items():
+                                    df.at[idx[0], "latin_transcription_everything"] += f"{count}: {katsu.romaji(transcription)}"
 
                 df.to_excel(excel_output_file)
                 print(f"\nTranscription and translation completed for {subdir}.")
@@ -291,6 +306,7 @@ def main():
     parser.add_argument("input_dir")
     parser.add_argument("language", default=None, help="Language of the audio content")
     parser.add_argument("--diarization", action="store_true", help="Perform speaker diarization during transcription")
+    parser.add_argument("--transliteration", action="store_true", help="Perform transliteration into latin alphabet for Japanese and Russian")
     args = parser.parse_args()
     
     language = args.language
@@ -302,7 +318,7 @@ def main():
     else:
         print("No Language given. Language will automatically recognized")
         
-    process_data(args.input_dir, language, args.diarization)
+    process_data(args.input_dir, language, args.diarization, args.transliteration)
 
 if __name__ == "__main__":
     main()

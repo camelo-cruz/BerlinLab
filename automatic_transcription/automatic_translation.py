@@ -7,7 +7,7 @@ def translate(file, target_lang):
     df = pd.read_excel(file)
     
     #read the excel sheet and either add a new column 'automatic_translation'
-    #or transform add to the existing column the translations
+    #or add to the existing column the translations
     for i in range(len(df)):
         try:
             if 'automatic_translation' in df.columns:
@@ -27,18 +27,21 @@ def main():
     Main function to translate a manually prepaired transcription
     
     arguments:
-    file
+    directory
     target language
     """
     
     parser = argparse.ArgumentParser(description="automatic transcription")
-    parser.add_argument("input_file")
+    parser.add_argument("input_dir")
     parser.add_argument("target_language", default="en")
     args = parser.parse_args()
     
-    df = translate(args.input_file, args.target_language)
-    
-    df.to_excel(args.input_file)
+    for subdir, dir, files in os.walk(args.input_dir):
+        for file in files:
+            if file.endswith('.xlsx'):
+                file = os.path.join(subdir, file)
+                df = translate(file, args.target_language)
+                df.to_excel(file)
 
 
 if __name__ == "__main__":
