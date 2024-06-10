@@ -28,8 +28,8 @@ def generate_shuffled_lists(input_list, repeat_times=1, num_rows=1000, output_fi
     print(f"Shuffled lists written to {output_file}")
 
 def main():
-    my_list = [1,2,1,2,1,2,1,2,1,2,1,2]
-    repeat_times = 1
+    my_list = [1,2,3,1,2,3,1,2,3,1,2,3,1,2,3]
+    repeat_times = 3
     total_rows = 1000
     generate_shuffled_lists(my_list, repeat_times, total_rows)
 
