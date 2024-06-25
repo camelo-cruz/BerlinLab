@@ -122,7 +122,7 @@ LANGUAGES = {
     "yue": "cantonese"
 }
 
-#katsu = cutlet.Cutlet()
+katsu = cutlet.Cutlet()
 warnings.filterwarnings("ignore")
 model = whisper.load_model("large-v3")
 pipeline = Pipeline.from_pretrained(
