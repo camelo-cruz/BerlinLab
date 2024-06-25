@@ -122,7 +122,7 @@ LANGUAGES = {
     "yue": "cantonese"
 }
 
-katsu = cutlet.Cutlet()
+#katsu = cutlet.Cutlet()
 warnings.filterwarnings("ignore")
 model = whisper.load_model("large-v3")
 pipeline = Pipeline.from_pretrained(
@@ -288,9 +288,9 @@ def process_data(directory, language, diarization = False, latin_transliteration
                             elif language == "uk":
                                 for idx, value in series.items():
                                     df.at[idx[0], "latin_transcription_everything"] += f"{count}: {translit(transcription, 'uk',reversed=True)}"
-                            elif language == "ja":
-                                for idx, value in series.items():
-                                    df.at[idx[0], "latin_transcription_everything"] += f"{count}: {katsu.romaji(transcription)}"
+                            #elif language == "ja":
+                            #    for idx, value in series.items():
+                             #       df.at[idx[0], "latin_transcription_everything"] += f"{count}: {katsu.romaji(transcription)}"
 
                 df.to_excel(excel_output_file)
                 print(f"\nTranscription and translation completed for {subdir}.")
