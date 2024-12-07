@@ -1,7 +1,6 @@
 import os
 import whisper
 import json
-import requests
 import argparse
 from pydub import AudioSegment
 from praatio import textgrid

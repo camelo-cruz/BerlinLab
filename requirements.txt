@@ -1,0 +1,5 @@
+whisper==1.0
+pydub==0.25.1
+praatio==5.0.1
+argparse==1.4.0
+PyAudio==0.2.13
