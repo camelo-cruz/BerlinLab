@@ -1,0 +1,2323 @@
+{
+    "text": " Hier are a few lions. They each have something sweet to eat. There are cookies, chocolate and ice cream. The blue lion ate the cookie and the ice cream. The brown lion ate the ice cream and the chocolate. This was a story about lions. They ate various sweets. For example, the blue lion ate the cookie and the ice cream. Look, here are some horses. They each have some toys. There are balls, shovels and buckets. The red horse played with a ball. The yellow horse played with a shovel and a bucket. This was a story about horses. They played with different toys. For example, the red horse played with a ball. Look, here are some pigs. They each have some vegetables to eat. There are potatoes, pumpkins and eggplants. The pink pig ate the potato. The blue pig is already full. That's why his vegetables are still there. The green pig ate the eggplant and the pumpkin. This was a story about pigs. They ate different vegetables. For example, the pink pig ate the potato. Look, here are some elephants. They each have some toys. There are balls, trucks and buckets. The green elephant played with a ball. The blue elephant played with a bucket. The orange elephant also played with a bucket. This was a story about elephants. They had different toys. For example, the blue elephant and the orange elephant played with their buckets.",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 2.099999999999998,
+            "end": 3.7,
+            "text": " Hier are a few lions.",
+            "tokens": [
+                50365,
+                10886,
+                366,
+                257,
+                1326,
+                32564,
+                13,
+                50564
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.22883411289490374,
+            "compression_ratio": 2.0,
+            "no_speech_prob": 0.09791447222232819,
+            "words": [
+                {
+                    "word": " Hier",
+                    "start": 2.099999999999998,
+                    "end": 2.66,
+                    "probability": 0.3369503915309906
+                },
+                {
+                    "word": " are",
+                    "start": 2.66,
+                    "end": 2.96,
+                    "probability": 0.7636387944221497
+                },
+                {
+                    "word": " a",
+                    "start": 2.96,
+                    "end": 3.2,
+                    "probability": 0.9926459789276123
+                },
+                {
+                    "word": " few",
+                    "start": 3.2,
+                    "end": 3.38,
+                    "probability": 0.9997192025184631
+                },
+                {
+                    "word": " lions.",
+                    "start": 3.38,
+                    "end": 3.7,
+                    "probability": 0.982788622379303
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "seek": 0,
+            "start": 4.22,
+            "end": 6.4,
+            "text": " They each have something sweet to eat.",
+            "tokens": [
+                50597,
+                814,
+                1184,
+                362,
+                746,
+                3844,
+                281,
+                1862,
+                13,
+                50693
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.22883411289490374,
+            "compression_ratio": 2.0,
+            "no_speech_prob": 0.09791447222232819,
+            "words": [
+                {
+                    "word": " They",
+                    "start": 4.22,
+                    "end": 4.78,
+                    "probability": 0.9981240630149841
+                },
+                {
+                    "word": " each",
+                    "start": 4.78,
+                    "end": 5.0,
+                    "probability": 0.9938263297080994
+                },
+                {
+                    "word": " have",
+                    "start": 5.0,
+                    "end": 5.22,
+                    "probability": 0.9997733235359192
+                },
+                {
+                    "word": " something",
+                    "start": 5.22,
+                    "end": 5.48,
+                    "probability": 0.9994316697120667
+                },
+                {
+                    "word": " sweet",
+                    "start": 5.48,
+                    "end": 5.96,
+                    "probability": 0.9996044039726257
+                },
+                {
+                    "word": " to",
+                    "start": 5.96,
+                    "end": 6.2,
+                    "probability": 0.9994602799415588
+                },
+                {
+                    "word": " eat.",
+                    "start": 6.2,
+                    "end": 6.4,
+                    "probability": 0.9999321699142456
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "seek": 0,
+            "start": 6.66,
+            "end": 9.42,
+            "text": " There are cookies, chocolate and ice cream.",
+            "tokens": [
+                50723,
+                821,
+                366,
+                13670,
+                11,
+                6215,
+                293,
+                4435,
+                4689,
+                13,
+                50843
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.22883411289490374,
+            "compression_ratio": 2.0,
+            "no_speech_prob": 0.09791447222232819,
+            "words": [
+                {
+                    "word": " There",
+                    "start": 6.66,
+                    "end": 7.22,
+                    "probability": 0.9868203997612
+                },
+                {
+                    "word": " are",
+                    "start": 7.22,
+                    "end": 7.34,
+                    "probability": 0.999911904335022
+                },
+                {
+                    "word": " cookies,",
+                    "start": 7.34,
+                    "end": 7.62,
+                    "probability": 0.9987375140190125
+                },
+                {
+                    "word": " chocolate",
+                    "start": 7.96,
+                    "end": 8.42,
+                    "probability": 0.9993588328361511
+                },
+                {
+                    "word": " and",
+                    "start": 8.42,
+                    "end": 8.86,
+                    "probability": 0.9328488707542419
+                },
+                {
+                    "word": " ice",
+                    "start": 8.86,
+                    "end": 9.12,
+                    "probability": 0.999491810798645
+                },
+                {
+                    "word": " cream.",
+                    "start": 9.12,
+                    "end": 9.42,
+                    "probability": 0.9746889472007751
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "seek": 0,
+            "start": 9.88,
+            "end": 12.58,
+            "text": " The blue lion ate the cookie and the ice cream.",
+            "tokens": [
+                50881,
+                440,
+                3344,
+                17226,
+                8468,
+                264,
+                14417,
+                293,
+                264,
+                4435,
+                4689,
+                13,
+                51001
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.22883411289490374,
+            "compression_ratio": 2.0,
+            "no_speech_prob": 0.09791447222232819,
+            "words": [
+                {
+                    "word": " The",
+                    "start": 9.88,
+                    "end": 10.44,
+                    "probability": 0.998819887638092
+                },
+                {
+                    "word": " blue",
+                    "start": 10.44,
+                    "end": 10.64,
+                    "probability": 0.9926663041114807
+                },
+                {
+                    "word": " lion",
+                    "start": 10.64,
+                    "end": 11.04,
+                    "probability": 0.9999176263809204
+                },
+                {
+                    "word": " ate",
+                    "start": 11.04,
+                    "end": 11.32,
+                    "probability": 0.9995192289352417
+                },
+                {
+                    "word": " the",
+                    "start": 11.32,
+                    "end": 11.46,
+                    "probability": 0.9996410608291626
+                },
+                {
+                    "word": " cookie",
+                    "start": 11.46,
+                    "end": 11.74,
+                    "probability": 0.9950953722000122
+                },
+                {
+                    "word": " and",
+                    "start": 11.74,
+                    "end": 11.94,
+                    "probability": 0.9993075132369995
+                },
+                {
+                    "word": " the",
+                    "start": 11.94,
+                    "end": 12.06,
+                    "probability": 0.9991077780723572
+                },
+                {
+                    "word": " ice",
+                    "start": 12.06,
+                    "end": 12.3,
+                    "probability": 0.9999257326126099
+                },
+                {
+                    "word": " cream.",
+                    "start": 12.3,
+                    "end": 12.58,
+                    "probability": 0.9999020099639893
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "seek": 0,
+            "start": 12.78,
+            "end": 15.66,
+            "text": " The brown lion ate the ice cream and the chocolate.",
+            "tokens": [
+                51028,
+                440,
+                6292,
+                17226,
+                8468,
+                264,
+                4435,
+                4689,
+                293,
+                264,
+                6215,
+                13,
+                51157
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.22883411289490374,
+            "compression_ratio": 2.0,
+            "no_speech_prob": 0.09791447222232819,
+            "words": [
+                {
+                    "word": " The",
+                    "start": 12.78,
+                    "end": 13.34,
+                    "probability": 0.9994869232177734
+                },
+                {
+                    "word": " brown",
+                    "start": 13.34,
+                    "end": 13.64,
+                    "probability": 0.9983490705490112
+                },
+                {
+                    "word": " lion",
+                    "start": 13.64,
+                    "end": 14.02,
+                    "probability": 0.999945878982544
+                },
+                {
+                    "word": " ate",
+                    "start": 14.02,
+                    "end": 14.44,
+                    "probability": 0.9992115497589111
+                },
+                {
+                    "word": " the",
+                    "start": 14.44,
+                    "end": 14.58,
+                    "probability": 0.9999170303344727
+                },
+                {
+                    "word": " ice",
+                    "start": 14.58,
+                    "end": 14.78,
+                    "probability": 0.9998586177825928
+                },
+                {
+                    "word": " cream",
+                    "start": 14.78,
+                    "end": 15.08,
+                    "probability": 0.9999676942825317
+                },
+                {
+                    "word": " and",
+                    "start": 15.08,
+                    "end": 15.22,
+                    "probability": 0.9988246560096741
+                },
+                {
+                    "word": " the",
+                    "start": 15.22,
+                    "end": 15.34,
+                    "probability": 0.9998216032981873
+                },
+                {
+                    "word": " chocolate.",
+                    "start": 15.34,
+                    "end": 15.66,
+                    "probability": 0.9998430013656616
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "seek": 0,
+            "start": 16.68,
+            "end": 18.38,
+            "text": " This was a story about lions.",
+            "tokens": [
+                51205,
+                639,
+                390,
+                257,
+                1657,
+                466,
+                32564,
+                13,
+                51304
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.22883411289490374,
+            "compression_ratio": 2.0,
+            "no_speech_prob": 0.09791447222232819,
+            "words": [
+                {
+                    "word": " This",
+                    "start": 16.68,
+                    "end": 17.24,
+                    "probability": 0.9989014863967896
+                },
+                {
+                    "word": " was",
+                    "start": 17.24,
+                    "end": 17.4,
+                    "probability": 0.9989472031593323
+                },
+                {
+                    "word": " a",
+                    "start": 17.4,
+                    "end": 17.56,
+                    "probability": 0.9829899072647095
+                },
+                {
+                    "word": " story",
+                    "start": 17.56,
+                    "end": 17.88,
+                    "probability": 0.9998877048492432
+                },
+                {
+                    "word": " about",
+                    "start": 17.88,
+                    "end": 18.06,
+                    "probability": 0.9996742010116577
+                },
+                {
+                    "word": " lions.",
+                    "start": 18.06,
+                    "end": 18.38,
+                    "probability": 0.998289167881012
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "seek": 0,
+            "start": 18.8,
+            "end": 20.44,
+            "text": " They ate various sweets.",
+            "tokens": [
+                51329,
+                814,
+                8468,
+                3683,
+                28680,
+                13,
+                51396
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.22883411289490374,
+            "compression_ratio": 2.0,
+            "no_speech_prob": 0.09791447222232819,
+            "words": [
+                {
+                    "word": " They",
+                    "start": 18.8,
+                    "end": 19.34,
+                    "probability": 0.998102605342865
+                },
+                {
+                    "word": " ate",
+                    "start": 19.34,
+                    "end": 19.54,
+                    "probability": 0.998218834400177
+                },
+                {
+                    "word": " various",
+                    "start": 19.54,
+                    "end": 20.0,
+                    "probability": 0.9997218251228333
+                },
+                {
+                    "word": " sweets.",
+                    "start": 20.0,
+                    "end": 20.44,
+                    "probability": 0.9985018968582153
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "seek": 0,
+            "start": 21.38,
+            "end": 24.98,
+            "text": " For example, the blue lion ate the cookie and the ice cream.",
+            "tokens": [
+                51434,
+                1171,
+                1365,
+                11,
+                264,
+                3344,
+                17226,
+                8468,
+                264,
+                14417,
+                293,
+                264,
+                4435,
+                4689,
+                13,
+                51621
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.22883411289490374,
+            "compression_ratio": 2.0,
+            "no_speech_prob": 0.09791447222232819,
+            "words": [
+                {
+                    "word": " For",
+                    "start": 21.14,
+                    "end": 21.42,
+                    "probability": 0.9984997510910034
+                },
+                {
+                    "word": " example,",
+                    "start": 21.42,
+                    "end": 21.92,
+                    "probability": 0.9999051094055176
+                },
+                {
+                    "word": " the",
+                    "start": 22.04,
+                    "end": 22.8,
+                    "probability": 0.9957583546638489
+                },
+                {
+                    "word": " blue",
+                    "start": 22.8,
+                    "end": 23.0,
+                    "probability": 0.9989626407623291
+                },
+                {
+                    "word": " lion",
+                    "start": 23.0,
+                    "end": 23.34,
+                    "probability": 0.9999011754989624
+                },
+                {
+                    "word": " ate",
+                    "start": 23.34,
+                    "end": 23.56,
+                    "probability": 0.998556911945343
+                },
+                {
+                    "word": " the",
+                    "start": 23.56,
+                    "end": 23.68,
+                    "probability": 0.9997352957725525
+                },
+                {
+                    "word": " cookie",
+                    "start": 23.68,
+                    "end": 23.96,
+                    "probability": 0.9988377690315247
+                },
+                {
+                    "word": " and",
+                    "start": 23.96,
+                    "end": 24.34,
+                    "probability": 0.9997254014015198
+                },
+                {
+                    "word": " the",
+                    "start": 24.34,
+                    "end": 24.48,
+                    "probability": 0.9999170303344727
+                },
+                {
+                    "word": " ice",
+                    "start": 24.48,
+                    "end": 24.7,
+                    "probability": 0.9999561309814453
+                },
+                {
+                    "word": " cream.",
+                    "start": 24.7,
+                    "end": 24.98,
+                    "probability": 0.9999794960021973
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "seek": 0,
+            "start": 27.72,
+            "end": 29.56,
+            "text": " Look, here are some horses.",
+            "tokens": [
+                51760,
+                2053,
+                11,
+                510,
+                366,
+                512,
+                13112,
+                13,
+                51852
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.22883411289490374,
+            "compression_ratio": 2.0,
+            "no_speech_prob": 0.09791447222232819,
+            "words": [
+                {
+                    "word": " Look,",
+                    "start": 27.72,
+                    "end": 28.28,
+                    "probability": 0.9988645315170288
+                },
+                {
+                    "word": " here",
+                    "start": 28.44,
+                    "end": 28.9,
+                    "probability": 0.9987083673477173
+                },
+                {
+                    "word": " are",
+                    "start": 28.9,
+                    "end": 29.04,
+                    "probability": 0.9998437166213989
+                },
+                {
+                    "word": " some",
+                    "start": 29.04,
+                    "end": 29.2,
+                    "probability": 0.9995703101158142
+                },
+                {
+                    "word": " horses.",
+                    "start": 29.2,
+                    "end": 29.56,
+                    "probability": 0.9992977380752563
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "seek": 3000,
+            "start": 30.0,
+            "end": 31.28,
+            "text": " They each have some toys.",
+            "tokens": [
+                50379,
+                814,
+                1184,
+                362,
+                512,
+                13753,
+                13,
+                50443
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21389939021138313,
+            "compression_ratio": 1.9119170984455958,
+            "no_speech_prob": 0.00010150008165510371,
+            "words": [
+                {
+                    "word": " They",
+                    "start": 30.0,
+                    "end": 30.36,
+                    "probability": 0.5807104110717773
+                },
+                {
+                    "word": " each",
+                    "start": 30.36,
+                    "end": 30.56,
+                    "probability": 0.9660082459449768
+                },
+                {
+                    "word": " have",
+                    "start": 30.56,
+                    "end": 30.78,
+                    "probability": 0.9991018772125244
+                },
+                {
+                    "word": " some",
+                    "start": 30.78,
+                    "end": 30.96,
+                    "probability": 0.99810791015625
+                },
+                {
+                    "word": " toys.",
+                    "start": 30.96,
+                    "end": 31.28,
+                    "probability": 0.9927005767822266
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "seek": 3000,
+            "start": 32.24,
+            "end": 34.1,
+            "text": " There are balls, shovels and buckets.",
+            "tokens": [
+                50477,
+                821,
+                366,
+                9803,
+                11,
+                29789,
+                82,
+                293,
+                32191,
+                13,
+                50580
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21389939021138313,
+            "compression_ratio": 1.9119170984455958,
+            "no_speech_prob": 0.00010150008165510371,
+            "words": [
+                {
+                    "word": " There",
+                    "start": 31.98,
+                    "end": 32.28,
+                    "probability": 0.6908931136131287
+                },
+                {
+                    "word": " are",
+                    "start": 32.28,
+                    "end": 32.42,
+                    "probability": 0.9996022582054138
+                },
+                {
+                    "word": " balls,",
+                    "start": 32.42,
+                    "end": 32.82,
+                    "probability": 0.7424435019493103
+                },
+                {
+                    "word": " shovels",
+                    "start": 32.98,
+                    "end": 33.62,
+                    "probability": 0.9994958639144897
+                },
+                {
+                    "word": " and",
+                    "start": 33.62,
+                    "end": 33.76,
+                    "probability": 0.9319645166397095
+                },
+                {
+                    "word": " buckets.",
+                    "start": 33.76,
+                    "end": 34.1,
+                    "probability": 0.9985560774803162
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "seek": 3000,
+            "start": 34.66,
+            "end": 36.98,
+            "text": " The red horse played with a ball.",
+            "tokens": [
+                50623,
+                440,
+                2182,
+                6832,
+                3737,
+                365,
+                257,
+                2594,
+                13,
+                50721
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21389939021138313,
+            "compression_ratio": 1.9119170984455958,
+            "no_speech_prob": 0.00010150008165510371,
+            "words": [
+                {
+                    "word": " The",
+                    "start": 34.66,
+                    "end": 35.26,
+                    "probability": 0.9988734126091003
+                },
+                {
+                    "word": " red",
+                    "start": 35.26,
+                    "end": 35.46,
+                    "probability": 0.9779607653617859
+                },
+                {
+                    "word": " horse",
+                    "start": 35.46,
+                    "end": 35.82,
+                    "probability": 0.999656081199646
+                },
+                {
+                    "word": " played",
+                    "start": 35.82,
+                    "end": 36.36,
+                    "probability": 0.9995037317276001
+                },
+                {
+                    "word": " with",
+                    "start": 36.36,
+                    "end": 36.62,
+                    "probability": 0.9999027252197266
+                },
+                {
+                    "word": " a",
+                    "start": 36.62,
+                    "end": 36.76,
+                    "probability": 0.6688108444213867
+                },
+                {
+                    "word": " ball.",
+                    "start": 36.76,
+                    "end": 36.98,
+                    "probability": 0.9993764758110046
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "seek": 3000,
+            "start": 37.28,
+            "end": 40.34,
+            "text": " The yellow horse played with a shovel and a bucket.",
+            "tokens": [
+                50754,
+                440,
+                5566,
+                6832,
+                3737,
+                365,
+                257,
+                29789,
+                293,
+                257,
+                13058,
+                13,
+                50886
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21389939021138313,
+            "compression_ratio": 1.9119170984455958,
+            "no_speech_prob": 0.00010150008165510371,
+            "words": [
+                {
+                    "word": " The",
+                    "start": 37.28,
+                    "end": 37.88,
+                    "probability": 0.9994749426841736
+                },
+                {
+                    "word": " yellow",
+                    "start": 37.88,
+                    "end": 38.16,
+                    "probability": 0.999496340751648
+                },
+                {
+                    "word": " horse",
+                    "start": 38.16,
+                    "end": 38.54,
+                    "probability": 0.9999176263809204
+                },
+                {
+                    "word": " played",
+                    "start": 38.54,
+                    "end": 38.86,
+                    "probability": 0.9998371601104736
+                },
+                {
+                    "word": " with",
+                    "start": 38.86,
+                    "end": 39.06,
+                    "probability": 0.9999125003814697
+                },
+                {
+                    "word": " a",
+                    "start": 39.06,
+                    "end": 39.22,
+                    "probability": 0.998855471611023
+                },
+                {
+                    "word": " shovel",
+                    "start": 39.22,
+                    "end": 39.54,
+                    "probability": 0.9996711015701294
+                },
+                {
+                    "word": " and",
+                    "start": 39.54,
+                    "end": 39.9,
+                    "probability": 0.9991558790206909
+                },
+                {
+                    "word": " a",
+                    "start": 39.9,
+                    "end": 40.04,
+                    "probability": 0.9979071617126465
+                },
+                {
+                    "word": " bucket.",
+                    "start": 40.04,
+                    "end": 40.34,
+                    "probability": 0.9998733997344971
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "seek": 3000,
+            "start": 41.46,
+            "end": 43.2,
+            "text": " This was a story about horses.",
+            "tokens": [
+                50944,
+                639,
+                390,
+                257,
+                1657,
+                466,
+                13112,
+                13,
+                51033
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21389939021138313,
+            "compression_ratio": 1.9119170984455958,
+            "no_speech_prob": 0.00010150008165510371,
+            "words": [
+                {
+                    "word": " This",
+                    "start": 41.46,
+                    "end": 42.06,
+                    "probability": 0.9987154006958008
+                },
+                {
+                    "word": " was",
+                    "start": 42.06,
+                    "end": 42.2,
+                    "probability": 0.9990492463111877
+                },
+                {
+                    "word": " a",
+                    "start": 42.2,
+                    "end": 42.36,
+                    "probability": 0.9959808588027954
+                },
+                {
+                    "word": " story",
+                    "start": 42.36,
+                    "end": 42.66,
+                    "probability": 0.99983811378479
+                },
+                {
+                    "word": " about",
+                    "start": 42.66,
+                    "end": 42.84,
+                    "probability": 0.9997860789299011
+                },
+                {
+                    "word": " horses.",
+                    "start": 42.84,
+                    "end": 43.2,
+                    "probability": 0.9997925162315369
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "seek": 3000,
+            "start": 43.36,
+            "end": 45.18,
+            "text": " They played with different toys.",
+            "tokens": [
+                51033,
+                814,
+                3737,
+                365,
+                819,
+                13753,
+                13,
+                51137
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21389939021138313,
+            "compression_ratio": 1.9119170984455958,
+            "no_speech_prob": 0.00010150008165510371,
+            "words": [
+                {
+                    "word": " They",
+                    "start": 43.36,
+                    "end": 43.96,
+                    "probability": 0.9984754920005798
+                },
+                {
+                    "word": " played",
+                    "start": 43.96,
+                    "end": 44.26,
+                    "probability": 0.9999034404754639
+                },
+                {
+                    "word": " with",
+                    "start": 44.26,
+                    "end": 44.5,
+                    "probability": 0.9999406337738037
+                },
+                {
+                    "word": " different",
+                    "start": 44.5,
+                    "end": 44.8,
+                    "probability": 0.9998315572738647
+                },
+                {
+                    "word": " toys.",
+                    "start": 44.8,
+                    "end": 45.18,
+                    "probability": 0.9999698400497437
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "seek": 3000,
+            "start": 45.52,
+            "end": 48.7,
+            "text": " For example, the red horse played with a ball.",
+            "tokens": [
+                51169,
+                1171,
+                1365,
+                11,
+                264,
+                2182,
+                6832,
+                3737,
+                365,
+                257,
+                2594,
+                13,
+                51307
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21389939021138313,
+            "compression_ratio": 1.9119170984455958,
+            "no_speech_prob": 0.00010150008165510371,
+            "words": [
+                {
+                    "word": " For",
+                    "start": 45.52,
+                    "end": 46.08,
+                    "probability": 0.9987529516220093
+                },
+                {
+                    "word": " example,",
+                    "start": 46.08,
+                    "end": 46.58,
+                    "probability": 0.9999302625656128
+                },
+                {
+                    "word": " the",
+                    "start": 46.72,
+                    "end": 47.26,
+                    "probability": 0.990276575088501
+                },
+                {
+                    "word": " red",
+                    "start": 47.26,
+                    "end": 47.5,
+                    "probability": 0.9996132254600525
+                },
+                {
+                    "word": " horse",
+                    "start": 47.5,
+                    "end": 47.78,
+                    "probability": 0.9999358654022217
+                },
+                {
+                    "word": " played",
+                    "start": 47.78,
+                    "end": 48.08,
+                    "probability": 0.9997054934501648
+                },
+                {
+                    "word": " with",
+                    "start": 48.08,
+                    "end": 48.32,
+                    "probability": 0.9999457597732544
+                },
+                {
+                    "word": " a",
+                    "start": 48.32,
+                    "end": 48.48,
+                    "probability": 0.9995112419128418
+                },
+                {
+                    "word": " ball.",
+                    "start": 48.48,
+                    "end": 48.7,
+                    "probability": 0.9997609257698059
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "seek": 3000,
+            "start": 51.379999999999995,
+            "end": 53.26,
+            "text": " Look, here are some pigs.",
+            "tokens": [
+                51437,
+                2053,
+                11,
+                510,
+                366,
+                512,
+                24380,
+                13,
+                51534
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21389939021138313,
+            "compression_ratio": 1.9119170984455958,
+            "no_speech_prob": 0.00010150008165510371,
+            "words": [
+                {
+                    "word": " Look,",
+                    "start": 51.379999999999995,
+                    "end": 51.98,
+                    "probability": 0.999152421951294
+                },
+                {
+                    "word": " here",
+                    "start": 52.14,
+                    "end": 52.6,
+                    "probability": 0.9994124174118042
+                },
+                {
+                    "word": " are",
+                    "start": 52.6,
+                    "end": 52.72,
+                    "probability": 0.999765932559967
+                },
+                {
+                    "word": " some",
+                    "start": 52.72,
+                    "end": 52.88,
+                    "probability": 0.9999014139175415
+                },
+                {
+                    "word": " pigs.",
+                    "start": 52.88,
+                    "end": 53.26,
+                    "probability": 0.9994385838508606
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "seek": 3000,
+            "start": 53.62,
+            "end": 55.92,
+            "text": " They each have some vegetables to eat.",
+            "tokens": [
+                51569,
+                814,
+                1184,
+                362,
+                512,
+                9320,
+                281,
+                1862,
+                13,
+                51668
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21389939021138313,
+            "compression_ratio": 1.9119170984455958,
+            "no_speech_prob": 0.00010150008165510371,
+            "words": [
+                {
+                    "word": " They",
+                    "start": 53.62,
+                    "end": 54.22,
+                    "probability": 0.9996457099914551
+                },
+                {
+                    "word": " each",
+                    "start": 54.22,
+                    "end": 54.48,
+                    "probability": 0.9998683929443359
+                },
+                {
+                    "word": " have",
+                    "start": 54.48,
+                    "end": 54.7,
+                    "probability": 0.9999737739562988
+                },
+                {
+                    "word": " some",
+                    "start": 54.7,
+                    "end": 54.9,
+                    "probability": 0.9998342990875244
+                },
+                {
+                    "word": " vegetables",
+                    "start": 54.9,
+                    "end": 55.36,
+                    "probability": 0.9994938373565674
+                },
+                {
+                    "word": " to",
+                    "start": 55.36,
+                    "end": 55.7,
+                    "probability": 0.9982001781463623
+                },
+                {
+                    "word": " eat.",
+                    "start": 55.7,
+                    "end": 55.92,
+                    "probability": 0.9999754428863525
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "seek": 3000,
+            "start": 56.8,
+            "end": 59.54,
+            "text": " There are potatoes, pumpkins and eggplants.",
+            "tokens": [
+                51705,
+                821,
+                366,
+                11811,
+                11,
+                49053,
+                293,
+                3777,
+                42433,
+                13,
+                51855
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21389939021138313,
+            "compression_ratio": 1.9119170984455958,
+            "no_speech_prob": 0.00010150008165510371,
+            "words": [
+                {
+                    "word": " There",
+                    "start": 56.540000000000006,
+                    "end": 56.84,
+                    "probability": 0.9720066785812378
+                },
+                {
+                    "word": " are",
+                    "start": 56.84,
+                    "end": 56.96,
+                    "probability": 0.9999773502349854
+                },
+                {
+                    "word": " potatoes,",
+                    "start": 56.96,
+                    "end": 57.42,
+                    "probability": 0.9993940591812134
+                },
+                {
+                    "word": " pumpkins",
+                    "start": 57.82,
+                    "end": 58.36,
+                    "probability": 0.9996484518051147
+                },
+                {
+                    "word": " and",
+                    "start": 58.36,
+                    "end": 58.96,
+                    "probability": 0.9974785447120667
+                },
+                {
+                    "word": " eggplants.",
+                    "start": 58.96,
+                    "end": 59.54,
+                    "probability": 0.9982872605323792
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "seek": 6000,
+            "start": 60.0,
+            "end": 62.04,
+            "text": " The pink pig ate the potato.",
+            "tokens": [
+                50365,
+                440,
+                7022,
+                8120,
+                8468,
+                264,
+                7445,
+                13,
+                50480
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.2833165827485704,
+            "compression_ratio": 1.7336683417085428,
+            "no_speech_prob": 0.0021945666521787643,
+            "words": [
+                {
+                    "word": " The",
+                    "start": 60.0,
+                    "end": 60.74,
+                    "probability": 0.7021017670631409
+                },
+                {
+                    "word": " pink",
+                    "start": 60.74,
+                    "end": 60.98,
+                    "probability": 0.8057329058647156
+                },
+                {
+                    "word": " pig",
+                    "start": 60.98,
+                    "end": 61.34,
+                    "probability": 0.9990429282188416
+                },
+                {
+                    "word": " ate",
+                    "start": 61.34,
+                    "end": 61.66,
+                    "probability": 0.9920117259025574
+                },
+                {
+                    "word": " the",
+                    "start": 61.66,
+                    "end": 61.78,
+                    "probability": 0.9982668161392212
+                },
+                {
+                    "word": " potato.",
+                    "start": 61.78,
+                    "end": 62.04,
+                    "probability": 0.974604070186615
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "seek": 6000,
+            "start": 62.72,
+            "end": 65.08,
+            "text": " The blue pig is already full.",
+            "tokens": [
+                50514,
+                440,
+                3344,
+                8120,
+                307,
+                1217,
+                1577,
+                13,
+                50627
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.2833165827485704,
+            "compression_ratio": 1.7336683417085428,
+            "no_speech_prob": 0.0021945666521787643,
+            "words": [
+                {
+                    "word": " The",
+                    "start": 62.72,
+                    "end": 63.4,
+                    "probability": 0.9974879026412964
+                },
+                {
+                    "word": " blue",
+                    "start": 63.4,
+                    "end": 63.68,
+                    "probability": 0.9980206489562988
+                },
+                {
+                    "word": " pig",
+                    "start": 63.68,
+                    "end": 64.04,
+                    "probability": 0.9997664093971252
+                },
+                {
+                    "word": " is",
+                    "start": 64.04,
+                    "end": 64.38,
+                    "probability": 0.9986459612846375
+                },
+                {
+                    "word": " already",
+                    "start": 64.38,
+                    "end": 64.66,
+                    "probability": 0.9995630383491516
+                },
+                {
+                    "word": " full.",
+                    "start": 64.66,
+                    "end": 65.08,
+                    "probability": 0.9998993873596191
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "seek": 6000,
+            "start": 65.34,
+            "end": 67.58,
+            "text": " That's why his vegetables are still there.",
+            "tokens": [
+                50656,
+                663,
+                311,
+                983,
+                702,
+                9320,
+                366,
+                920,
+                456,
+                13,
+                50753
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.2833165827485704,
+            "compression_ratio": 1.7336683417085428,
+            "no_speech_prob": 0.0021945666521787643,
+            "words": [
+                {
+                    "word": " That's",
+                    "start": 65.34,
+                    "end": 66.02,
+                    "probability": 0.9952656924724579
+                },
+                {
+                    "word": " why",
+                    "start": 66.02,
+                    "end": 66.12,
+                    "probability": 0.9998314380645752
+                },
+                {
+                    "word": " his",
+                    "start": 66.12,
+                    "end": 66.3,
+                    "probability": 0.999394416809082
+                },
+                {
+                    "word": " vegetables",
+                    "start": 66.3,
+                    "end": 66.74,
+                    "probability": 0.9996881484985352
+                },
+                {
+                    "word": " are",
+                    "start": 66.74,
+                    "end": 67.08,
+                    "probability": 0.9997982382774353
+                },
+                {
+                    "word": " still",
+                    "start": 67.08,
+                    "end": 67.34,
+                    "probability": 0.99972003698349
+                },
+                {
+                    "word": " there.",
+                    "start": 67.34,
+                    "end": 67.58,
+                    "probability": 0.9989896416664124
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "seek": 6000,
+            "start": 68.68,
+            "end": 71.46,
+            "text": " The green pig ate the eggplant and the pumpkin.",
+            "tokens": [
+                50799,
+                440,
+                3092,
+                8120,
+                8468,
+                264,
+                43018,
+                293,
+                264,
+                17537,
+                13,
+                50943
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.2833165827485704,
+            "compression_ratio": 1.7336683417085428,
+            "no_speech_prob": 0.0021945666521787643,
+            "words": [
+                {
+                    "word": " The",
+                    "start": 68.47999999999999,
+                    "end": 68.82,
+                    "probability": 0.9994701743125916
+                },
+                {
+                    "word": " green",
+                    "start": 68.82,
+                    "end": 69.12,
+                    "probability": 0.9995720982551575
+                },
+                {
+                    "word": " pig",
+                    "start": 69.12,
+                    "end": 69.46,
+                    "probability": 0.9999059438705444
+                },
+                {
+                    "word": " ate",
+                    "start": 69.46,
+                    "end": 69.98,
+                    "probability": 0.9991818070411682
+                },
+                {
+                    "word": " the",
+                    "start": 69.98,
+                    "end": 70.1,
+                    "probability": 0.9999395608901978
+                },
+                {
+                    "word": " eggplant",
+                    "start": 70.1,
+                    "end": 70.42,
+                    "probability": 0.9966630339622498
+                },
+                {
+                    "word": " and",
+                    "start": 70.42,
+                    "end": 70.96,
+                    "probability": 0.9994315505027771
+                },
+                {
+                    "word": " the",
+                    "start": 70.96,
+                    "end": 71.1,
+                    "probability": 0.9998377561569214
+                },
+                {
+                    "word": " pumpkin.",
+                    "start": 71.1,
+                    "end": 71.46,
+                    "probability": 0.9997138381004333
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "seek": 6000,
+            "start": 72.36000000000001,
+            "end": 74.32,
+            "text": " This was a story about pigs.",
+            "tokens": [
+                50990,
+                639,
+                390,
+                257,
+                1657,
+                466,
+                24380,
+                13,
+                51088
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.2833165827485704,
+            "compression_ratio": 1.7336683417085428,
+            "no_speech_prob": 0.0021945666521787643,
+            "words": [
+                {
+                    "word": " This",
+                    "start": 72.36000000000001,
+                    "end": 73.04,
+                    "probability": 0.9989664554595947
+                },
+                {
+                    "word": " was",
+                    "start": 73.04,
+                    "end": 73.24,
+                    "probability": 0.9996116757392883
+                },
+                {
+                    "word": " a",
+                    "start": 73.24,
+                    "end": 73.36,
+                    "probability": 0.9631519913673401
+                },
+                {
+                    "word": " story",
+                    "start": 73.36,
+                    "end": 73.72,
+                    "probability": 0.9999135732650757
+                },
+                {
+                    "word": " about",
+                    "start": 73.72,
+                    "end": 73.9,
+                    "probability": 0.9998383522033691
+                },
+                {
+                    "word": " pigs.",
+                    "start": 73.9,
+                    "end": 74.32,
+                    "probability": 0.9995703101158142
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "seek": 6000,
+            "start": 74.5,
+            "end": 75.9,
+            "text": " They ate different vegetables.",
+            "tokens": [
+                51109,
+                814,
+                8468,
+                819,
+                9320,
+                13,
+                51170
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.2833165827485704,
+            "compression_ratio": 1.7336683417085428,
+            "no_speech_prob": 0.0021945666521787643,
+            "words": [
+                {
+                    "word": " They",
+                    "start": 74.5,
+                    "end": 74.88,
+                    "probability": 0.9973702430725098
+                },
+                {
+                    "word": " ate",
+                    "start": 74.88,
+                    "end": 75.08,
+                    "probability": 0.994628369808197
+                },
+                {
+                    "word": " different",
+                    "start": 75.08,
+                    "end": 75.42,
+                    "probability": 0.9998999834060669
+                },
+                {
+                    "word": " vegetables.",
+                    "start": 75.42,
+                    "end": 75.9,
+                    "probability": 0.9998078942298889
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "seek": 6000,
+            "start": 77.0,
+            "end": 79.74,
+            "text": " For example, the pink pig ate the potato.",
+            "tokens": [
+                51215,
+                1171,
+                1365,
+                11,
+                264,
+                7022,
+                8120,
+                8468,
+                264,
+                7445,
+                13,
+                51357
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.2833165827485704,
+            "compression_ratio": 1.7336683417085428,
+            "no_speech_prob": 0.0021945666521787643,
+            "words": [
+                {
+                    "word": " For",
+                    "start": 76.7,
+                    "end": 77.04,
+                    "probability": 0.9990519881248474
+                },
+                {
+                    "word": " example,",
+                    "start": 77.04,
+                    "end": 77.5,
+                    "probability": 0.9999526739120483
+                },
+                {
+                    "word": " the",
+                    "start": 77.62,
+                    "end": 78.06,
+                    "probability": 0.9979750514030457
+                },
+                {
+                    "word": " pink",
+                    "start": 78.06,
+                    "end": 78.44,
+                    "probability": 0.9989626407623291
+                },
+                {
+                    "word": " pig",
+                    "start": 78.44,
+                    "end": 78.7,
+                    "probability": 0.9999213218688965
+                },
+                {
+                    "word": " ate",
+                    "start": 78.7,
+                    "end": 79.2,
+                    "probability": 0.9993197917938232
+                },
+                {
+                    "word": " the",
+                    "start": 79.2,
+                    "end": 79.34,
+                    "probability": 0.9995259046554565
+                },
+                {
+                    "word": " potato.",
+                    "start": 79.34,
+                    "end": 79.74,
+                    "probability": 0.9992741942405701
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "seek": 6000,
+            "start": 82.12,
+            "end": 84.12,
+            "text": " Look, here are some elephants.",
+            "tokens": [
+                51479,
+                2053,
+                11,
+                510,
+                366,
+                512,
+                33015,
+                13,
+                51579
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.2833165827485704,
+            "compression_ratio": 1.7336683417085428,
+            "no_speech_prob": 0.0021945666521787643,
+            "words": [
+                {
+                    "word": " Look,",
+                    "start": 82.12,
+                    "end": 82.8,
+                    "probability": 0.9988914132118225
+                },
+                {
+                    "word": " here",
+                    "start": 82.94,
+                    "end": 83.46,
+                    "probability": 0.9989904761314392
+                },
+                {
+                    "word": " are",
+                    "start": 83.46,
+                    "end": 83.6,
+                    "probability": 0.999466598033905
+                },
+                {
+                    "word": " some",
+                    "start": 83.6,
+                    "end": 83.78,
+                    "probability": 0.9997337460517883
+                },
+                {
+                    "word": " elephants.",
+                    "start": 83.78,
+                    "end": 84.12,
+                    "probability": 0.9996720552444458
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "seek": 6000,
+            "start": 84.58,
+            "end": 86.26,
+            "text": " They each have some toys.",
+            "tokens": [
+                51619,
+                814,
+                1184,
+                362,
+                512,
+                13753,
+                13,
+                51690
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.2833165827485704,
+            "compression_ratio": 1.7336683417085428,
+            "no_speech_prob": 0.0021945666521787643,
+            "words": [
+                {
+                    "word": " They",
+                    "start": 84.58,
+                    "end": 85.18,
+                    "probability": 0.9987717270851135
+                },
+                {
+                    "word": " each",
+                    "start": 85.18,
+                    "end": 85.44,
+                    "probability": 0.9990680813789368
+                },
+                {
+                    "word": " have",
+                    "start": 85.44,
+                    "end": 85.68,
+                    "probability": 0.9998888969421387
+                },
+                {
+                    "word": " some",
+                    "start": 85.68,
+                    "end": 85.88,
+                    "probability": 0.9996160268783569
+                },
+                {
+                    "word": " toys.",
+                    "start": 85.88,
+                    "end": 86.26,
+                    "probability": 0.9999415874481201
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "seek": 6000,
+            "start": 87.18,
+            "end": 89.2,
+            "text": " There are balls, trucks and buckets.",
+            "tokens": [
+                51724,
+                821,
+                366,
+                9803,
+                11,
+                16156,
+                293,
+                32191,
+                13,
+                51834
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.2833165827485704,
+            "compression_ratio": 1.7336683417085428,
+            "no_speech_prob": 0.0021945666521787643,
+            "words": [
+                {
+                    "word": " There",
+                    "start": 86.86,
+                    "end": 87.2,
+                    "probability": 0.7609544992446899
+                },
+                {
+                    "word": " are",
+                    "start": 87.2,
+                    "end": 87.34,
+                    "probability": 0.9999204874038696
+                },
+                {
+                    "word": " balls,",
+                    "start": 87.34,
+                    "end": 87.64,
+                    "probability": 0.8028777241706848
+                },
+                {
+                    "word": " trucks",
+                    "start": 87.9,
+                    "end": 88.36,
+                    "probability": 0.9910716414451599
+                },
+                {
+                    "word": " and",
+                    "start": 88.36,
+                    "end": 88.86,
+                    "probability": 0.8627783060073853
+                },
+                {
+                    "word": " buckets.",
+                    "start": 88.86,
+                    "end": 89.2,
+                    "probability": 0.996946394443512
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "seek": 9000,
+            "start": 90.0,
+            "end": 92.3,
+            "text": " The green elephant played with a ball.",
+            "tokens": [
+                50365,
+                440,
+                3092,
+                19791,
+                3737,
+                365,
+                257,
+                2594,
+                13,
+                50487
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.27563288762019234,
+            "compression_ratio": 1.9703703703703703,
+            "no_speech_prob": 0.006333339028060436,
+            "words": [
+                {
+                    "word": " The",
+                    "start": 90.0,
+                    "end": 90.52,
+                    "probability": 0.6677689552307129
+                },
+                {
+                    "word": " green",
+                    "start": 90.52,
+                    "end": 90.74,
+                    "probability": 0.9318525195121765
+                },
+                {
+                    "word": " elephant",
+                    "start": 90.74,
+                    "end": 91.18,
+                    "probability": 0.9966700673103333
+                },
+                {
+                    "word": " played",
+                    "start": 91.18,
+                    "end": 91.64,
+                    "probability": 0.9973002076148987
+                },
+                {
+                    "word": " with",
+                    "start": 91.64,
+                    "end": 91.92,
+                    "probability": 0.9995368719100952
+                },
+                {
+                    "word": " a",
+                    "start": 91.92,
+                    "end": 92.06,
+                    "probability": 0.8194118738174438
+                },
+                {
+                    "word": " ball.",
+                    "start": 92.06,
+                    "end": 92.3,
+                    "probability": 0.9974314570426941
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "seek": 9000,
+            "start": 92.64,
+            "end": 94.94,
+            "text": " The blue elephant played with a bucket.",
+            "tokens": [
+                50514,
+                440,
+                3344,
+                19791,
+                3737,
+                365,
+                257,
+                13058,
+                13,
+                50616
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.27563288762019234,
+            "compression_ratio": 1.9703703703703703,
+            "no_speech_prob": 0.006333339028060436,
+            "words": [
+                {
+                    "word": " The",
+                    "start": 92.64,
+                    "end": 93.28,
+                    "probability": 0.9989633560180664
+                },
+                {
+                    "word": " blue",
+                    "start": 93.28,
+                    "end": 93.5,
+                    "probability": 0.9995689988136292
+                },
+                {
+                    "word": " elephant",
+                    "start": 93.5,
+                    "end": 93.92,
+                    "probability": 0.9998140931129456
+                },
+                {
+                    "word": " played",
+                    "start": 93.92,
+                    "end": 94.3,
+                    "probability": 0.9996283054351807
+                },
+                {
+                    "word": " with",
+                    "start": 94.3,
+                    "end": 94.54,
+                    "probability": 0.9998534917831421
+                },
+                {
+                    "word": " a",
+                    "start": 94.54,
+                    "end": 94.68,
+                    "probability": 0.9996706247329712
+                },
+                {
+                    "word": " bucket.",
+                    "start": 94.68,
+                    "end": 94.94,
+                    "probability": 0.9978917241096497
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "seek": 9000,
+            "start": 95.82,
+            "end": 98.0,
+            "text": " The orange elephant also played with a bucket.",
+            "tokens": [
+                50656,
+                440,
+                7671,
+                19791,
+                611,
+                3737,
+                365,
+                257,
+                13058,
+                13,
+                50769
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.27563288762019234,
+            "compression_ratio": 1.9703703703703703,
+            "no_speech_prob": 0.006333339028060436,
+            "words": [
+                {
+                    "word": " The",
+                    "start": 95.58000000000001,
+                    "end": 95.9,
+                    "probability": 0.9993082284927368
+                },
+                {
+                    "word": " orange",
+                    "start": 95.9,
+                    "end": 96.28,
+                    "probability": 0.9989907145500183
+                },
+                {
+                    "word": " elephant",
+                    "start": 96.28,
+                    "end": 96.64,
+                    "probability": 0.9998270869255066
+                },
+                {
+                    "word": " also",
+                    "start": 96.64,
+                    "end": 97.08,
+                    "probability": 0.9986479878425598
+                },
+                {
+                    "word": " played",
+                    "start": 97.08,
+                    "end": 97.4,
+                    "probability": 0.9997844099998474
+                },
+                {
+                    "word": " with",
+                    "start": 97.4,
+                    "end": 97.6,
+                    "probability": 0.9998262524604797
+                },
+                {
+                    "word": " a",
+                    "start": 97.6,
+                    "end": 97.72,
+                    "probability": 0.997421145439148
+                },
+                {
+                    "word": " bucket.",
+                    "start": 97.72,
+                    "end": 98.0,
+                    "probability": 0.9996803998947144
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "seek": 9000,
+            "start": 99.94,
+            "end": 101.8,
+            "text": " This was a story about elephants.",
+            "tokens": [
+                50869,
+                639,
+                390,
+                257,
+                1657,
+                466,
+                33015,
+                13,
+                50966
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.27563288762019234,
+            "compression_ratio": 1.9703703703703703,
+            "no_speech_prob": 0.006333339028060436,
+            "words": [
+                {
+                    "word": " This",
+                    "start": 99.94,
+                    "end": 100.58,
+                    "probability": 0.9957907795906067
+                },
+                {
+                    "word": " was",
+                    "start": 100.58,
+                    "end": 100.78,
+                    "probability": 0.9987805485725403
+                },
+                {
+                    "word": " a",
+                    "start": 100.78,
+                    "end": 100.92,
+                    "probability": 0.9940894842147827
+                },
+                {
+                    "word": " story",
+                    "start": 100.92,
+                    "end": 101.26,
+                    "probability": 0.9997947812080383
+                },
+                {
+                    "word": " about",
+                    "start": 101.26,
+                    "end": 101.44,
+                    "probability": 0.9997652173042297
+                },
+                {
+                    "word": " elephants.",
+                    "start": 101.44,
+                    "end": 101.8,
+                    "probability": 0.9979799389839172
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "seek": 9000,
+            "start": 102.24,
+            "end": 103.62,
+            "text": " They had different toys.",
+            "tokens": [
+                50998,
+                814,
+                632,
+                819,
+                13753,
+                13,
+                51057
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.27563288762019234,
+            "compression_ratio": 1.9703703703703703,
+            "no_speech_prob": 0.006333339028060436,
+            "words": [
+                {
+                    "word": " They",
+                    "start": 102.24,
+                    "end": 102.78,
+                    "probability": 0.9983310103416443
+                },
+                {
+                    "word": " had",
+                    "start": 102.78,
+                    "end": 102.94,
+                    "probability": 0.9998633861541748
+                },
+                {
+                    "word": " different",
+                    "start": 102.94,
+                    "end": 103.26,
+                    "probability": 0.9996734857559204
+                },
+                {
+                    "word": " toys.",
+                    "start": 103.26,
+                    "end": 103.62,
+                    "probability": 0.9999266862869263
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "seek": 9000,
+            "start": 104.7,
+            "end": 108.54,
+            "text": " For example, the blue elephant and the orange elephant played with their buckets.",
+            "tokens": [
+                51100,
+                1171,
+                1365,
+                11,
+                264,
+                3344,
+                19791,
+                293,
+                264,
+                7671,
+                19791,
+                3737,
+                365,
+                641,
+                32191,
+                13,
+                51300
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.27563288762019234,
+            "compression_ratio": 1.9703703703703703,
+            "no_speech_prob": 0.006333339028060436,
+            "words": [
+                {
+                    "word": " For",
+                    "start": 104.41999999999999,
+                    "end": 104.74,
+                    "probability": 0.998792290687561
+                },
+                {
+                    "word": " example,",
+                    "start": 104.74,
+                    "end": 105.22,
+                    "probability": 0.9999161958694458
+                },
+                {
+                    "word": " the",
+                    "start": 105.38,
+                    "end": 105.84,
+                    "probability": 0.9961245656013489
+                },
+                {
+                    "word": " blue",
+                    "start": 105.84,
+                    "end": 106.04,
+                    "probability": 0.9991666078567505
+                },
+                {
+                    "word": " elephant",
+                    "start": 106.04,
+                    "end": 106.46,
+                    "probability": 0.9997171759605408
+                },
+                {
+                    "word": " and",
+                    "start": 106.46,
+                    "end": 106.76,
+                    "probability": 0.9993531107902527
+                },
+                {
+                    "word": " the",
+                    "start": 106.76,
+                    "end": 106.9,
+                    "probability": 0.9999371767044067
+                },
+                {
+                    "word": " orange",
+                    "start": 106.9,
+                    "end": 107.14,
+                    "probability": 0.9997661709785461
+                },
+                {
+                    "word": " elephant",
+                    "start": 107.14,
+                    "end": 107.5,
+                    "probability": 0.9998992681503296
+                },
+                {
+                    "word": " played",
+                    "start": 107.5,
+                    "end": 107.86,
+                    "probability": 0.9988951086997986
+                },
+                {
+                    "word": " with",
+                    "start": 107.86,
+                    "end": 108.12,
+                    "probability": 0.9998480081558228
+                },
+                {
+                    "word": " their",
+                    "start": 108.12,
+                    "end": 108.26,
+                    "probability": 0.9999186992645264
+                },
+                {
+                    "word": " buckets.",
+                    "start": 108.26,
+                    "end": 108.54,
+                    "probability": 0.9983195662498474
+                }
+            ]
+        }
+    ],
+    "language": "de"
+}
