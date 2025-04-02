@@ -3,7 +3,7 @@ import pandas as pd
 import docx
 import re
 
-column_index = 'Item'
+column_index = 'recording'
 
 def extract_base_block_name(name):
     match = re.search(r'(blockNr_\d+_taskNr_\d+_trialNr_\d+)', name)
@@ -156,4 +156,4 @@ def process_session(folder_path):
         print(f"Error saving Excel file: {e}")
 
 # Example usage
-process_yoruba('/Users/alejandra/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–Leibniz-ZAS/Leibniz Dream Data - Studies/H_Dependencies/H06a-Relative-Clause-Production-study/H06a_raw_files_yor/H06a_raw_files_yor_adults/data_1732047553925')
+process_yoruba('/Users/alejandra/Desktop/Session_1014449 Kopie')
