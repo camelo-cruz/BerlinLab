@@ -5,6 +5,10 @@ import re
 
 column_index = 'Item'
 
+def extract_base_block_name(name):
+    match = re.search(r'(blockNr_\d+_taskNr_\d+_trialNr_\d+)', name)
+    return match.group(1) if match else name
+
 def process_yoruba(base_folder):
     # Ensure the folder exists
     if not os.path.exists(base_folder):
@@ -34,7 +38,7 @@ def process_session(folder_path):
 
     # Ensure all necessary columns exist; add them if missing
     columns_to_fix = ['latin_transcription_everything', 'translation_everything', 
-                        'latin_transcription_utterance_used', 'glossing_utterance_used', 'translation_utterance_used']
+                      'latin_transcription_utterance_used', 'glossing_utterance_used', 'translation_utterance_used']
     for col in columns_to_fix:
         if col not in df.columns:
             df[col] = ""
@@ -71,7 +75,7 @@ def process_session(folder_path):
             current_block = None
             latin_transcription = []
             translation = []
-            dot_lines = []  # Will hold dotted line strings
+            dot_lines = []
             collecting_dots = False
 
             # Process the text line by line
@@ -81,13 +85,13 @@ def process_session(folder_path):
                 # If a new block starts (line begins with "blockNr"), process the previous block first
                 if line.startswith("blockNr"):
                     if current_block:
-                        row_index = df[df[column_index].str.strip().str.contains(r'^.*trialNr_\d+')].index
+                        base_block = extract_base_block_name(current_block)
+                        row_index = df[df[column_index].fillna('').str.strip().str.contains(re.escape(base_block))].index
                         if not row_index.empty:
                             index = row_index[0]
                             df.at[index, 'latin_transcription_everything'] = "\n".join(latin_transcription).strip()
                             df.at[index, 'translation_everything'] = "\n".join(translation).strip()
                             if dot_lines:
-                                # If 3 dotted lines, assign directly; if 4, join the middle two with a newline
                                 if len(dot_lines) == 3:
                                     df.at[index, 'latin_transcription_utterance_used'] = dot_lines[0]
                                     df.at[index, 'glossing_utterance_used'] = dot_lines[1]
@@ -99,17 +103,16 @@ def process_session(folder_path):
                         else:
                             print(f"Block name '{current_block}' not found in the Excel file.")
 
-                    # Reset for new block
                     current_block = line
                     latin_transcription, translation, dot_lines = [], [], []
                     collecting_dots = False
                     continue
 
-                # Process dotted lines: remove the leading dot and strip extra spaces
+                # Process dotted lines
                 if line.startswith("."):
                     dot_lines.append(line.lstrip('.').strip())
                     collecting_dots = True
-                    continue  # Skip further processing for dotted lines
+                    continue
 
                 collecting_dots = False
 
@@ -126,7 +129,8 @@ def process_session(folder_path):
 
             # Process the last block
             if current_block:
-                row_index = df[df[column_index].str.strip() == current_block.strip()].index
+                base_block = extract_base_block_name(current_block)
+                row_index = df[df[column_index].fillna('').str.strip().str.contains(re.escape(base_block))].index
                 if not row_index.empty:
                     index = row_index[0]
                     df.at[index, 'latin_transcription_everything'] = "\n".join(latin_transcription).strip()
@@ -143,7 +147,7 @@ def process_session(folder_path):
                 else:
                     print(f"Block name '{current_block}' not found in the Excel file.")
 
-    # Save the updated DataFrame to a new Excel file in the same folder
+    # Save the updated DataFrame to a new Excel file
     output_file = os.path.join(folder_path, "trials_and_sessions_annotated.xlsx")
     try:
         df.to_excel(output_file, index=False)
@@ -151,5 +155,5 @@ def process_session(folder_path):
     except Exception as e:
         print(f"Error saving Excel file: {e}")
 
-# Example usage: adjust the path as needed
-process_yoruba('/Users/alejandra/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–Leibniz-ZAS/Leibniz Dream Data - Studies/H_Dependencies/H06a-Relative-Clause-Production-study/H06a_raw_files_yor/H06a_raw_files_yor_adults/data_1732047553925/Session_1179134')
+# Example usage
+process_yoruba('/Users/alejandra/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–Leibniz-ZAS/Leibniz Dream Data - Studies/H_Dependencies/H06a-Relative-Clause-Production-study/H06a_raw_files_yor/H06a_raw_files_yor_adults/data_1732047553925')
