@@ -38,7 +38,8 @@ def process_session(folder_path):
 
     # Ensure all necessary columns exist; add them if missing
     columns_to_fix = ['latin_transcription_everything', 'translation_everything', 
-                      'latin_transcription_utterance_used', 'glossing_utterance_used', 'translation_utterance_used']
+                      'latin_transcription_utterance_used', 'glossing_utterance_used', 
+                      'translation_utterance_used']
     for col in columns_to_fix:
         if col not in df.columns:
             df[col] = ""
@@ -91,24 +92,40 @@ def process_session(folder_path):
                             index = row_index[0]
                             df.at[index, 'latin_transcription_everything'] = "\n".join(latin_transcription).strip()
                             df.at[index, 'translation_everything'] = "\n".join(translation).strip()
+                            
                             if dot_lines:
-                                if len(dot_lines) == 3:
-                                    df.at[index, 'latin_transcription_utterance_used'] = dot_lines[0]
-                                    df.at[index, 'glossing_utterance_used'] = dot_lines[1]
-                                    df.at[index, 'translation_utterance_used'] = dot_lines[2]
-                                elif len(dot_lines) == 4:
-                                    df.at[index, 'latin_transcription_utterance_used'] = dot_lines[0]
-                                    df.at[index, 'glossing_utterance_used'] = f'{dot_lines[1]}\n{dot_lines[2]}'
-                                    df.at[index, 'translation_utterance_used'] = dot_lines[3]
+                                # Determine group size: expect groups of either 3 or 4 dot lines.
+                                if len(dot_lines) % 3 == 0:
+                                    group_size = 3
+                                elif len(dot_lines) % 4 == 0:
+                                    group_size = 4
+                                else:
+                                    print(f"Unexpected number of dot_lines ({len(dot_lines)}) in block '{current_block}'.")
+                                    group_size = None
+
+                                if group_size:
+                                    groups = [dot_lines[i:i+group_size] for i in range(0, len(dot_lines), group_size)]
+                                    latin_trans_utterance = "\n".join(group[0] for group in groups)
+                                    if group_size == 3:
+                                        glossing_utterance = "\n".join(group[1] for group in groups)
+                                        translation_utterance = "\n".join(group[2] for group in groups)
+                                    else:  # group_size == 4
+                                        glossing_utterance = "\n".join(f"{group[1]}\n{group[2]}" for group in groups)
+                                        translation_utterance = "\n".join(group[3] for group in groups)
+                                    
+                                    df.at[index, 'latin_transcription_utterance_used'] = latin_trans_utterance
+                                    df.at[index, 'glossing_utterance_used'] = glossing_utterance
+                                    df.at[index, 'translation_utterance_used'] = translation_utterance
                         else:
                             print(f"Block name '{current_block}' not found in the Excel file.")
 
+                    # Reset for new block
                     current_block = line
                     latin_transcription, translation, dot_lines = [], [], []
                     collecting_dots = False
                     continue
 
-                # Process dotted lines
+                # Process dotted lines (utterance lines)
                 if line.startswith("."):
                     dot_lines.append(line.lstrip('.').strip())
                     collecting_dots = True
@@ -127,7 +144,7 @@ def process_session(folder_path):
                     if before_text:
                         latin_transcription.append(before_text)
 
-            # Process the last block
+            # Process the last block after loop ends
             if current_block:
                 base_block = extract_base_block_name(current_block)
                 row_index = df[df[column_index].fillna('').str.strip().str.contains(re.escape(base_block))].index
@@ -135,15 +152,29 @@ def process_session(folder_path):
                     index = row_index[0]
                     df.at[index, 'latin_transcription_everything'] = "\n".join(latin_transcription).strip()
                     df.at[index, 'translation_everything'] = "\n".join(translation).strip()
+                    
                     if dot_lines:
-                        if len(dot_lines) == 3:
-                            df.at[index, 'latin_transcription_utterance_used'] = dot_lines[0]
-                            df.at[index, 'glossing_utterance_used'] = dot_lines[1]
-                            df.at[index, 'translation_utterance_used'] = dot_lines[2]
-                        elif len(dot_lines) == 4:
-                            df.at[index, 'latin_transcription_utterance_used'] = dot_lines[0]
-                            df.at[index, 'glossing_utterance_used'] = f'{dot_lines[1]}\n{dot_lines[2]}'
-                            df.at[index, 'translation_utterance_used'] = dot_lines[3]
+                        if len(dot_lines) % 3 == 0:
+                            group_size = 3
+                        elif len(dot_lines) % 4 == 0:
+                            group_size = 4
+                        else:
+                            print(f"Unexpected number of dot_lines ({len(dot_lines)}) in block '{current_block}'.")
+                            group_size = None
+
+                        if group_size:
+                            groups = [dot_lines[i:i+group_size] for i in range(0, len(dot_lines), group_size)]
+                            latin_trans_utterance = "\n".join(group[0] for group in groups)
+                            if group_size == 3:
+                                glossing_utterance = "\n".join(group[1] for group in groups)
+                                translation_utterance = "\n".join(group[2] for group in groups)
+                            else:  # group_size == 4
+                                glossing_utterance = "\n".join(f"{group[1]}\n{group[2]}" for group in groups)
+                                translation_utterance = "\n".join(group[3] for group in groups)
+                            
+                            df.at[index, 'latin_transcription_utterance_used'] = latin_trans_utterance
+                            df.at[index, 'glossing_utterance_used'] = glossing_utterance
+                            df.at[index, 'translation_utterance_used'] = translation_utterance
                 else:
                     print(f"Block name '{current_block}' not found in the Excel file.")
 
