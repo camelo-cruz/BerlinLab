@@ -43,7 +43,7 @@ def get_audio_length(filepath):
     return len(audio) / 1000.0  # Convert milliseconds to seconds
 
 def load_json(filepath):
-    with open(filepath, 'r', encoding='utf-8') as f:
+    with open(filepath, 'r', encoding='utf-8-sig') as f:
         return json.load(f)
 
 def create_annotations(json_data, min_timestamp, max_timestamp, include_words=False):
@@ -73,7 +73,8 @@ def main():
 
     args = parser.parse_args()
     transcribe(args.input)
-    json_file = args.input.replace('.wav', '.json')
+    base, _ = os.path.splitext(args.input)
+    json_file = base + '.json'
     json_data = load_json(json_file)
     max_timestamp = get_audio_length(args.input)
 
